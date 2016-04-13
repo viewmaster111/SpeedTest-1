@@ -1,5 +1,5 @@
 //JUST AN EXAMPLE, PLEASE USE YOUR OWN PICTURE!
-var imageAddr = "https://pixabay.com/static/uploads/photo/2016/02/19/15/46/dog-1210559_960_720.jpg"; 
+var imageAddr = "http://beffsbrowser.tk/favicon.png"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
