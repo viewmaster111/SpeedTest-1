@@ -1,5 +1,5 @@
 //JUST AN EXAMPLE, PLEASE USE YOUR OWN PICTURE!
-var imageAddr = "http://beffsbrowser.tk/favicon.png"; 
+var imageAddr = "http://beffsbrowser.tk/favicon.ico"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
