@@ -1,5 +1,5 @@
-//JUST AN EXAMPLE, PLEASE USE YOUR OWN PICTURE!
-var imageAddr = "http://www.kenrockwell.com/contax/images/g2/examples/31120037-5mb.jpg"; 
+//Picture is a public domain picture, from pdi.davalign.com
+var imageAddr = "http://pdi.davalign.com/wp-content/uploads/az-grand-canyon-030-720x720.jpg"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
