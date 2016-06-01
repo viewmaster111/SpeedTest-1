@@ -15,3 +15,8 @@ To use this on your own project or website please use CSS, that is Not included 
 Version 0.1 Beta
 
 This was borrowed starter code, but now with some small tweaks, it is different!
+
+
+#Current issues
+
+Currently the basic issue is that it is not 100% accurate. It works but it isn't computing correctly. 
