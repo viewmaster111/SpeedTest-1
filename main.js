@@ -1,5 +1,5 @@
 //Picture is a public domain picture, from pdi.davalign.com
-var imageAddr = "http://pdi.davalign.com/wp-content/uploads/az-grand-canyon-030-720x720.jpg"; 
+var imageAddr = "http://www.publicdomainpictures.net/pictures/10000/velka/33-1219682381DgyN.jpg"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
