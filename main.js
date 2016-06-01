@@ -1,4 +1,4 @@
-<!--Image is a ScreenShot--> 
+<!--Image is a public domain--> 
 var imageAddr = "imagetester.jpg"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
