@@ -16,7 +16,7 @@ To use this on your own project or website please use CSS, that is Not included 
 #Version info. 
 
 Version 0.2 Beta
-See wiki!
+
 
 
 
