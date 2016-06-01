@@ -1,5 +1,5 @@
-//JUST AN EXAMPLE, PLEASE USE YOUR OWN PICTURE!
-var imageAddr = "http://pdi.davalign.com/wp-content/uploads/az-grand-canyon-030-720x720.jpg"; 
+<!--Image is public domain-->
+var imageAddr = "imagetester.jpg"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
