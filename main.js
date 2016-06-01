@@ -1,5 +1,5 @@
 <!--Image is a ScreenShot--> 
-var imageAddr = "imagetester.png"; 
+var imageAddr = "imagetester.jpg"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
