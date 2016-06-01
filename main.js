@@ -1,5 +1,5 @@
-<!--Image is a screenshot I took-->
-var imageAddr = "http://screenshot.sh/mMztUAXu7m6cm"; 
+<!--Image is public domain-->
+var imageAddr = "imagetester.jpg"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
