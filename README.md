@@ -1,5 +1,8 @@
 # SpeedTest
-Tests to see how fast your Bandwidth speed is. 
+
+This is a basic test to test your Internetspeed. 
+
+
 
 #Try it!
 
@@ -12,11 +15,9 @@ To use this on your own project or website please use CSS, that is Not included 
 
 #Version info. 
 
-Version 0.1 Beta
+Version 0.2 Beta
+See wiki!
 
-This was borrowed starter code, but now with some small tweaks, it is different!
 
 
-#Current issues
 
-Currently the basic issue is that it is not 100% accurate. It works but it isn't computing correctly. 
