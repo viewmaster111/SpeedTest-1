@@ -1,5 +1,5 @@
-//Picture is a public domain picture, from pdi.davalign.com
-var imageAddr = "http://www.publicdomainpictures.net/pictures/10000/velka/33-1219682381DgyN.jpg"; 
+<!--Image is a public domain image-->
+var imageAddr = "imagetester.jpg"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
