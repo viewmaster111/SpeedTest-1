@@ -1,4 +1,4 @@
-<!--Image is a ScreenShot-->
+<!--Image is a ScreenShot--> 
 var imageAddr = "http://screenshot.sh/mMztUAXu7m6cm"; 
 var downloadSize = 4995374; //bytes
 function ShowProgressMessage(msg) {
