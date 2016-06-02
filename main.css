@@ -1,3 +1,6 @@
+<!--NOTICE: You should use your own CSS if you fork or use this in your own project!-->
+
+
 p {
     color: Blue;
     text-align: Left;
@@ -5,20 +8,26 @@ p {
 h1 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 h2 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 h3 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 h4 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 Body {
     color: Blue;
     text-align: Left;
+     background-color: green;
 }
+
