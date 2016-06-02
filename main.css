@@ -5,24 +5,26 @@ p {
 h1 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 h2 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 h3 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 h4 {
     color: Black;
     text-align: center;
+     background-color: green;
 }
 Body {
     color: Blue;
     text-align: Left;
+     background-color: green;
 }
-Div {
-    color: green;
-   
-}
+
