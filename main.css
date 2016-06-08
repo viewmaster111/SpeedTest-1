@@ -1,34 +1,5 @@
-p {
-    color: Blue;
-    text-align: Left;
-}
-h1 {
-    color: Black;
-    text-align: center;
-     background-color: green;
-}
-h2 {
-    color: Black;
-    text-align: center;
-     background-color: #6495ED;
-}
-h3 {
-    color: Black;
-    text-align: center;
-     background-color: green;
-}
-h4 {
-    color: Black;
-    text-align: center;
-     background-color: green;
-}
-Body {
-    color: Blue;
-    text-align: Left;
-     background-color: green;
-}
-   .bodystyle{
-     background-color:#FF7F50;
+ .bodystyle{
+     background-color:	#4169E1;
    }
    a:link, a:visited {
     background-color: #f44336;
