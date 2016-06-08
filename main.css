@@ -10,7 +10,7 @@ h1 {
 h2 {
     color: Black;
     text-align: center;
-     background-color: green;
+     background-color: #6495ED;
 }
 h3 {
     color: Black;
@@ -27,4 +27,22 @@ Body {
     text-align: Left;
      background-color: green;
 }
+   .bodystyle{
+     background-color:#FF7F50;
+   }
+   a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 
+
+a:hover, a:active {
+    background-color: red;
+}
+.heading{
+  background-color:	#6495ED;
+}
