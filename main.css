@@ -1,3 +1,4 @@
+ 
  .bodystyle{
      background-color:	#4169E1;
    }
@@ -16,4 +17,10 @@ a:hover, a:active {
 }
 .heading{
   background-color:	#6495ED;
+}
+.h1{
+ text-align:center;
+}
+.h2{
+ text-align:center;
 }
