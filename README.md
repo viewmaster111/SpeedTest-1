@@ -15,8 +15,11 @@ To use this on your own project or website please use CSS, that is Not included 
 
 #Version info. 
 
-Version 0.2 Beta
+Version 0.3 Alpha 
 
+-Bug Fixes
+
+-Moved the actual test to another page for quality. 
 
 
 
