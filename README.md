@@ -29,3 +29,16 @@ Adding stability fixes to remove the Alpha label. This will ultimately move us f
 
 And as always if you have issues just give me a buzz by creating a new issue! (or suggest ideas)
 
+#In the Lab
+
+Send my Results to my Email!!!!
+
+this feature is gonna take some time, so I expect this to be a break through feature when I achieve and perfect it!
+
+Donate Button
+
+This will show appreciation to my service to you :)
+
+More items to come!
+
+NOTICE: all items "In the Lab" are in development and have not been released. Please see <a href="#Version info.">Here</a> for the latest release notes. 
