@@ -15,7 +15,16 @@ To use this on your own project or website please use CSS, that is Not included 
 
 #Version info. 
 
-Version 0.3.1 beta
+*version 0.3.1.1*
+
+-Adding a "Retest" Button. 
+
+-Adding Tool Tips. 
+
+-Adding No Cache, which brings accuracy to a new high!
+
+
+*Version 0.3.1 beta*
 
 Adding stability fixes to remove the Alpha label. This will ultimately move us forward!
 
@@ -28,19 +37,6 @@ Adding stability fixes to remove the Alpha label. This will ultimately move us f
 -Making SpeedTest Easier to use is my goal, and improvments are always coming!
 
 And as always if you have issues just give me a buzz by creating a new issue! (or suggest ideas)
-
-
-#Beta Features (Patch Release)
-
-version 0.3.1.1
-
--Adding a "Retest" Button. 
-
--Adding Tool Tips. 
-
--Adding No Cache, which brings accuracy to a new high!
-
-
 
 
 
