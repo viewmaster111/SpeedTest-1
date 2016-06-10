@@ -29,6 +29,22 @@ Adding stability fixes to remove the Alpha label. This will ultimately move us f
 
 And as always if you have issues just give me a buzz by creating a new issue! (or suggest ideas)
 
+
+#Beta Features (Patch Release)
+
+version 0.3.1.1
+
+-Adding a "Retest" Button. 
+
+-Adding Tool Tips. 
+
+-Adding No Cache, which brings accuracy to a new high!
+
+
+
+
+
+
 #In the Lab
 
 Send my Results to my Email!!!!
@@ -41,4 +57,4 @@ This will show appreciation to my service to you :)
 
 More items to come!
 
-NOTICE: all items "In the Lab" are in development and have not been released. Please see <a href="https://github.com/jdc20181/SpeedTest/blob/master/README.md#version-info">Here</a> for the latest release notes. 
+NOTICE: all items "In the Lab" are in development and have not been released.  Please see <a href="https://github.com/jdc20181/SpeedTest/blob/master/README.md#version-info">Here</a> for the latest release notes. 
