@@ -15,6 +15,15 @@ To use this on your own project or website please use CSS, that is Not included 
 
 #Version info. 
 
+*Version 0.3.1.2 Final*
+This is a final patch for version 0.3.1 Beta. 
+
+-Added Second Test with a seperate photo (optional)
+
+-Fixed a delay issue
+
+-Fixed a few issues with accuracy. The accuracy rate varies as tested several times. 
+
 *version 0.3.1.1*
 
 -Adding a "Retest" Button. 
