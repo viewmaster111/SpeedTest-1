@@ -1,6 +1,6 @@
 <!--Image is a public domain--> 
 var imageAddr = "test2.jpg"; 
-var downloadSize = 95000; //bytes
+var downloadSize = 311000; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
         if (typeof msg == "string") {
