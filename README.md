@@ -15,6 +15,15 @@ To use this on your own project or website please use CSS, that is Not included 
 
 #Version info. 
 
+*Version 0.4.0B*
+
+-Added Embed version. <a href="http://jdc20181.github.io/SpeedTest/packagedeal.html">Go here</a>
+
+-Hot fixes
+
+-Speed accuracy- is at it's peak
+
+
 *Version 0.4.0 Pre-Release*
 
 Bug Fix.
