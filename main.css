@@ -1,6 +1,4 @@
 <!--NOTICE: You should use your own CSS if you fork or use this in your own project!-->
-
- 
  .bodystyle{
      background-color:	#4169E1;
      text-align:center;
@@ -13,8 +11,6 @@
     text-decoration: none;
     display: inline-block;
 }
-
-
 a:hover, a:active {
     background-color: red;
 }
@@ -56,8 +52,6 @@ a:hover, a:active {
   opacity: 0;
   pointer-events: none;
 }
-
-/* Position tooltip above the element */
 [data-tooltip]:before {
   position: absolute;
   bottom: 150%;
