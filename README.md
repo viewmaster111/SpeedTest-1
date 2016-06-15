@@ -18,7 +18,7 @@ To use this on your own project or website please use CSS, that is Not included 
 *Version 0.3.1.2 Final*
 This is a final patch for version 0.3.1 Beta. 
 
--Added Second Test with a seperate photo (optional)
+-Added Second Test with a seperate photo (optional)*
 
 -Fixed a delay issue
 
@@ -63,3 +63,5 @@ This will show appreciation to my service to you :)
 More items to come!
 
 NOTICE: all items "In the Lab" are in development and have not been released.  Please see <a href="https://github.com/jdc20181/SpeedTest/blob/master/README.md#version-info">Here</a> for the latest release notes. 
+
+*I did not add this to the main branch, so all you have to do is copy paste main.js and speedtest.html to a new file named main2.js and test2.html and then get a second photo, and add the byte size to main.js 
