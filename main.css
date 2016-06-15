@@ -41,7 +41,7 @@ a:hover, a:active {
  text-align:center;
 }
 .h4{
- text-align:;
+ text-align: center ;
 }
 /* Add this attribute to the element that needs a tooltip */
 [data-tooltip] {
