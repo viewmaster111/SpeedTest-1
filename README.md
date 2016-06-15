@@ -15,6 +15,11 @@ To use this on your own project or website please use CSS, that is Not included 
 
 #Version info. 
 
+*Version 0.4.0 Pre-Release*
+
+Bug Fix.
+
+
 *Version 0.3.1.2 Final*
 This is a final patch for version 0.3.1 Beta. 
 
