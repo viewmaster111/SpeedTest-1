@@ -34,7 +34,7 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 Bug Fix.
 
-Change log for older releases is < a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
+Change log for older releases is <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
 #In the Lab
 
 Send my Results to my Email!!!!
