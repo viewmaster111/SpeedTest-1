@@ -21,6 +21,15 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 #Version info. 
 
+*Version 0.4.1 Alpha*
+
+*Fix a few things that will make a difference. 
+
+*Develop Post-Test further along. 
+
+*Add More Features
+
+
 *Version 0.4.0B*
 
 -Added Embed version. 
@@ -30,9 +39,9 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 -Speed accuracy- is at it's peak
 
 
-*Version 0.4.0 Pre-Release*
+*Version 0.4.0 Pre-Release
 
-Bug Fix.
+-Bug Fix.
 
 Change log for older releases is <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
 #In the Lab
@@ -49,4 +58,4 @@ More items to come!
 
 NOTICE: all items "In the Lab" are in development and have not been released.  Please see <a href="https://github.com/jdc20181/SpeedTest/blob/master/README.md#version-info">Here</a> for the latest release notes. 
 
-*I did not add this to the main branch, so all you have to do is copy paste main.js and speedtest.html to a new file named main2.js and test2.html and then get a second photo, and add the byte size to main.js 
+
