@@ -1,3 +1,15 @@
+#Current Version! 
+
+*Version 0.4.1 Alpha*
+
+New Features:
+
+-Added "What's What" Info (OS, Browser, Version, Etc.!)
+
+
+
+
+
 # SpeedTest
 
 This is a basic test to test your Internetspeed. 
