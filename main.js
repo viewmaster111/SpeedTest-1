@@ -49,17 +49,12 @@ function MeasureConnectionSpeed() {
         var speedBps = (bitsLoaded / duration).toFixed(2);
         var speedKbps = (speedBps / 1024).toFixed(2);
         var speedMbps = (speedKbps / 1024).toFixed(2);
-        var OSName="Unknown OS";
-        if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
-        if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
-        if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-        if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
         ShowProgressMessage([
             "Your connection speed is:", 
             speedBps + " bps", 
             speedKbps + " kbps", 
             speedMbps + " Mbps",
-            Your OS: + "OSName"
+            
         ]);
     }
 }
