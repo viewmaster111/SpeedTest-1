@@ -23,11 +23,11 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 *Version 0.4.1 Alpha*
 
-*Fix a few things that will make a difference. 
+-Fix a few things that will make a difference. 
 
-*Develop Post-Test further along. 
+-Develop Post-Test further along. 
 
-*Add More Features
+-Add More Features (TBA)
 
 
 *Version 0.4.0B*
