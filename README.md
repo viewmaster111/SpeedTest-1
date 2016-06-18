@@ -7,6 +7,8 @@ New Features:
 -Added "What's What" Info (OS, Browser, Version, Etc.!)
 
 
+-Embedded Version was also updated, the textis more compact, the scroll bar can be removed using the Setup Guide!
+
 
 
 
