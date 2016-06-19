@@ -6,7 +6,7 @@
      text-align:center;
    }
    a:link, a:visited {
-    background-color: 	#00FF7F;
+    background-color: 	#FF0000;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -28,7 +28,7 @@ a:hover, a:active {
  text-align:center;
 }
  .refreshbutton {
-    background-color:#9ACD32; 
+    background-color:#00FF7F; 
     border: none;
     color: white;
     padding: 15px 32px;
