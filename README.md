@@ -1,13 +1,12 @@
 #Current Version! 
 
-*Version 0.4.1 Alpha*
+*Pre-Release Version 0.4.2 Alpha*
 
-New Features:
+-More work to be done on Bug #1, the first bug that I cannot fix with a tweak!
 
--Added "What's What" Info (OS, Browser, Version, Etc.!)
+-Changed background
 
-
--Embedded Version was also updated, the textis more compact, the scroll bar can be removed using the Setup Guide!
+-Working on compacting the "other info"  section
 
 
 
@@ -34,6 +33,13 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 
 #Version info. 
+*Pre-Release Version 0.4.2 Alpha*
+
+-More work to be done on Bug #1, the first bug that I cannot fix with a tweak!
+
+-Changed background
+
+-Working on compacting the "other info"  section
 
 *Version 0.4.1 Alpha*
 
