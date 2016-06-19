@@ -7,34 +7,13 @@
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <META HTTP-EQUIV="Expires" CONTENT="-1">
-  <script>
-    $(function() {
-  var b = $("#button1");
-  var w = $("#wrapper");
-  var l = $("#list");
   
-  w.height(l.outerHeight(true));
-
-  b.click(function() {
-  
-    if(w.hasClass('open')) {
-      w.removeClass('open');
-      w.height(0);
-    } else {
-      w.addClass('open');
-      w.height(l.outerHeight(true));
-    }
-  
-  });
-});
-  </script>
 </header>
 <body class="bodystyle">
 <h1 id="progress">JavaScript is turned off, or your browser is realllllly slow</h1>
 <br>
 
-   <button id="button1">Toggle Expand/Collapse</button>
-<div id="wrapper" class="open">
+ 
 
   Other information:
   <br>
@@ -118,7 +97,7 @@ document.write(''
  </script>
 
  </p>
- </div>
+
  
  <br>
 <button  data-tooltip="Retake the SpeedTest"class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-refresh fa-spin"></i></button></p>
