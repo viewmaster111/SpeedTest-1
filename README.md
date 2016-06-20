@@ -74,6 +74,8 @@ Donate Button
 
 This will show appreciation to my service to you :)
 
+Rotating Background *In progress!*
+
 More items to come!
 
 NOTICE: all items "In the Lab" are in development and have not been released.  Please see <a href="https://github.com/jdc20181/SpeedTest/blob/master/README.md#version-info">Here</a> for the latest release notes. 
