@@ -1,15 +1,10 @@
 #Current Version! 
+*Patch Release Version 0.4.3 Beta*
+This Patch release addresses things that were added, then removed. 
 
-*Pre-Release Version 0.4.2 Alpha*
+-Added Collapsible for "Other Information"
 
--More work to be done on Bug #1, the first bug that I cannot fix with a tweak!
-
--Changed background
-
--Working on compacting the "other info"  section
-
-
-
+-Fixed a Bug
 
 # SpeedTest
 
@@ -33,6 +28,14 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 
 #Version info. 
+
+*Patch Release Version 0.4.3 Beta*
+This Patch release addresses things that were added, then removed. 
+
+-Added Collapsible for "Other Information"
+
+-Fixed a Bug
+
 *Pre-Release Version 0.4.2 Alpha*
 
 -More work to be done on Bug #1, the first bug that I cannot fix with a tweak!
