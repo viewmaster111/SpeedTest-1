@@ -5,7 +5,18 @@
      background-color:#00FFFF;
      text-align:center;
    }
-   a:link, a:visited {
+   a.collapse:link, a.collapse:visited{
+    background-color:	#4682B4;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   }
+   a.collapse:hover, a.collapse:active {
+    background-color:#4682B4;
+}
+   a.button:link, a.button:visited {
     background-color: 	#FF0000;
     color: white;
     padding: 14px 25px;
@@ -15,7 +26,7 @@
 }
 
 
-a:hover, a:active {
+a.button:hover, a.button:active {
     background-color: red;
 }
 .heading{
