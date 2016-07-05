@@ -116,3 +116,7 @@ a.button:hover, a.button:active {
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+.maintenance{
+ background-color:red;
+ text-align:center;
+}
