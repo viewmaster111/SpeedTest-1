@@ -5,12 +5,11 @@ Now, the "Take-2-Test" is under maintenance.
 
 #Current Version! 
 
-*Patch Release Version 0.4.3 Beta*
-This Patch release addresses things that were added, then removed. 
+*Version 0.4.5 Alpha*
 
--Added Collapsible for "Other Information"
+This is a fixie release, adding a maintenance page, putting "Take-2-Test" under construction, to make a few tweaks. 
+And also moving the main branch to gh-pages so the version releases match up with the commits! 
 
--Fixed a Bug
 
 # SpeedTest
 
@@ -35,7 +34,18 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 #Version info. 
 
+*Version 0.4.5 Alpha*
+
+This is a fixie release.
+
+-maintenance page
+
+-Put "Take-2-Test" in maintenance mode.
+
+-And also moving the main branch to gh-pages so the version releases match up with the commits! 
+
 *Patch Release Version 0.4.3 Beta*
+
 This Patch release addresses things that were added, then removed. 
 
 -Added Collapsible for "Other Information"
