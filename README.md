@@ -1,7 +1,6 @@
 
 #Project maintenance
-Main Project has completed the maintenance needed. 
-Now, the "Take-2-Test" is under maintenance. 
+All parts of the project will recieve maintenance. Post Test will be running as soon as a few issues are resolved. 
 
 #Current Version! 
 
