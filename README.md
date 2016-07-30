@@ -1,13 +1,11 @@
 
 #Project maintenance
-All parts of the project will recieve maintenance. Post Test will be running as soon as a few issues are resolved. 
+Good news! No Maintenance! Version 0.5.0 has been released.  
 
 #Current Version! 
 
-*Version 0.4.5 Alpha*
-
-This is a fixie release, adding a maintenance page, putting "Take-2-Test" under construction, to make a few tweaks. 
-And also moving the main branch to gh-pages so the version releases match up with the commits! 
+*Version 0.5.0*
+Just a small release to add stability and overall accuracy!
 
 
 # SpeedTest
