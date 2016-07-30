@@ -1,6 +1,6 @@
 <!--Image is a public domain--> 
-var imageAddr = "imagetester.jpg"; 
-var downloadSize = 95000; //bytes
+var imageAddr = "tiger-1526704_1920.png; 
+var downloadSize = 4700000; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
         if (typeof msg == "string") {
