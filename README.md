@@ -3,7 +3,9 @@
 Good news! No Maintenance! Version 0.5.0 has been released.  
 
 #Current Version! 
-
+*Version 0.5.1*
+Design improvment. 
+Changed colors. 
 *Version 0.5.0*
 Just a small release to add stability and overall accuracy!
 
