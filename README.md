@@ -7,7 +7,7 @@ I fixed some things after I made the release. It is now 1 off from another speed
 
 Speedtest uses NO flash. And that makes it mobile compatible. It Meets the HTML5 standards. Open source. NO ADS.
 
-Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ADS.
+Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ADS. NOT open source
 
 #Project maintenance
 Good news! No Maintenance! Version 0.5.0 has been released.  
