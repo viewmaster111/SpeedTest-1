@@ -1,4 +1,14 @@
 
+#Recent Update Extended Release Notes.
+
+I fixed some things after I made the release. It is now 1 off from another speed tester i used to compare to see accuracy. Some users may experience a bigger difference if they have more than 50 MBPS internet. 
+
+#SpeedTest Vs others
+
+Speedtest uses NO flash. And that makes it mobile compatible. It Meets the HTML5 standards. Open source. NO ADS.
+
+Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ADS.
+
 #Project maintenance
 Good news! No Maintenance! Version 0.5.0 has been released.  
 
