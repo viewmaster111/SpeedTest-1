@@ -3,6 +3,10 @@
 Good news! No Maintenance! Version 0.5.0 has been released.  
 
 #Current Version! 
+*Version 0.5.3 Final* 
+
+Accuracy improvment!
+
 *Version 0.5.1*
 Design improvment. 
 Changed colors. 
@@ -32,6 +36,18 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 
 #Version info. 
+
+*Version 0.5.3 Final* 
+
+Accuracy improvment!
+
+*Version 0.5.1*
+Design improvment. 
+Changed colors. 
+
+*Version 0.5.0*
+Just a small release to add stability and overall accuracy!
+
 
 *Version 0.4.5 Alpha*
 
