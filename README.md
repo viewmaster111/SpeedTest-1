@@ -49,53 +49,7 @@ Changed colors.
 Just a small release to add stability and overall accuracy!
 
 
-*Version 0.4.5 Alpha*
 
-This is a fixie release.
-
--maintenance page
-
--Put "Take-2-Test" in maintenance mode.
-
--And also moving the main branch to gh-pages so the version releases match up with the commits! 
-
-*Patch Release Version 0.4.3 Beta*
-
-This Patch release addresses things that were added, then removed. 
-
--Added Collapsible for "Other Information"
-
--Fixed a Bug
-
-*Pre-Release Version 0.4.2 Alpha*
-
--More work to be done on Bug #1, the first bug that I cannot fix with a tweak!
-
--Changed background
-
--Working on compacting the "other info"  section
-
-*Version 0.4.1 Alpha*
-
--Fix a few things that will make a difference. 
-
--Develop Post-Test further along. 
-
--Add More Features (TBA)
-
-
-*Version 0.4.0B*
-
--Added Embed version. 
-
--Hot fixes
-
--Speed accuracy- is at it's peak
-
-
-*Version 0.4.0 Pre-Release
-
--Bug Fix.
 
 Change log for older releases is <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
 #In the Lab
