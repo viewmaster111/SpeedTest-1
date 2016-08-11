@@ -1,6 +1,7 @@
 
 .uniquename{
  font-size:40px;
+ font-weight:bold;
 }
  .embed{
   background-color:white;
@@ -43,7 +44,7 @@ a.button:hover, a.button:active {
  text-align:center;
 }
  .refreshbutton {
-    background-color:	#9ACD32; 
+    background-color:	#32CD32; 
     border: none;
     color: white;
     padding: 15px 32px;
