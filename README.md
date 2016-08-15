@@ -1,3 +1,13 @@
+#SpeedTest 2.0 to go into hibernation. 
+
+The "Post Beta" speed test or SpeedTest 2.0 is going to go into hibernation for the time being. While it is in hibernation it will get some updates- and could possibly work differently in the future. You will notice the button is missing from view and 
+that the SpeedTest 2.0 page goes to a maintaince page.
+
+One of the goals of this project is to give a high accuracy rate. And by engineering a second test- testing in another way can do this.
+
+If you have any questions just create a issue and I will get back to you as soon as I can. 
+
+
 
 #Recent Update Extended Release Notes.
 
