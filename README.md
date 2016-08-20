@@ -1,3 +1,9 @@
+#Upcoming Features 
+
+Version 1.0 is around the corner what is in store? Find out <a href="https://github.com/jdc20181/SpeedTest/wiki/Coming-to-version-1.0">Here</a>
+
+
+
 #Speed Test Post Test to be discontinued. 
 
 I have more plans, to add something greater soon!
@@ -5,20 +11,17 @@ I have more plans, to add something greater soon!
 details can be found <A href="https://github.com/jdc20181/SpeedTest/wiki/Speed-Test-Post-Test-Update">here</a>
 
 
-#Recent Update Extended Release Notes.
-
-I fixed some things after I made the release. It is now 1 off from another speed tester i used to compare to see accuracy. Some users may experience a bigger difference if they have more than 50 MBPS internet. 
-
-#SpeedTest Vs others
-
-Speedtest uses NO flash. And that makes it mobile compatible. It Meets the HTML5 standards. Open source. NO ADS.
-
-Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ADS. NOT open source
-
-#Project maintenance
-Good news! No Maintenance! Version 0.5.0 has been released.  
 
 #Current Version! 
+*Version 0.6.0*
+
+Bug Fixes
+
+General Improvments
+
+Post Test was put out of commision. 
+
+
 *Version 0.5.3 Final* 
 
 Accuracy improvment!
@@ -30,11 +33,11 @@ Changed colors.
 Just a small release to add stability and overall accuracy!
 
 
-# SpeedTest
+#SpeedTest Vs others
 
-This is a basic test to test your Internetspeed. 
+Speedtest uses NO flash. And that makes it mobile compatible. It Meets the HTML5 standards. Open source. NO ADS.
 
-
+Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ADS. NOT open source
 
 #Try it!
 
