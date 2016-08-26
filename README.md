@@ -27,24 +27,6 @@ As  I added some ads, to raise development funds, you may experience issues with
 And officially, speedtest 2.0 was discontinued. Even though several days ago I announced it's retirement.
 
 More information about the newly added Ads, will be ready soon.
-*Version 0.6.0*
-
-Bug Fixes
-
-General Improvments
-
-Post Test was put out of commision. 
-
-
-*Version 0.5.3 Final* 
-
-Accuracy improvment!
-
-*Version 0.5.1*
-Design improvment. 
-Changed colors. 
-*Version 0.5.0*
-Just a small release to add stability and overall accuracy!
 
 
 #SpeedTest Vs others
@@ -70,36 +52,4 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 #Version info. 
 
-*Version 0.5.3 Final* 
-
-Accuracy improvment!
-
-*Version 0.5.1*
-Design improvment. 
-Changed colors. 
-
-*Version 0.5.0*
-Just a small release to add stability and overall accuracy!
-
-
-
-
-Change log for older releases is <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
-#In the Lab
-
-Send my Results to my Email!!!!
-
-this feature is gonna take some time, so I expect this to be a break through feature when I achieve and perfect it!
-
-Donate Button
-
-This will show appreciation to my service to you :)
-
-Rotating Background *In progress!*
-
-More items to come!
-
-NOTICE: all items "In the Lab" are in development and have not been released.  Please see <a href="https://github.com/jdc20181/SpeedTest/blob/master/README.md#version-info">Here</a> for the latest release notes. 
-
-
-
+See the full change log <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
