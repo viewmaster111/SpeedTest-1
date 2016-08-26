@@ -21,7 +21,8 @@ details can be found <A href="https://github.com/jdc20181/SpeedTest/wiki/Speed-T
 
 *Version 1.0B*
 
-New Feature : Find out your IP address.
+New Feature : 
+- Find out your IP address.
 
 Fixed: 
 - issues with ads blocking the main components.
