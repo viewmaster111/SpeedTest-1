@@ -26,7 +26,7 @@ New Feature : Find out your IP address.
 Fixed: 
 - issues with ads blocking the main components.
 
--Different type of ads on each page. 
+- Different type of ads on each page. 
 
 Notice: No ads will be shown for the time being on the Find My IP test. 
 
