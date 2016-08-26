@@ -1,4 +1,9 @@
 #Upcoming Features 
+*Edit*
+Version 1.0 A is here and Speedtest now has ads, more is in store! 
+
+A new link will be posted with more info. 
+
 
 Version 1.0 is around the corner what is in store? Find out <a href="https://github.com/jdc20181/SpeedTest/wiki/Coming-to-version-1.0">Here</a>
 
