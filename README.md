@@ -66,4 +66,13 @@ See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">In
 
 #Version info. 
 
-See the full change log <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
+*Version 1.0A*
+- There will be two parts to this release and many "fixer" releases-
+
+- As  I added some ads, to raise development funds, you may experience issues with the mobile site, do not worry I will fix this!!! 
+
+- And officially, speedtest 2.0 was discontinued. Even though several days ago I announced it's retirement.
+
+- More information about the newly added Ads, will be ready soon.
+
+- See the full change log <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
