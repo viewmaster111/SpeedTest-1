@@ -19,6 +19,19 @@ details can be found <A href="https://github.com/jdc20181/SpeedTest/wiki/Speed-T
 
 #Current Version! 
 
+*Version 1.0B*
+
+New Feature : Find out your IP address.
+
+Fixed: 
+- issues with ads blocking the main components.
+
+-Different type of ads on each page. 
+
+Notice: No ads will be shown for the time being on the Find My IP test. 
+
+P.S. The IP test comes from: https://github.com/diafygi/webrtc-ips
+
 *Version 1.0A*
 There will be two parts to this release and many "fixer" releases-
 
