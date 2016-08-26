@@ -1,6 +1,6 @@
 table, th, td {
     border: 1px solid black;
-    align: center;
+    float: center;
 }
 ul{
     list-style: none;
