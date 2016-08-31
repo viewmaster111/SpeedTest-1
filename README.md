@@ -27,6 +27,8 @@ details can be found <A href="https://github.com/jdc20181/SpeedTest/wiki/Speed-T
 
 - Adjusted a few things in Embed Version (portable)
 
+*Mobile ads will be shown if your device is a certain size, adjustments will be made accordingly. 
+
 *Version 1.0B*
 
 New Feature : 
