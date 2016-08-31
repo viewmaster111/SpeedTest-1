@@ -9,14 +9,6 @@ Version 1.0 is around the corner what is in store? Find out <a href="https://git
 
 
 
-#Speed Test Post Test to be discontinued. 
-
-I have more plans, to add something greater soon!
-
-details can be found <A href="https://github.com/jdc20181/SpeedTest/wiki/Speed-Test-Post-Test-Update">here</a>
-
-
-
 #Current Version! 
 
 #*Version 1.0.2B*
