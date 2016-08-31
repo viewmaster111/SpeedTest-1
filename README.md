@@ -19,6 +19,14 @@ details can be found <A href="https://github.com/jdc20181/SpeedTest/wiki/Speed-T
 
 #Current Version! 
 
+#*Version 1.0.2B*
+
+- Fixed Ad issue. 
+
+- Added Mobile Ads And Desktop Ads.*
+
+- Adjusted a few things in Embed Version (portable)
+
 *Version 1.0B*
 
 New Feature : 
