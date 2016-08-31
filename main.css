@@ -18,6 +18,7 @@ ul{
  .bodystyle{
      background-color:	#48D1CC;
      text-align:center;
+     float:center;
    }
    a.collapse:link, a.collapse:visited{
     background-color:	#4682B4;
