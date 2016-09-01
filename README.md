@@ -47,13 +47,11 @@ More information about the newly added Ads, will be ready soon.
 
 #SpeedTest Vs others
 
-Speedtest uses NO flash. And that makes it mobile compatible. It Meets the HTML5 standards. Open source. NO ADS.
+Speedtest uses NO flash. And that makes it mobile compatible. It Meets the HTML5 standards. Open source. A few ads vs. A bunch of ADS.
 
-Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ADS. NOT open source
+Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ALOT of ADS. NOT open source
 
-#Try it!
 
-Not a developer? We have that covered! Go <a href="http://jdc20181.github.io/SpeedTest/">here</a>
 
 #Developers!
 
