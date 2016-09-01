@@ -2,7 +2,7 @@
 
 I have added ads to create a little revenue to take this project farther. 
 
-You can also donate to this project:
+You can also donate to this project by going <a href="http://jdc20181.github.io/SpeedTest/donate.html">here</a>
 
 
 
