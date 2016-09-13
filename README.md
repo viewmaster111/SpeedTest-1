@@ -12,7 +12,7 @@ You can also donate to this project by going <a href="http://jdc20181.github.io/
 
 #Current Version! 
 
-#*Version 1.0.2.1B*
+#*Version 1.0.2C*
 
 - Removed ads 
 
