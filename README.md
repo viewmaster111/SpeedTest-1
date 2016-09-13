@@ -6,19 +6,17 @@ You can also donate to this project by going <a href="http://jdc20181.github.io/
 
 
 
-#Upcoming Features 
-*Edit*
-Version 1.0 A is here and Speedtest now has ads, more is in store! 
 
-A new link will be posted with more info. 
-
-*updated Link* Find the new article <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.0-and-beyond-(Offical-release)">Here</a>
-Version 1.0 is around the corner what is in store? Find out <a href="https://github.com/jdc20181/SpeedTest/wiki/Coming-to-version-1.0">Here</a>
 
 
 
 #Current Version! 
 
+#*Version 1.0.2.1B*
+
+- Removed ads 
+
+For now I have decided that ads are not the best funding and are more annoying than what it is worth. You can however donate to the project via paypal.
 #*Version 1.0.2B*
 
 - Fixed Ad issue. 
