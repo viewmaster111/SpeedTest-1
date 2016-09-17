@@ -1,7 +1,7 @@
 #Windows Client Beginning stages
 
 As of right now I have started the client- it has a few issues I must attend with first. Accuracy is what I want to gain and I think as of now it is working out, but there are a few things I must address first :) Updates to be posted as I can give them.
-
+<a href="https://github.com/jdc20181/SpeedTest/wiki/Windows-Client-Release-Version-1.0"> Client Release Date has been set! </a>
 #Funding Campaign:
 
 I have added ads to create a little revenue to take this project farther. 
