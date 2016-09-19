@@ -16,43 +16,16 @@ You can also donate to this project by going <a href="http://jdc20181.github.io/
 
 #Current Version! 
 
-#*Version 1.0.2C*
+# *Version 1.0.2D*
 
-- Removed ads 
+ - Removed Sound effects 
 
-For now I have decided that ads are not the best funding and are more annoying than what it is worth. You can however donate to the project via paypal.
-#*Version 1.0.2B*
+- Added Windows Client Versions
 
-- Fixed Ad issue. 
+- Removed Ads completely 
 
-- Added Mobile Ads And Desktop Ads.*
 
-- Adjusted a few things in Embed Version (portable)
 
-*Mobile ads will be shown if your device is a certain size, adjustments will be made accordingly. 
-
-*Version 1.0B*
-
-New Feature : 
-- Find out your IP address.
-
-Fixed: 
-- issues with ads blocking the main components.
-
-- Different type of ads on each page. 
-
-Notice: No ads will be shown for the time being on the Find My IP test. 
-
-P.S. The IP test comes from: https://github.com/diafygi/webrtc-ips
-
-*Version 1.0A*
-There will be two parts to this release and many "fixer" releases-
-
-As  I added some ads, to raise development funds, you may experience issues with the mobile site, do not worry I will fix this!!! 
-
-And officially, speedtest 2.0 was discontinued. Even though several days ago I announced it's retirement.
-
-More information about the newly added Ads, will be ready soon.
 
 
 #SpeedTest Vs others
