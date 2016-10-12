@@ -1,4 +1,4 @@
-#Version 1.1 of the Windows Client, Plans for a Mac Client. 
+#Version 1.1 of the Windows Client, Plans for a Mac Client.  *Coming soon*
 
  - Add Icons to the buttons. 
  - Make the UI more advance. 
