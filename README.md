@@ -1,3 +1,9 @@
+#Version 1.1 of the Windows Client, Plans for a Mac Client. 
+
+ - Add Icons to the buttons. 
+ - Make the UI more advance. 
+ - General Performance fixes. 
+
 #Version 1.1.0 Brings The Windows Client!
 Installation guide can be found <a href="https://github.com/jdc20181/SpeedTest/wiki/Downloading-And-Installing-the-Windows-Client">Here</a>
 
