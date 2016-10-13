@@ -3,7 +3,11 @@
  - Add Icons to the buttons. 
  - Make the UI more advance. 
  - General Performance fixes. 
-
+ - Mac client compatibility (see how to <a href="https://github.com/jdc20181/SpeedTest/wiki/Mac-Client-Instructions!">Here</a>
+ 
+ 
+ 
+ 
 #Version 1.1.0 Brings The Windows Client!
 Installation guide can be found <a href="https://github.com/jdc20181/SpeedTest/wiki/Downloading-And-Installing-the-Windows-Client">Here</a>
 
