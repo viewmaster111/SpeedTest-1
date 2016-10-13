@@ -3,7 +3,7 @@
  - Add Icons to the buttons. 
  - Make the UI more advance. 
  - General Performance fixes. 
- - Mac client compatibility (see how to <a href="https://github.com/jdc20181/SpeedTest/wiki/Mac-Client-Instructions!">Here</a>
+ - Mac client compatibility (see how to <a href="https://github.com/jdc20181/SpeedTest/wiki/Mac-Client-Instructions!">Here</a>)
  
  
  
