@@ -1,3 +1,11 @@
+#Maintaince. 
+
+The update is in progress, you can check that out <a href="http://jdc20181.github.io/SpeedTest/maintenance.html">Here</a>
+The maintaince template is powered by my other project WebMaintain. 
+As I get closer with a update I will add to the progress bar. If its at 100% that means I will be removing maintaince mode soon!
+
+Thanks for supporting SpeedTest!
+
 #Version 1.1 of the Windows Client, Plans for a Mac Client.  *Coming soon*
 
  - Add Icons to the buttons. 
