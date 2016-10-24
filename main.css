@@ -135,3 +135,8 @@ a.button:hover, a.button:active {
  background-color:	#FF4500;
  text-align:center;
 }
+.bodystyle2{
+      background-color: #333;
+     text-align:center;
+     float:center;
+}
