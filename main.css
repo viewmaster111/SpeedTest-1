@@ -19,6 +19,7 @@ ul{
      background-color:		#FF6347;
      text-align:center;
      float:center;
+     color:white;
    }
    a.collapse:link, a.collapse:visited{
     background-color:	#4682B4;
