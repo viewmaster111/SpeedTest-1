@@ -5,7 +5,7 @@
  - General Performance fixes. 
  - Mac client compatibility (see how to <a href="https://github.com/jdc20181/SpeedTest/wiki/Mac-Client-Instructions!">Here</a>)
  
- 
+ See full plan log <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.1.0-Coming-Soon">Here</a>
  
  
 #Version 1.1.0 Brings The Windows Client!
