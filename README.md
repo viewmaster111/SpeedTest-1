@@ -1,4 +1,4 @@
-#Maintaince. 
+#maintenance
 
 The update is in progress, you can check that out <a href="http://jdc20181.github.io/SpeedTest/maintenance.html">Here</a>
 The maintaince template is powered by my other project WebMaintain. 
