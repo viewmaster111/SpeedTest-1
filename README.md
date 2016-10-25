@@ -1,10 +1,8 @@
-#maintenance
+#Windows Client Version 1.0 Depreciated.
 
-The update is in progress, you can check that out <a href="http://jdc20181.github.io/SpeedTest/maintenance.html">Here</a>
-The maintaince template is powered by my other project WebMaintain. 
-As I get closer with a update I will add to the progress bar. If its at 100% that means I will be removing maintaince mode soon!
+If you get a maintaince page with the V1.0 client that is because I am going to be releasing the new version of the client with a improved layout, and a few stability fixes. 
 
-Thanks for supporting SpeedTest!
+Please use the desktop version until I can get the new client out.
 
 #Version 1.1 of the Windows Client, Plans for a Mac Client.  *Coming soon*
 
