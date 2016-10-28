@@ -1,3 +1,8 @@
+#Version 1.1 of SpeedTest is ready!!!
+
+Now using installshield, you will be prompted with many errors just hit the ignore option, this reason is unknown and will be fixed.
+
+
 #Windows Client Version 1.0 Depreciated.
 
 If you get a maintaince page with the V1.0 client that is because I am going to be releasing the new version of the client with a improved layout, and a few stability fixes. 
