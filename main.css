@@ -1,3 +1,6 @@
+html{
+    background-image:url("http://jdc20181.github.io/SpeedTest/Pumpkin.png")
+}
 table, th, td {
     border: 1px solid black;
     float: center;
