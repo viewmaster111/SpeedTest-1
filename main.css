@@ -17,7 +17,7 @@ ul{
   background-color:white;
  }
  .bodystyle{
-     background-color:#333;/*#FF6347;*/
+     background-color:#A0522D;/*#FF6347;*/
      text-align:center;
      float:center;
      color:white;
@@ -138,8 +138,8 @@ a.button:hover, a.button:active {
  text-align:center;
 }
 .bodystyle2{
-      background-color: #333;
+      background-color: #A0522D; /*was black #333*/
      text-align:center;
      float:center;
-    color: White;
+    color: 	#FF8C00;/*was white*/
 }
