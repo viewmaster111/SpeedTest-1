@@ -7,6 +7,9 @@
  
 This release will put the current client in Maintaince, and will prompt you to download the new client once released. 
 
+See all the details <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.1.2-of-Windows-Client-Planning">Here</a>
+
+
 The New UI is a beta feature, if it doesn't work out it will be removed. 
 
 
