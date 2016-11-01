@@ -17,7 +17,7 @@ ul{
   background-color:white;
  }
  .bodystyle{
-     background-color:		#FF6347;
+     background-color:#333/*#FF6347;*/
      text-align:center;
      float:center;
      color:white;
