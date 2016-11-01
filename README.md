@@ -1,3 +1,15 @@
+
+#A New Version of the client is almost ready.
+
+ - New UI
+ - Bug Fixes
+ - Added Download of the SpeedTestGuide.
+ 
+This release will put the current client in Maintaince, and will prompt you to download the new client once released. 
+
+The New UI is a beta feature, if it doesn't work out it will be removed. 
+
+
 #Version 1.1 of SpeedTest is ready!!!
 
 The Errors have been fixed and a new zip is ready to be downloaded!
