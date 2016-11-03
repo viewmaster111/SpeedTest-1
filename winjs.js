@@ -1,5 +1,5 @@
 <!--Image is a public domain--> 
-var imageAddr = "https://jdc20181.github.io/testpics/Bird_Test.jpg"; 
+var imageAddr = "https://jdc20181.github.io/testpics/bird.jpg"; 
 var downloadSize = 3869996; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
