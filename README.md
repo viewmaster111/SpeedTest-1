@@ -1,4 +1,12 @@
+#Patch Release 
 
+ - HotFix Changed the image to another image for the client, creating a more accurate reading.
+ 
+ - Added changes for the ThanksGiving Holiday
+ 
+ - Getting Ready for the new version of the client. 
+ 
+ *No install needed These changes will be listed on the next update*
 #A New Version of the client is almost ready.
 
  - New UI
