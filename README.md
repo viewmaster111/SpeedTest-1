@@ -1,5 +1,13 @@
 #Patch Release 
 
+##*Patch 2*
+
+ - Removed "My IP" Feature. 
+ 
+ *More will be added*
+
+##*Patch 1*
+
  - HotFix Changed the image to another image for the client, creating a more accurate reading.
  
  - Added changes for the ThanksGiving Holiday
