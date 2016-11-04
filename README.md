@@ -4,6 +4,11 @@
 
  - Removed "My IP" Feature. 
  
+ - Added link to the Widget version of SpeedTest
+ 
+ - Adjusted the wording on the widget to say "Powered By The Speed Test Project" reducing the text.
+ 
+ - Added a link to the installation guide on the Embed Code page (for the widget)
  *More will be added*
 
 ##*Patch 1*
