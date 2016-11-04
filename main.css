@@ -1,4 +1,9 @@
-
+a{
+    text-decoration:none;
+}
+a.active{
+    text-decoration:none;
+}
 table, th, td {
     border: 1px solid black;
     float: center;
@@ -172,7 +177,7 @@ nav.cmn-tile-nav a:hover {
 /* --- BEGIN --- */
 nav.cmn-tile-nav li.colour-1,
 nav.cmn-tile-nav li.colour-1 a {
-  background-color: #28aadc;
+  background-color: #1E90FF;
 }
 nav.cmn-tile-nav li.colour-1:hover,
 nav.cmn-tile-nav li.colour-1:hover a {
