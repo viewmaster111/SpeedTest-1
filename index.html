@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <header>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <!--<script>window.location = "http://jdc20181.github.io/SpeedTest/maintenance.html";</script>-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,8 +15,8 @@
 <body class="bodystyle">
     <div class="w3-panel w3-blue">
           <span onclick="this.parentElement.style.display='none'" class="w3-closebtn">&times;</span>
-    <h3>Changes!</h3>
-      <p>The update has been released use the download button below!</p>
+    <h3>Update!</h3>
+      <p>A Patch release has been added with yesterdays patch release the new version of the client will be ready soon!</p>
   </div>
   <h1>Welcome!</h1>
 To Begin your Speed Test just hit the button below!
@@ -24,23 +24,8 @@ To Begin your Speed Test just hit the button below!
 <!--<p> <a class="button" href="http://jdc20181.github.io/SpeedTest/myip.html">Find out your IP </a> </p>-->
 <p><a class="button" href="http://jdc20181.github.io/SpeedTest/donate.html">Donate</a></p>
  <p> <a class="button" href="https://github.com/jdc20181/SpeedTest/releases/tag/1.1.0/SpeedTestWindowsClientVersion1.0.zip" download> Download Win. Client </a> </p>
-  <p> <a id="bookmarkme" href="#" rel="sidebar" title="bookmark this page">Bookmark This Page</a> </p>
+  
 </body>
-<script>
-  $(function() {
-  $('#bookmarkme').click(function() {
-    if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
-      window.sidebar.addPanel(document.title, window.location.href, '');
-    } else if (window.external && ('AddFavorite' in window.external)) { // IE Favorite
-      window.external.AddFavorite(location.href, document.title);
-    } else if (window.opera && window.print) { // Opera Hotlist
-      this.title = document.title;
-      return true;
-    } else { // webkit - safari/chrome
-      alert('Press ' + (navigator.userAgent.toLowerCase().indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL') + ' + D to bookmark this page.');
-    }
-  });
-});
-     </script>
+
 </html>
 
