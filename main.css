@@ -171,6 +171,8 @@ a.button:hover, a.button:active {
 .close {
     float:right;
     display:inline-block;
+    border: none;
+    background: none;
     /*padding:2px 5px;*/
     /*background:#ccc;*/
 }
