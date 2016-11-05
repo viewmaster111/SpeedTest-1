@@ -1,9 +1,18 @@
-#Patch Release 
+#Patch Releases
+
+##*Patch 4* Feature Maintenance is completed
+
+ - My IP has been re-added but is no longer a different page. 
+   - My Ip will *Only* show your Public IP Address.
+   - My IP will be in the next version of the client.
+   
+
+
 ##*Patch 3* Browser/Mobile UI 
  
-  - Making a navigation menu to replace so many buttons. 
+ - Making a navigation menu to replace so many buttons. 
   
-  - Fixed the message- now using CSS without external sources
+ - Fixed the message- now using CSS without external sources
 
 ##*Patch 2*
 
@@ -39,30 +48,39 @@ See all the details <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-
 The New UI is a beta feature, if it doesn't work out it will be removed. 
 
 
-#Version 1.1 of SpeedTest is ready!!!
-
-The Errors have been fixed and a new zip is ready to be downloaded!
-
-*NOTE* Uninstall the previous versions for it to work. Sorry for the inconvience. 
-
 #Windows Client Version 1.0 Depreciated.
 
 If you get a maintaince page with the V1.0 client that is because I am going to be releasing the new version of the client with a improved layout, and a few stability fixes. 
 
 Please use the desktop version until I can get the new client out.
 
-#Version 1.1 of the Windows Client, Plans for a Mac Client.  *Coming soon*
+##Lastest "Offical" release Version
+
+#Version 1.1 of the Windows Client, Plans for a Mac Client.  
 
  - Add Icons to the buttons. 
  - Make the UI more advance. 
  - General Performance fixes. 
  - Mac client compatibility (see how to <a href="https://github.com/jdc20181/SpeedTest/wiki/Mac-Client-Instructions!">Here</a>)
  
- See full plan log <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.1.0-Coming-Soon">Here</a>
+ See full feature log <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.1.0">Here</a>
  
  
+ 
+ ##Previous Version(s)
 #Version 1.1.0 Brings The Windows Client!
 Installation guide can be found <a href="https://github.com/jdc20181/SpeedTest/wiki/Downloading-And-Installing-the-Windows-Client">Here</a>
+
+
+##Updating teh client Important!
+
+To Update the client Uninstall the previous version for it to work. Sorry for the inconvience. 
+
+A fix to get around this will be come shortly!
+
+
+
+#Thanks!
 
 Thanks for supporting SpeedTest. 
 
@@ -72,24 +90,6 @@ Thanks for supporting SpeedTest.
 I have added ads to create a little revenue to take this project farther. 
 
 You can also donate to this project by going <a href="http://jdc20181.github.io/SpeedTest/donate.html">here</a>
-
-
-
-
-
-
-
-#Current Version! 
-
-# *Version 1.0.2D*
-
- - Removed Sound effects 
-
-- Added Windows Client Versions
-
-- Removed Ads completely 
-
-
 
 
 
