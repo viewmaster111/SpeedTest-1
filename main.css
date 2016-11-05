@@ -168,3 +168,9 @@ a.button:hover, a.button:active {
     color: #D8000C;
     background-color: #FFBABA;
 }
+.close {
+    float:right;
+    display:inline-block;
+    padding:2px 5px;
+    background:#ccc;
+}
