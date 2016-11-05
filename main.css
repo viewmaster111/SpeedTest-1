@@ -173,6 +173,5 @@ a.button:hover, a.button:active {
     display:inline-block;
     border: none;
     background: none;
-    /*padding:2px 5px;*/
-    /*background:#ccc;*/
+    font-size: 14px;
 }
