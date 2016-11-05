@@ -14,7 +14,7 @@
 </head>
 <body class="bodystyle">
     <div class="isa_info">
-          <span onclick="this.parentElement.style.display='none'" class="close">&times;</span>
+         <button type='button' class="close" onclick='$(this).parent().remove();'>×</button>
     <h3>Update!</h3>
       <p>A Patch release has been added with yesterdays patch release the new version of the client will be ready soon!</p>
   </div>
@@ -25,15 +25,7 @@ To Begin your Speed Test just hit the button below!
 <p><a class="button" href="http://jdc20181.github.io/SpeedTest/donate.html">Donate</a></p>
  <p> <a class="button" href="https://github.com/jdc20181/SpeedTest/releases/tag/1.1.0/SpeedTestWindowsClientVersion1.0.zip" download> Download Win. Client </a> </p>
   <p> <a class="button" href="http://jdc20181.github.io/SpeedTest/packagedeal.html">Get the Widget for your website </a>
-  <script>
-    window.onload = function(){
-    document.getElementById('.close').onclick = function(){
-        this.parentNode.parentNode.parentNode
-        .removeChild(this.parentNode.parentNode);
-        return false;
-    };
-};
-    </script>
+
      </body>
 </html>
 
