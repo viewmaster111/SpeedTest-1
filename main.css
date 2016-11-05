@@ -175,3 +175,11 @@ a.button:hover, a.button:active {
     background: none;
     font-size: 14px;
 }
+.bodystyle3{
+    background-color: #A0522D; /*was black #333*/
+     text-align:center;
+     float:center;
+    color:white;
+    font-weight:bold;
+    font-size:24px;
+}
