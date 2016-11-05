@@ -3,7 +3,7 @@
  
   - Making a navigation menu to replace so many buttons. 
   
-  
+  - Fixed the message- now using CSS without external sources
 
 ##*Patch 2*
 
