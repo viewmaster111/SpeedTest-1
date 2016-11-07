@@ -100,6 +100,12 @@ Speedtest uses NO flash. And that makes it mobile compatible. It Meets the HTML5
 Others Uses Flash NOT compatible in mobile browsers- Requires you to download a app on your mobile device. NOT HTML5 compliant. has ALOT of ADS. NOT open source
 
 
+SpeedTest uses NO external sources except the photo is on a different github repository to give a more accurate reading, in the beta testing stages results showed a 40% accuracy improvment. 
+The Jquery is for closing a dialog to show update notices. And is NOT a vital part of the project.
+We also use another source to display IP Addresses however, in our archives we had our own with other IPs
+The IP Feature is not included in the widget version 
+
+We never collect cookies personally however, Github may.
 
 #Developers!
 
