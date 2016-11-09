@@ -22,13 +22,13 @@ ul{
   background-color:white;
  }
  .bodystyle{
-     background-color:#A0522D;/*#FF6347;*/
+     background-color:#333;/*#A0522D #FF6347;*/
      text-align:center;
      float:center;
      color:white;
    }
    a.collapse:link, a.collapse:visited{
-    background-color:	#4682B4;
+    background-color:#1E90FF;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -36,7 +36,7 @@ ul{
     display: inline-block;
    }
    a.collapse:hover, a.collapse:active {
-    background-color:#4682B4;
+    background-color:#1E90FF;
 }
    a.button:link, a.button:visited {
     background-color:#1E90FF;
