@@ -1,3 +1,10 @@
+#Introducing Notifications *For Safari, Firefox, and chrome desktop users only*
+
+Get the latest news and updates via notifications. Client users please go to the speedtest website to configure notifications you will only have to do this one time. 
+
+Thanks for using speedtest.
+
+
 #Patch Releases
 
 ##*Patch 4* Feature Maintenance is completed
