@@ -1,6 +1,18 @@
 <!Doctype html>
 <html>
 <head>
+   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "188e628d-67fb-4391-83ae-d8029c08bbc1",
+      autoRegister: false, /* Set to true to automatically prompt visitors */
+      subdomainName: 'https://beffsspeedtestproject.onesignal.com',   
+      notifyButton: {
+          enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
  <!-- <script> window.location = "http://jdc20181.github.io/SpeedTest/maintenance.html";</script>-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script  async src="winjs.js"></script>
