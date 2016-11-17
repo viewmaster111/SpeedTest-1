@@ -4,6 +4,8 @@ Get the latest news and updates via notifications. Client users please go to the
 
 Thanks for using speedtest.
 
+Note: Notifications cant be enabled or disabled via the client due to the version of the wrapper. Please use the latest firefox, chrome or safari browsers to subscribe to updates.
+
 
 #Patch Releases
 
