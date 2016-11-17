@@ -36,19 +36,6 @@
     }
 }]);
   </script>
-<!-- <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
-  <script>
-    var OneSignal = window.OneSignal || [];
-    OneSignal.push(["init", {
-      appId: "188e628d-67fb-4391-83ae-d8029c08bbc1",
-       safari_web_id: 'web.onesignal.auto.4d68c5e3-f56f-4052-bfb7-4c135295bfe6',
-      autoRegister: false, /* Set to true to automatically prompt visitors */
-      subdomainName: 'https://beffsspeedtestproject.onesignal.com',   
-      notifyButton: {
-          enable: true /* Set to false to hide */
-      }
-    }]);
-  </script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
  <!-- <script>window.location = "http://jdc20181.github.io/SpeedTest/maintenance.html";</script>-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -62,7 +49,7 @@
 <body class="bodystyle">
 
 
- <a href="#" id="subscribe-link" style="display: none;">Subscribe to Notifications</a>
+ <a class="button" href="#" id="subscribe-link" style="display: none;">Subscribe to Notifications</a>
     <script>
         function subscribe() {
             OneSignal.push(["registerForPushNotifications"]);
