@@ -8,7 +8,7 @@
       autoRegister: false, /* Set to true to automatically prompt visitors */
       subdomainName: 'https://beffsspeedtestproject.onesignal.com',   
       notifyButton: {
-      enable: true, /* Set to false to hide */
+      enable: false, /* Set to false to hide */
         size: 'large', /* One of 'small', 'medium', or 'large' */
         theme: 'inverse', /* One of 'default' (red-white) or 'inverse" (white-red) */
         position: 'bottom-right', /* Either 'bottom-left' or 'bottom-right' */
@@ -53,7 +53,7 @@
     <h3>Subscribe to updates</h3>
 <p> This is a new feature click the button below to subscribe! </p>
   </div>
-     <p>Click the button to subscribe - to unsubscribe  click the bell icon, and choose unsubscribe. </p>
+     <p>Click the button to subscribe - to unsubscribe  click the "Unsubscribe" button below. </p>
      <p> It's free</p> 
      <p> opt out any time you like</p>
      <p> Get instant updates and news!</p>
@@ -61,6 +61,33 @@
      <p> Thanks for using speedtest</p>
      <p> If you don't see the blue button it means you are already subscribed! </p>
  <a class="button" href="#" id="subscribe-link" style="display: none;">Subscribe to Notifications</a>
+    <a class="button" href="#" id="unsubscribe-link" style="display: none;">Unsubscribe from Notifications</a>
+    <script>
+        function unsubscribe() {
+            OneSignal.push(function() {
+              OneSignal.setSubscription(false);
+            });
+            event.preventDefault();
+        }
+
+        var OneSignal = window.OneSignal || [];
+        /* This example assumes you've already initialized OneSignal */
+        OneSignal.push(function() {
+            // If we're on an unsupported browser, do nothing
+            if (!OneSignal.isPushNotificationsSupported()) {
+                return;
+            }
+            OneSignal.isPushNotificationsEnabled(function(isEnabled) {
+                if (isEnabled) {                  
+                    document.getElementById("unsubscribe-link").addEventListener('click', unsubscribe);
+                    document.getElementById("unsubscribe-link").style.display = '';
+                } else {
+                    // The user is not subscribed
+                    // Don't show anything
+                }
+            });
+        });
+    </script>
     <script>
         function subscribe() {
             OneSignal.push(["registerForPushNotifications"]);
