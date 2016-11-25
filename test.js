@@ -1,4 +1,3 @@
-<!--Image is a public domain--> 
 var imageAddr = "https://jdc20181.github.io/testpics/tiger-1526704_1920.png"; 
 var downloadSize = 4885771; //bytes
 function ShowProgressMessage(msg) {
@@ -42,19 +41,19 @@ function MeasureConnectionSpeed() {
     startTime = (new Date()).getTime();
     var cacheBuster = "?nnn=" + startTime;
     download.src = imageAddr + cacheBuster;
-    }
-    function showResults() {
+    
+ function showResults() {
         var duration = (endTime - startTime) / 1000;
         var bitsLoaded = downloadSize * 8;
-        var speedBps = (bitsLoaded / duration).toFixed(2);
-        var speedKbps = (speedBps / 1024).toFixed(2);
-        var speedMbps = (speedKbps / 1024).toFixed(2);
+        var speedBps = (bitsLoaded / duration);
+        var speedKbps = (speedBps / 1024);
+        var speedMbps = (speedKbps / 1024);
         ShowProgressMessage([
             "Your connection speed is:", 
-            speedBps + " bps", 
-            speedKbps + " kbps", 
-            speedMbps + " Mbps",
-            
+            speedBps.toFixed(2) + " bps", 
+            speedKbps.toFixed(2) + " kbps", 
+            speedMbps.toFixed(2) + " Mbps",
         ]);
-    }
+}
+}
 
