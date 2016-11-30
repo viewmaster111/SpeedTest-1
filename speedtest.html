@@ -1,6 +1,7 @@
 <!Doctype html>
 <html>
-<head   >
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.13/clipboard.min.js"></script>
   <!-- <script>if (screen.width <= 1024) window.location.replace("http://www.example.com/1024.html")
 else window.location.replace("http://www.example.com/index.html") </script>-->
 
@@ -135,6 +136,20 @@ document.write(''
 <script type="text/javascript">
   document.write("Your IP is :", userip);
 </script>
+    <p>
+    Share your results! 
+ <button class="btn" data-clipboard-action="copy" data-clipboard-target="#progress">
+Copy Results.
+</button>
+<script>
+     var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+      </script>
 </body>
 </html>
 
