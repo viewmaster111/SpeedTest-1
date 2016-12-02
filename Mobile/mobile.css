@@ -1,3 +1,4 @@
+
 a{
     text-decoration:none;
 }
@@ -20,6 +21,7 @@ ul{
 }
 html{
     background-color:#87CEFA;
+    margin:0;
 }
 .bar{
     list-style-type: none;
