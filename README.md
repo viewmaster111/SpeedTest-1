@@ -1,3 +1,10 @@
+#Mobile Site Launch. 
+
+It isn't much quite yet but its getting there. 
+
+#SpeedTest Client 
+
+The new version has been released. 
 #Introducing Notifications *For Safari, Firefox, and chrome desktop users only*
 
 Get the latest news and updates via notifications. Client users please go to the speedtest website to configure notifications you will only have to do this one time. 
