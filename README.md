@@ -1,100 +1,17 @@
+#Windows Client has now been depreciated
+
+Focussing on accuracy, the client provides no existance after a code tweak. 
+
+See the details <a href="https://github.com/jdc20181/SpeedTest/wiki/Announcement-Windows-Client-Discontinued">Here</a>
+
 #Mobile Site Launch. 
 
 It isn't much quite yet but its getting there. 
 
-#SpeedTest Client 
-
-The new version has been released. 
-#Introducing Notifications *For Safari, Firefox, and chrome desktop users only*
-
-Get the latest news and updates via notifications. Client users please go to the speedtest website to configure notifications you will only have to do this one time. 
-
-Thanks for using speedtest.
-
-Go <a href="http://jdc20181.github.io/SpeedTest/notify.html">Here</a> to subscribe.
-
-Note: Notifications cant be enabled or disabled via the client due to the version of the wrapper. Please use the latest firefox, chrome or safari browsers to subscribe to updates.
-
-
-#Patch Releases
-
-##*Patch 4* Feature Maintenance is completed
-
- - My IP has been re-added but is no longer a different page. 
-   - My Ip will *Only* show your Public IP Address.
-   - My IP will be in the next version of the client.
-   
-
-
-##*Patch 3* Browser/Mobile UI 
  
- - Making a navigation menu to replace so many buttons. 
-  
- - Fixed the message- now using CSS without external sources
-
-##*Patch 2*
-
- - Removed "My IP" Feature. 
- 
- - Added link to the Widget version of SpeedTest
- 
- - Adjusted the wording on the widget to say "Powered By The Speed Test Project" reducing the text.
- 
- - Added a link to the installation guide on the Embed Code page (for the widget)
 
 
-##*Patch 1*
 
- - HotFix Changed the image to another image for the client, creating a more accurate reading.
- 
- - Added changes for the ThanksGiving Holiday
- 
- - Getting Ready for the new version of the client. 
- 
- *No install needed These changes will be listed on the next update*
-#A New Version of the client is almost ready.
-
- - New UI
- - Bug Fixes
- - Added Download of the SpeedTestGuide.
- 
-This release will put the current client in Maintaince, and will prompt you to download the new client once released. 
-
-See all the details <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.1.2-of-Windows-Client-Planning">Here</a>
-
-
-The New UI is a beta feature, if it doesn't work out it will be removed. 
-
-
-#Windows Client Version 1.0 Depreciated.
-
-If you get a maintaince page with the V1.0 client that is because I am going to be releasing the new version of the client with a improved layout, and a few stability fixes. 
-
-Please use the desktop version until I can get the new client out.
-
-##Lastest "Offical" release Version
-
-#Version 1.1 of the Windows Client, Plans for a Mac Client.  
-
- - Add Icons to the buttons. 
- - Make the UI more advance. 
- - General Performance fixes. 
- - Mac client compatibility (see how to <a href="https://github.com/jdc20181/SpeedTest/wiki/Mac-Client-Instructions!">Here</a>)
- 
- See full feature log <a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.1.0">Here</a>
- 
- 
- 
- ##Previous Version(s)
-#Version 1.1.0 Brings The Windows Client!
-Installation guide can be found <a href="https://github.com/jdc20181/SpeedTest/wiki/Downloading-And-Installing-the-Windows-Client">Here</a>
-
-
-##Updating teh client Important!
-
-To Update the client Uninstall the previous version for it to work. Sorry for the inconvience. 
-
-A fix to get around this will be come shortly!
 
 
 
