@@ -2,7 +2,7 @@
 <head>
 <style>
 .fond{position:fixed;padding-top:85px;top:0;left:0; right:0;bottom:0;
-  background-color:#84cedb;}
+  background-color:#2c5871;}
 
 .contener_home_one
 {
@@ -37,7 +37,8 @@
 	height: 36px;
 	-webkit-transform: skew(26deg);
 	-moz-transform: skew(26deg);
-	-o-transform: skew(26deg);
+	-ms-transform: skew(26deg);
+	transform: skew(26deg);
 	background-color: #ffffff;
 }
 .door
@@ -46,7 +47,7 @@
 	z-index: 1;
 	width: 15px; height: 25px;
 	position: absolute;
-	bottom: 0px; left:65px;
+	bottom: 0px; left:22px;
 }
 .window_one
 {
@@ -54,9 +55,15 @@
 	z-index: 1;
 	width: 15px; height: 15px;
 	position: absolute;
-	bottom: 10px; left:32px;
+	bottom: 10px; left:55px;
 	-webkit-animation: light 1.8s linear;
 	-webkit-animation-iteration-count: infinite;
+	-moz-animation: light 1.8s linear;
+	-moz-animation-iteration-count: infinite;
+	-ms-animation: light 1.8s linear;
+	-ms-animation-iteration-count: infinite;
+	animation: light 1.8s linear;
+	animation-iteration-count: infinite;
 }
 .window_two
 {
@@ -83,7 +90,34 @@
 	height: 0px;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
-	border-bottom: 70px solid #639da8;
+	border-bottom: 70px solid #97bf0d;
+}
+.christmas_ball
+{
+	background-color: #cb2025;
+	position: absolute;
+	width: 10px; height: 10px;
+	border-radius: 50%;
+}
+.christmas_ball_1
+{
+	left:-8px;
+	top:10px;
+}
+.christmas_ball_2
+{
+	left: 3px;
+	top:25px;
+}
+.christmas_ball_3
+{
+	left: -13px;
+	top:40px;
+}
+.christmas_ball_4
+{
+	left: 9px;
+	top:50px;
 }
 .mountain_one
 {
@@ -94,7 +128,7 @@
 	height: 0px;
 	border-left: 160px solid transparent;
 	border-right: 160px solid transparent;
-	border-bottom: 220px solid #75b7c3;
+	border-bottom: 220px solid #1c4156;
 }
 .sub_mountain_one
 {
@@ -106,7 +140,7 @@
 	height: 0px;
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
-	border-bottom: 40px solid #ffffff;
+	border-bottom: 40px solid #4f7286;
 }
 .sub_mountain_two
 {
@@ -118,7 +152,7 @@
 	height: 0px;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-bottom: 40px solid #ffffff;
+	border-bottom: 40px solid #4f7286;
 }
 .mountain_two
 {
@@ -130,7 +164,7 @@
 	height: 0px;
 	border-left: 160px solid transparent;
 	border-right: 160px solid transparent;
-	border-bottom: 330px solid #75b7c3;
+	border-bottom: 330px solid #1c4156;
 }
 .fireplace
 {
@@ -148,6 +182,33 @@
 	position: absolute;
 	top: -15px; right:28px;
 }
+.fireplace_smoke
+{
+	z-index: 0;
+	height: 55px;
+	border-radius: 50%;
+	position: absolute;
+	-webkit-animation: smoke 1.25s infinite;
+	-moz-animation: smoke 1.25s infinite;
+	-ms-animation: smoke 1.25s infinite;
+	animation: smoke 1.25s infinite;
+}
+@-webkit-keyframes smoke {
+	0% {background-color: rgba(255,255,255,0.8);top: -55px;width: 20px;right:28px;}
+	100% {background-color: rgba(255,255,255,0);top: -140px;width: 50px;right:10px;}
+}
+@-moz-keyframes smoke {
+	0% {background-color: rgba(255,255,255,0.8);top: -55px;width: 20px;right:28px;}
+	100% {background-color: rgba(255,255,255,0);top: -140px;width: 50px;right:10px;}
+}
+@-ms-keyframes smoke {
+	0% {background-color: rgba(255,255,255,0.8);top: -55px;width: 20px;right:28px;}
+	100% {background-color: rgba(255,255,255,0);top: -140px;width: 50px;right:10px;}
+}
+@keyframes smoke {
+	0% {background-color: rgba(255,255,255,0.8);top: -55px;width: 20px;right:28px;}
+	100% {background-color: rgba(255,255,255,0);top: -140px;width: 50px;right:10px;}
+}
 @-webkit-keyframes light {
 	0% {background-color: #f9eb32;}
 	70% {background-color: #f9ac32;}
@@ -163,285 +224,52 @@
 	70% {background-color: #f9ac32;}
 	10% {background-color: #f99032;}
 }
-.lutin_head
-{
-	background-color: #f7d496;
-	width: 30px; height: 30px;
-	border-radius: 50%;
-	top: 20px; left:-45px;
-	position: absolute;
-	z-index: 1;
-}
-.lutin_body
-{
-	background-color: #637a15;
-	width: 20px; height: 20px;
-	top: 45px; left:-40px;
-	position: absolute;
-}
-.lutin_jb1
-{
-	background-color: #637a15;
-	width: 7px; height: 15px;
-	top: 60px; left:-40px;
-	border-bottom: 5px solid #323d0b;
-	position: absolute;
-}
-.lutin_jb2
-{
-	background-color: #637a15;
-	width: 7px; height: 15px;
-	top: 60px; left:-27px;
-	border-bottom: 5px solid #323d0b;
-	position: absolute;
-}
-.lutin_arm1
-{
-	background-color: #637a15;
-	width: 23px; height:7px;
-	top: 47px; left:-57px;
-	border-left: 5px solid #f7d496;
-	position: absolute;
-}
-.lutin_arm2
-{
-	background-color: #637a15;
-	width: 23px; height:7px;
-	top: 47px; left:-27px;
-	border-right: 5px solid #f7d496;
-	position: absolute;
-}
-.lutin_top
-{
-	top: -5px; left:-48px;
-	width: 0px; height: 0px;
-	border-left: 18px solid transparent;
-	border-right: 18px solid transparent;
-	border-bottom: 36px solid #637a15;
-	position: absolute; z-index: 2;
-}
-.lutin_pom
-{
-	background-color: #ffffff;
-	width: 10px; height: 10px;
-	border-radius: 50%;
-	top: -10px; left:-35px;
-	position: absolute;
-	z-index: 3;
-}
-.lutz
-{
-	position: relative;
-	-webkit-animation: lutz 0.4s linear;
-	-webkit-animation-iteration-count: infinite;
-	-moz-animation: lutz 0.4s linear;
-	-moz-animation-iteration-count: infinite;
-	-ms-animation: lutz 0.4s linear;
-	-ms-animation-iteration-count: infinite;
-	animation: lutz 0.4s linear;
-	animation-iteration-count: infinite;
-}
-@-webkit-keyframes lutz {
-	0% {bottom:0px;}
-	70% {bottom:10px;}
-	10% {bottom:0px;}
-}
-@-moz-keyframes lutz {
-	0% {bottom:0px;}
-	70% {bottom:10px;}
-	10% {bottom:0px;}
-}
-@-ms-keyframes lutz {
-	0% {bottom:0px;}
-	70% {bottom:10px;}
-	10% {bottom:0px;}
-}
-@keyframes lutz {
-	0% {bottom:0px;}
-	70% {bottom:10px;}
-	10% {bottom:0px;}
-}
-.snowflakes {
-
-  top: 0px;
-  width: 100px;
-  right: 0;
-  -webkit-animation: snowflakes 3s linear infinite;
-  -moz-animation: snowflakes 3s linear infinite;
-  -ms-animation: snowflakes 3s linear infinite;
-  animation: snowflakes 3s linear infinite;
-}
-
-.contener_snow
-{
-	position: absolute;
-	top: 70px;
-	left:50%;
-	margin-left:-150px;
-}
-.snowflake {
-  background-color: #ffffff;
-  width: 10px; height: 10px;
-  border-radius: 50%;
-}
-
-.snowflakes .snowflake {
-  position: relative;
-}
-
-.snowflake:nth-child(1) {
-  -webkit-animation: snowflake 9s 0.2s ease-in-out infinite;
-  -moz-animation: snowflake 9s 0.2s ease-in-out infinite;
-  -ms-animation: snowflake 9s 0.2s ease-in-out infinite;
-  animation: snowflake 9s 0.2s ease-in-out infinite;
-  top: 20px;left: 50px;
-}
-.snowflake:nth-child(2) {
-  -webkit-animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  -moz-animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  -ms-animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  top: -50px;left: -20px;
-}
-.snowflake:nth-child(3) {
-  -webkit-animation: snowflake 9s 0.2s ease-in-out infinite;
-  -moz-animation: snowflake 9s 0.2s ease-in-out infinite;
-  -ms-animation: snowflake 9s 0.2s ease-in-out infinite;
-  animation: snowflake 9s 0.2s ease-in-out infinite;
-  top: 20px;left: 60px;
-}
-.snowflake:nth-child(4) {
-  -webkit-animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  -moz-animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  -ms-animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  top: -60px;left: -10px;
-}
-.snowflake:nth-child(5) {
-  -webkit-animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  -moz-animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  -ms-animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  top: 30px;left: 30px;
-}
-.snowflake:nth-child(6) {
-  -webkit-animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  -moz-animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  -ms-animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  animation: snowflake 9s 0.4s ease-in-out infinite reverse;
-  top: 10px;left: 0px;
-}
-.snowflake:nth-child(7) {
-  -webkit-animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  -moz-animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  -ms-animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  animation: snowflake 9s 0.2s ease-in-out infinite reverse;
-  top: 60px;left: -50px;
-}
-.snowflake:nth-child(8) {
-  -webkit-animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  -moz-animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  -ms-animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  animation: snowflake 9s 0.3s ease-in-out infinite reverse;
-  top: -40px;left: 40px;
-}
-
-
-@-webkit-keyframes snowflakes {
-  from {-webkit-transform: translateY(0);opacity: 1;}
-  50% {opacity: 0.7;}
-  to {-webkit-transform: translateY(200px);opacity: 0;}
-}
-@-webkit-keyframes snowflake {
-  0% {-webkit-transform: translateX(0);}
-  25% {-webkit-transform: translateX(350px);}
-  50% {-webkit-transform: translateX(0);opacity: 1;}
-  75% {-webkit-transform: translateX(300px);}
-  100% {-webkit-transform: translateX(0);}
-}
-@-moz-keyframes snowflakes {
-  from {-moz-transform: translateY(0);opacity: 1;}
-  50% {opacity: 0.7;}
-  to {-moz-transform: translateY(200px);opacity: 0;}
-}
-@-moz-keyframes snowflake {
-  0% {-moz-transform: translateX(0);}
-  25% {-moz-transform: translateX(350px);}
-  50% {-moz-transform: translateX(0);opacity: 1;}
-  75% {-moz-transform: translateX(300px);}
-  100% {-moz-transform: translateX(0);}
-}
-@-ms-keyframes snowflakes {
-  from {-ms-transform: translateY(0);opacity: 1;}
-  50% {opacity: 0.7;}
-  to {-ms-transform: translateY(200px);opacity: 0;}
-}
-@-ms-keyframes snowflake {
-  0% {-ms-transform: translateX(0);}
-  25% {-ms-transform: translateX(350px);}
-  50% {-ms-transform: translateX(0);opacity: 1;}
-  75% {-ms-transform: translateX(300px);}
-  100% {-ms-transform: translateX(0);}
-}
-@keyframes snowflakes {
-  from {transform: translateY(0);opacity: 1;}
-  50% {opacity: 0.7;}
-  to {transform: translateY(200px);opacity: 0;}
-}
-@keyframes snowflake {
-  0% {transform: translateX(0);}
-  25% {transform: translateX(350px);}
-  50% {transform: translateX(0);opacity: 1;}
-  75% {transform: translateX(300px);}
-  100% {transform: translateX(0);}
+@keyframes light {
+	0% {background-color: #f9eb32;}
+	70% {background-color: #f9ac32;}
+	10% {background-color: #f99032;}
 }
 </style>
 </head>
-<div align="center" style="padding-top:350px;" class="fond">
+<div align="center" style="padding-top:270px;" class="fond">
 
 		<div class="contener_home_one">
 			<div class="fireplace">&nbsp;</div>
 			<div class="fireplace_top">&nbsp;</div>
+			<div class="fireplace_smoke">&nbsp;</div>
 			<div class="triangle">&nbsp;</div>
 			<div class="parallelogram">&nbsp;</div>
 			<div class="door">&nbsp;</div>
 			<div class="window_one">&nbsp;</div>
 			<div class="window_two">&nbsp;</div>
 			<div class="home_base">&nbsp;</div>
-			<div class="christmas_tree"></div>
-			<div class="christmas_tree" style="left:-140px;"></div>
+			<div class="christmas_tree">
+				<div style="position:relative; height:90px;">
+					<div class="christmas_ball christmas_ball_1">&nbsp;</div>
+					<div class="christmas_ball christmas_ball_2">&nbsp;</div>
+					<div class="christmas_ball christmas_ball_3">&nbsp;</div>
+					<div class="christmas_ball christmas_ball_4">&nbsp;</div>
+				</div>
+			</div>
+			<div class="christmas_tree" style="left:-90px;">
+				<div style="position:relative; height:90px;">
+					<div class="christmas_ball christmas_ball_1">&nbsp;</div>
+					<div class="christmas_ball christmas_ball_2">&nbsp;</div>
+					<div class="christmas_ball christmas_ball_3">&nbsp;</div>
+					<div class="christmas_ball christmas_ball_4">&nbsp;</div>
+				</div>
+			</div>
 			<div class="mountain_one"><div class="sub_mountain_one">&nbsp;</div></div>
 			<div class="mountain_two"><div class="sub_mountain_two">&nbsp;</div></div>
-			<div class="lutz">
-				<div class="lutin_pom">&nbsp;</div>
-				<div class="lutin_top">&nbsp;</div>
-				<div class="lutin_head">&nbsp;</div>
-				<div class="lutin_arm1">&nbsp;</div>
-				<div class="lutin_arm2">&nbsp;</div>
-				<div class="lutin_body">&nbsp;</div>
-				<div class="lutin_jb1">&nbsp;</div>
-				<div class="lutin_jb2">&nbsp;</div>
-			</div>
-		</div>
-		<div class="contener_snow">
-			<div class="snowflakes">
-			    <div class="snowflake">&nbsp;</div>
-			    <div class="snowflake">&nbsp;</div>
-			    <div class="snowflake">&nbsp;</div>
-			    <div class="snowflake">&nbsp;</div>
-			    <div class="snowflake">&nbsp;</div>
-			    <div class="snowflake">&nbsp;</div>
-			    <div class="snowflake">&nbsp;</div>
-			    <div class="snowflake">&nbsp;</div>
-			</div>
 		</div>
 
 	<div style=" width:500px;height:9px; background-color:#ffffff; border-radius:5px;">&nbsp;</div>
   
   
-   <div style=" padding:5px; color:#639da8; font-weight:300; font-size:55px; font-family:'Roboto';padding-top:20px;">Happy<font style="font-weight:400;">Holidays!</font></div>
-        <a href="#" style="text-decoration:none;" target="_blank"><div style="  color:#639da8; font-weight:300; font-size:20px; font-family:'Roboto';">Powered By SpeedTest!</div></a>
+   <div style=" padding:5px; color:#7395a8; font-weight:300; font-size:55px; font-family:'Roboto';padding-top:20px;">Happy  <font style="font-weight:400;">Holidays!!</font></div>
+        <a href="https://jdc20181.github.io/SpeedTest/speedtest.html" style="text-decoration:none;" target="parent"><div style="  color:#7395a8; font-weight:300; font-size:20px; font-family:'Roboto';">Continue to Test</div></a>
+  
 </div>
-<a href="https://jdc20181.github.io/SpeedTest/speedtest.html">Continue to Test  </a>
+
 </html>
   
