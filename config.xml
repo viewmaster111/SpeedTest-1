@@ -20,5 +20,14 @@
   <author href="https://beffsbrowser.tk" email="#">
 Jeffrey Crowder (A BeffsBrowser Project)
   </author>
+<gap:plugin name="onesignal-cordova-plugin" spec="^2.0.6" source="npm" />
 
+<!-- Recommend the newest cli but requires cli-5.1.1+ and gradle for Android. -->
+<!-- If the below settings are not compatible with your project set the "PGB ANT" version above. -->
+<preference name="phonegap-version" value="cli-6.1.0" />
+<preference name="android-build-tool" value="gradle" />
+
+<!-- Window Phone 8.1 builds must use cli-6.1.0+ above -->
+<preference name="windows-appx-target" value="8.1-phone" />
+<preference name="WindowsToastCapable" value="true" />
 </widget>
