@@ -5,6 +5,7 @@
     version     = "1.1.0" >
 <platform name="android" />
 <platform name="winphone" />
+<platform name="ios" />
 <!-- versionCode is optional and Android only -->
 
   <name>SpeedTest</name>
@@ -28,4 +29,5 @@ Jeffrey Crowder (A BeffsBrowser Project)
 <!-- Window Phone 8.1 builds must use cli-6.1.0+ above -->
 <preference name="windows-appx-target" value="8.1-phone" />
 <preference name="WindowsToastCapable" value="true" />
+    
 </widget>
