@@ -2,7 +2,7 @@
 #snow{
 	background: none;
 	font-family: Androgyne;
-	background-image: url('https://www.wearewebstars.dk/codepen/img/s1.png'), url('https://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	/*background-image: url('https://www.wearewebstars.dk/codepen/img/s1.png'), url('https://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');18 */
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -24,7 +24,7 @@
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
 }
-@-webkit-keyframes snow {
+ @-webkit-keyframes snow {
   0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
