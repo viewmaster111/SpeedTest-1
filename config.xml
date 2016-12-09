@@ -2,8 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "kt.resworbsffeb"
-    versionCode = "10"
-    version     = "1.0.0" >
+    version     = "1.0.1" >
 <platform name="android" />
 <platform name="winphone" />
 <!-- versionCode is optional and Android only -->
@@ -12,6 +11,10 @@
 
   <description>
   A utility to check internet speed!
+      
+      Update:
+      
+      Fixed issues with navigation.
   </description>
 
   <author href="https://beffsbrowser.tk" email="#">
