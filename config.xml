@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "kt.resworbsffeb"
+    versionCode = "10"
+    version     = "1.0.0" >
+<platform name="android" />
+<platform name="winphone" />
+<!-- versionCode is optional and Android only -->
+
+  <name>SpeedTest</name>
+
+  <description>
+  A utility to check internet speed!
+  </description>
+
+  <author href="https://beffsbrowser.tk" email="#">
+Jeffrey Crowder (A BeffsBrowser Project)
+  </author>
+
+</widget>
