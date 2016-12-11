@@ -10,11 +10,11 @@ This is two individual releases to patch certain things. The first one was a eme
  
 
 *Version 1.2.5*
- -Changed image format to JPG as PNG was creating SSL Protocol errors.
+ - Changed image format to JPG as PNG was creating SSL Protocol errors.
 
- -Fixed a few bugs making Speedtest more accurate.
+ - Fixed a few bugs making Speedtest more accurate.
 
- -Fixed a bug with the Happy Holidays page on IOS Safari
+ - Fixed a bug with the Happy Holidays page on IOS Safari
 
 
 
