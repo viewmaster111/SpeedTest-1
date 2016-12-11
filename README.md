@@ -1,19 +1,12 @@
-#Windows Client has now been depreciated
+#Outages/SSL ERRORS
 
-Focussing on accuracy, the client provides no existance after a code tweak. 
+Because of these errors, SpeedTest is unusable. I think a solution would be to change the image. 
 
-See the details <a href="https://github.com/jdc20181/SpeedTest/wiki/Announcement-Windows-Client-Discontinued">Here</a>
+This will happen in a update, and maintenance will begin soon. 
 
-#Mobile Site Launch. 
+I am working with github to resolve the issue but, its taking a while to get additional responses back. 
 
-It isn't much quite yet but its getting there. 
-
- 
-
-
-
-
-
+I expect to get one Monday, but no guaranteees. Updates will be posted.
 
 #Thanks!
 
