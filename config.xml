@@ -29,5 +29,7 @@ Jeffrey Crowder (A BeffsBrowser Project)
 <!-- Window Phone 8.1 builds must use cli-6.1.0+ above 
 <preference name="windows-appx-target" value="8.1-phone" />
 <preference name="WindowsToastCapable" value="true" />-->
-    
+     <access origin="https://jdc20181.github.io" />
+    <access origin="https://l2.io"/>
+    <access origin="https://cdnjs.cloudflare.com" />
 </widget>
