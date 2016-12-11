@@ -1,15 +1,22 @@
-#Outages/SSL ERRORS
-*Completed*
-I made the changes as fast as I could. And it works just fine. I will monitor it closely to see how accurate it is. And will make any changes needed as they come about. 
-_____________________________________________________
+#Version 1.2.5/1.2.6
 
-Because of these errors, SpeedTest is unusable. I think a solution would be to change the image. 
+This is two individual releases to patch certain things. The first one was a emergency one to make sure it was functioning appropriately.
 
-This will happen in a update, and maintenance will begin soon. 
+*Version 1.2.6*
 
-I am working with github to resolve the issue but, its taking a while to get additional responses back. 
+ - Made Mobile Site more accurate
+ 
+ - Changed the SpeedTest guide button text to prevent oversized width of buttons on some IOS devices (5,5S,6)
+ 
 
-I expect to get one Monday, but no guaranteees. Updates will be posted.
+*Version 1.2.5*
+ -Changed image format to JPG as PNG was creating SSL Protocol errors.
+
+ -Fixed a few bugs making Speedtest more accurate.
+
+ -Fixed a bug with the Happy Holidays page on IOS Safari
+
+
 
 #Thanks!
 
