@@ -1,4 +1,7 @@
 #Outages/SSL ERRORS
+*Completed*
+I made the changes as fast as I could. And it works just fine. I will monitor it closely to see how accurate it is. And will make any changes needed as they come about. 
+_____________________________________________________
 
 Because of these errors, SpeedTest is unusable. I think a solution would be to change the image. 
 
