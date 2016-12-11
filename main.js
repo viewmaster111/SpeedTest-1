@@ -1,4 +1,4 @@
-var imageAddr = "https://jdc20181.github.io/testpics/"; 
+var imageAddr = "https://jdc20181.github.io/testpics/tiger-1526704_1920.png"; 
 var downloadSize = 4885771; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
