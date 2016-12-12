@@ -32,4 +32,5 @@ Jeffrey Crowder (A BeffsBrowser Project)
      <access origin="https://jdc20181.github.io" />
     <access origin="https://l2.io"/>
     <access origin="https://cdnjs.cloudflare.com" />
+    <content src="index.html"></content>
 </widget>
