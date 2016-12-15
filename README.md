@@ -1,3 +1,7 @@
+#Happy Holidays!
+
+<a href="http://jdc20181.github.io/SpeedTest/happyholidays.html">Happy Holidays from SpeedTest!</a>
+
 #Version 1.2.5/1.2.6
 
 This is two individual releases to patch certain things. The first one was a emergency one to make sure it was functioning appropriately.
