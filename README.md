@@ -23,6 +23,16 @@
 
 
 
+#Latest update:
 
+  - Bug fixes
+  
+  - UI Adjustments
+  
+  - Layout changes
+  
+  - Stability additons
+  
+  - And much much more!
 
    
