@@ -1,4 +1,12 @@
-#Version 1.3.0 *Coming Soon!*
+#Version 1.3.0
+
+
+*Version 1.3.0.1 has been released!*
+
+This applies the new mobile site "Rules" Android users will be encouraged to install the app. 
+
+
+
 
 <a href="https://github.com/jdc20181/SpeedTest/wiki/New-Mobile-Site-Launch">New Mobile Site Launch Details </a>
 
