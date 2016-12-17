@@ -1,3 +1,9 @@
+#Version 1.3.0 *Coming Soon!*
+
+<a href="https://github.com/jdc20181/SpeedTest/wiki/New-Mobile-Site-Launch">New Mobile Site Launch Details </a>
+
+<a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.3.0-Features-Plans-and-more">Plans and features of Version 1.3.0</a>
+
 #Happy Holidays!
 
 <a href="http://jdc20181.github.io/SpeedTest/happyholidays.html">Happy Holidays from SpeedTest!</a>
