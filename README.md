@@ -69,16 +69,6 @@ The IP Feature is not included in the widget version
 
 We never collect cookies personally however, Github may.
 
-#Developers!
-
-To use this on your own project or website please use CSS, that is Not included for the time being. 
-
-#How to install!
-
-To install, just use the embed version! To style this version, you just need to name it a class and add in custom CSS. 
-
-See <a href="https://github.com/jdc20181/SpeedTest/wiki/Installing-SpeedTest">Installing SpeedTest wiki</a> for more info!
-
 
 #Version info. 
 
