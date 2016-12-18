@@ -1,3 +1,9 @@
+#Embed Version to be replaced and Depreciated. 
+
+<a href="https://github.com/jdc20181/SpeedTest/wiki/Embed-Version-Replacement-plan">See the plan here</a>
+
+
+
 #Version 1.3.0
 
 
@@ -16,7 +22,7 @@ This applies the new mobile site "Rules" Android users will be encouraged to ins
 
 <a href="http://jdc20181.github.io/SpeedTest/happyholidays.html">Happy Holidays from SpeedTest!</a>
 
-#Version 1.2.5/1.2.6
+<!--#Version 1.2.5/1.2.6
 
 This is two individual releases to patch certain things. The first one was a emergency one to make sure it was functioning appropriately.
 
@@ -34,7 +40,7 @@ This is two individual releases to patch certain things. The first one was a eme
 
  - Fixed a bug with the Happy Holidays page on IOS Safari
 
-
+-->
 
 #Thanks!
 
