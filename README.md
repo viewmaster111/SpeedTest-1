@@ -1,3 +1,8 @@
+#A Project outlook of 2017
+
+As we go into the new year - there are some very new and large goals to make from this project. 
+You can find those details <a href="https://github.com/jdc20181/SpeedTest/wiki/SpeedTest-2017-outlook">Here</a>
+
 #Embed Version to be replaced and Depreciated. 
 
 <a href="https://github.com/jdc20181/SpeedTest/wiki/Embed-Version-Replacement-plan">See the plan here</a>
