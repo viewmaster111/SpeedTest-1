@@ -1,3 +1,16 @@
+
+#Site Maintenance - Patch Updates
+
+ - Maintenance will take (2) Days. 
+ 
+ - Bug Fixes 
+ 
+ - Add a new icon for the Winter Season (replacing the Christmas one!)
+ 
+
+ 
+ 
+
 #A Project outlook of 2017
 
 As we go into the new year - there are some very new and large goals to make from this project. 
