@@ -1,6 +1,15 @@
-#Happy Holdiays!!
+#Upcoming update
 
-<a href="http://jdc20181.github.io/SpeedTest/happyholidays.html">Happy Holidays From SpeedTest! </a>
+A vital update is in progress - the update will make the app work again - for some unknown reason it didn't want to work appropriately. This should be fixed in the update. 
+
+Other items in the update:
+
+  - Removing Christmas themed icons. 
+  
+  - Removing/Replacing icons. 
+  
+  - Minfiying code to create a smaller and better performed app. 
+  
 
 #SpeedTest App For Android 
 
