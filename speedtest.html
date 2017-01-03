@@ -145,7 +145,32 @@ document.write(''
 </script>
     <p>
     Share your results! 
- <a class="button btn" href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
+      
+       <a class="button btn"  onclick="myFunction()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
+Copy Results
+    </a>
+<script>
+     var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+      </script>
+       <div id="snackbar">Copied!</div>
+   <script>
+      function myFunction() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+    // Add the "show" class to DIV
+    x.className = "show";
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+   </script>
+     <!--- Origin below this line! -->
+<!-- <a class="button btn" href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
 Copy Results
 </a>
 <script>
@@ -156,7 +181,7 @@ Copy Results
     clipboard.on('error', function(e) {
         console.log(e);
     });
-      </script>
+      </script>-->
   </body>
   </div>
 </html>
