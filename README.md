@@ -1,14 +1,11 @@
+# Site  Maintenance is completed. Version 1.3.1 is released. 
 
-#Site Maintenance - Patch Updates
-
- - Maintenance will take (2) Days. 
+ Maintenance was quick and easy! Just had to add and fix a few things!
  
- - Bug Fixes 
+ See issue #16  
  
- - Add a new icon for the Winter Season (replacing the Christmas one!)
- 
-
- 
+ A issue with IOS devices and using the copy results feature has been found. Do not worry I am working on a fix. 
+ Only occurs on IOS.
  
 
 #A Project outlook of 2017
