@@ -12,7 +12,7 @@ BUT...
 
 
 It is 2016 - and most mobile sites look like apps or have apps. SpeedTest will not be a app because it is made to work from your browser
-with no downloading required!
+with no downloading required! - with the exception of the Android App!
 
 So here is to SpeedTest Mobile - A Modern Mobile Concept. 
 
