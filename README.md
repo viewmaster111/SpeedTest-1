@@ -4,7 +4,7 @@ A few patches will be applied, and then a release will be out shortly after. Som
 
 This release will include:
 
- - [ ] Small UI Tweaks.
+ - [X] Small UI Tweaks.
  
  - [ ]  Color changes. 
  
