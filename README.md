@@ -4,13 +4,13 @@ A few patches will be applied, and then a release will be out shortly after. Som
 
 This release will include:
 
- - Small UI Tweaks.
+ - [ ] Small UI Tweaks.
  
- - Color changes. 
+ - [ ]  Color changes. 
  
- - Bug Fixes
+ - [ ] Bug Fixes
  
- - Minor Tweaks on the backend. 
+ - [ ] Minor Tweaks on the backend. 
  
 
 
