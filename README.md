@@ -1,8 +1,24 @@
-# Site  Maintenance is completed. Version 1.3.1 is released. 
+#New Update over the next couple of days!
 
- Maintenance was quick and easy! Just had to add and fix a few things!
+A few patches will be applied, and then a release will be out shortly after. Some downtime will occur over the next couple days. 
+
+This release will include:
+
+ - Small UI Tweaks.
  
- See issue #16  
+ - Color changes. 
+ 
+ - Bug Fixes
+ 
+ - Minor Tweaks on the backend. 
+ 
+
+
+
+*Main Issue*
+
+ See [Issue #16](https://github.com/jdc20181/SpeedTest/issues/16)
+ 
  
  A issue with IOS devices and using the copy results feature has been found. Do not worry I am working on a fix. 
  Only occurs on IOS.
