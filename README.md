@@ -14,7 +14,7 @@ This release will include:
  
  - [X] Release New Installation (replacing the Embed version)
  
-The New Embed Version is now ready to use, see how to use it by reading the [installation guide](https://github.com/jdc20181/SpeedTest/tree/gh-pages/Release)
+The New Embed Version is now ready to use, see how to use it by reading the [installation guide](http://jdc20181.github.io/SpeedTest/portable.html)
 
 
 *Main Issue*
