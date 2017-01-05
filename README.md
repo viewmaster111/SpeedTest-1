@@ -12,7 +12,9 @@ This release will include:
  
  - [ ] Minor Tweaks on the backend. 
  
-
+ - [X] Release New Installation (replacing the Embed version)
+ 
+The New Embed Version is now ready to use, see how to use it by reading the [installation guide](https://github.com/jdc20181/SpeedTest/tree/gh-pages/Release)
 
 
 *Main Issue*
