@@ -1,0 +1,57 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="main.css">
+     <link rel="stylesheet" type="text/css" href="holiday.css">
+   
+   <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style>
+.Code-Basic{
+background-color:	#D3D3D3; /*Light Gray Defaults*/
+color:black; /* Defaults*/
+font-size:16px; /*Default Size*/
+}
+</style>
+</head>
+ <div id="snow">
+<body class="bodystyle">
+
+<p>Installation instructions:</p>
+You will need to use your Own CSS!
+<br>
+There are two methods you can use to install SpeedTest, you can download and manually install or you can copy and paste the following.
+<br>
+The first option is for developers ONLY. And shouldn't be used by anyone if you don't intend to use it for that purpose.
+<br>
+Step 1 Add Reference to JS :
+<br>
+<code><script type="text/javascript" src="http://jdc20181.github.io/SpeedTest/Release/mainv1.min.js"></script></code>
+<br>
+Important
+<br>
+Be sure to use the latest release as Old Versions will stop working - once depreciated they will be moved and a Error Message with "Contact Administration, No JS file detected"
+<br>
+Beta: This is entirely in beta, so please give me time to update it and make fixes.
+<br>
+Step 2 : Add HTML Snippet
+<br>
+To make it work you simply need a qualifying element with the <code>Id="progress"</code> to make it work.
+ <script>
+  function findNoParse(){
+	$('code').each(function(){
+		if($(this).attr('tagchecked') != 'true'){ //checks if already changed tag
+			$(this).text($(this).html()); //makes the html into plaintext
+			$(this).attr('tagchecked', 'true'); //says that tag has been checked
+		}
+	});
+}
+$(document).ready(function(){
+    findNoParse();
+    setInterval(findNoParse, 100); //constantly check for new tag, just in case a new element is put in.
+});
+ </script>
+ </body>
+ </html>
