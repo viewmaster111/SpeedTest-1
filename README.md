@@ -1,4 +1,11 @@
-#New Update over the next couple of days!
+#Open Beta Tester version to be launched. 
+
+The [Open Beta Tester](https://github.com/jdc20181/SpeedTest/wiki/Open-Beta-Version-to-be-launched) Version will feature coming up features of the stable project. And will enable testing to give the best possible experience. As of now, UI testing is going to be first to be experimented. A Special button to use the Beta version instead will be added soon. Of course you don't have to use the beta version, but if you want to help make SpeedTest better, than please give it a go :) 
+
+Thanks!
+
+
+#Latest Update:
 
 A few patches will be applied, and then a release will be out shortly after. Some downtime will occur over the next couple days. 
 
