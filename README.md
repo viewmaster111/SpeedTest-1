@@ -6,16 +6,15 @@ This release will include:
 
  - [X] Small UI Tweaks.
  
- - [ ]  Color changes. 
+ - [X] Bug Fixes
  
- - [ ] Bug Fixes
- 
- - [ ] Minor Tweaks on the backend. 
+ - [X] Minor Tweaks on the backend. 
  
  - [X] Release New Installation (replacing the Embed version)
  
 The New Embed Version is now ready to use, see how to use it by reading the [installation guide](http://jdc20181.github.io/SpeedTest/portable.html)
 
+ Update: I fixed some issues with the portable version, the new color scheme will change at the end of Feb. '17 and the minor tweaks will go unnoticed!
 
 *Main Issue*
 
