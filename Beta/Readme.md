@@ -32,4 +32,4 @@ To contribute, I simply need feedback. If you aren't a developer - I especially 
 
 #Notice!
 
-**Code is NOT for production use outside of this is respo. This is a Testing part of the project for upcoming new features!
+**Code is NOT for production use outside of this is respo. This is a Testing part of the project for upcoming new features!**
