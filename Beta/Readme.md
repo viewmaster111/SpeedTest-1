@@ -30,3 +30,6 @@ The newest addition will be showing your Upload speed. Doing this will be tricky
 
 To contribute, I simply need feedback. If you aren't a developer - I especially need *your* feedback. Use the Support Chat to send feedback. 
 
+#Notice!
+
+**Code is NOT for production use outside of this is respo. This is a Testing part of the project for upcoming new features!
