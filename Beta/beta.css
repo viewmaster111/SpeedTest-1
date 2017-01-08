@@ -1,6 +1,5 @@
 //Warning: Some of the following css is part of the Beta Version. NOT FOR PRODUCTION USE.
-
-.bodystyle{
+html{
      background-color:#aad4e5;/*#A0522D #FF6347;*/
      text-align:center;
      float:center;
@@ -17,7 +16,7 @@
     font-size: 16px;
 }
 .container{
-  border-radius:70%;
+  border-radius:50%;
     background-color:#aad4e5;/*#A0522D #FF6347;*/
      text-align:center;
      float:center;
