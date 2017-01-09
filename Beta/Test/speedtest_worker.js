@@ -1,5 +1,5 @@
 var testStatus=0,dlStatus="",ulStatus="",pingStatus="";
-var settings={time_ul:15,time_dl:15,count_ping:35,url_dl:"garbage.php",url_ul:"empty.dat",url_ping:"empty.dat"};
+var settings={time_ul:15,time_dl:15,count_ping:35,url_dl:"garbage.7z",url_ul:"empty.dat",url_ping:"empty.dat"};
 var xhr=null;
 this.addEventListener('message', function(e){
 	var params=e.data.split(" ");
