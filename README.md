@@ -1,11 +1,30 @@
-#Open Beta Tester version to be launched. 
+#Upcoming maintenance!
+
+After this week, maintenance will be done bi-weekly. A Schedule of down times - no more than a few hours will be posted soon. 
+
+The update includes:
+
+ - [x] An official "The Internet For Everyone" page. A SpeedTest Project.
+ 
+ - [x] Bug Fixes and tweaks. 
+ 
+ - [x] UI Improvments
+ 
+ 
+
+#Open Beta Tester version to be launched. *Now Launched!*
+
+You can now access the Beta Tester Version from the Home Screen. Or see it right [here](https://jdc20181.github.io/SpeedTest/Beta/beta.html)
+
+Please remember everything in the beta tester version is in a "AS IS" state, expect bugs. 
+
 
 The [Open Beta Tester](https://github.com/jdc20181/SpeedTest/wiki/Open-Beta-Version-to-be-launched) Version will feature coming up features of the stable project. And will enable testing to give the best possible experience. As of now, UI testing is going to be first to be experimented. A Special button to use the Beta version instead will be added soon. Of course you don't have to use the beta version, but if you want to help make SpeedTest better, than please give it a go :) 
 
 Thanks!
 
 
-#Latest Update:
+#Version 1.2.4
 
 A few patches will be applied, and then a release will be out shortly after. Some downtime will occur over the next couple days. 
 
