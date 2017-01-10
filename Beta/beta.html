@@ -13,5 +13,15 @@
     <p> <button class="refreshbutton" onclick="document.location.reload(true);">ReTake the Test </button>
     <p class="notice"> Important: This is the Beta Testing Version of SpeedTest. If you find bugs, please report them, but remember to mention it being with the beta version. </p>
   </body>
-  
+  <script type="text/javascript">
+	var w=new Worker("assets.js"); //create new worker
+	setInterval(function(){w.postMessage("status");}.bind(this),100); //ask for status every 100ms
+	w.onmessage=function(event){ //when status is received, split the string and put the values in the appropriate fields
+		var data=event.data.split(";"); //string format: status;download;upload;ping (speeds are in mbit/s) (status: 0=not started, 1=downloading, 2=uploading, 3=ping, 4=done, 5=aborted)
+		
+		document.getElementById("upload").innerHTML=data[2]+" Mbit/s";
+		
+	}
+	w.postMessage("start"); //start the speedtest (default params. keep garbage.php and empty.dat in the same directory as the js file)
+</script>
 </html>
