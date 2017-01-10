@@ -1,7 +1,7 @@
 //NOT OFFICIAL PART OF SPEEDTEST This is Beta Assets. Anything Js, and is part of the beta -
 //will be here. Everything essential to proper working will remain in the Beta.js file. 
 var testStatus=0,dlStatus="",ulStatus="",pingStatus="";
-var settings={time_ul:15,time_dl:15,count_ping:35,url_dl:"mega.dat",url_ul:"empty.dat",url_ping:"empty.dat"};
+var settings={time_ul:15,time_dl:15,count_ping:35,url_dl:"garbage.dat",url_ul:"empty.dat",url_ping:"empty.dat"};
 var xhr=null;
 function ulTest(done){
     var firstTick=true,startT=new Date().getTime(), prevT=new Date().getTime(),prevLoaded=0,speed=0.0;
