@@ -2,6 +2,9 @@
 
 After this week, maintenance will be done bi-weekly. A Schedule of down times - no more than a few hours will be posted soon. 
 
+Update: [here](https://github.com/jdc20181/SpeedTest/blob/gh-pages/maintenance.pdf) is the PDF of the schedule. Few notes: Not written in stone, The release dates are not guaranteed, not all were included. More or less maintenance could occur. 
+
+
 The update includes:
 
  - [x] An official "The Internet For Everyone" page. A SpeedTest Project.
