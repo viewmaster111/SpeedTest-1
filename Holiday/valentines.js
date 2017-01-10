@@ -2,7 +2,7 @@ var HeartsBackground = {
   heartHeight: 60,
   heartWidth: 64,
   hearts: [],
-  heartImage: 'heart.png',
+  heartImage: 'http://jdc20181.github.io/SpeedTest/Holiday/heart.png',
   maxHearts: 8,
   minScale: 0.4,
   draw: function() {
