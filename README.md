@@ -1,10 +1,10 @@
-#Upcoming Update(s)
+#Upcoming Update Version 1.2.5 
 
 The update includes:
 
  - [x] Bug Fixes and tweaks. 
  
- - [ ] UI Improvments (More to be applied.)
+ - [X] UI Improvments (More to be applied.)
  
  The new UI will  include:
  
