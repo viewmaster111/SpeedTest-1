@@ -241,13 +241,12 @@ However, delay the fade out process for 2.5 seconds */
     to {bottom: 0; opacity: 0;}
 }
 .bar{
-    list-style-type: none;
     text-align:center;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    border: 1px solid #4682B4;
+    background-color: #4682B4;
  
     }
 .back{
