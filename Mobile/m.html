@@ -28,14 +28,16 @@ document.location = "https://jdc20181.github.io/SpeedTest/speedtest.html";
   </div>
 <div class="mobile">
   <h1 id="progress">Your Internet is slow or JS is turned off </h1>
-  <a class="collapse" href="javascript:showhide('uniquename')">Other Information</a>
-    <div id="uniquename" style="display:none;">
+  <a href="#openModal" class="button">Other Information </a>
+  <div id="openModal" class="modalDialog">
+    <div>	<a href="#close" title="Close" class="close2">X</a>
  <script>
    var OSName="Unknown OS";
 if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
 if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS/IOS";
 if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
 if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux/Android";
+
 document.write('Your OS: '+OSName);
  </script>
  <br>
@@ -46,6 +48,7 @@ var browserName  = navigator.appName;
 var fullVersion  = ''+parseFloat(navigator.appVersion); 
 var majorVersion = parseInt(navigator.appVersion,10);
 var nameOffset,verOffset,ix;
+
 // In Opera, the true version is after "Opera" or after "Version"
 if ((verOffset=nAgt.indexOf("Opera"))!=-1) {
  browserName = "Opera";
@@ -90,11 +93,13 @@ if ((ix=fullVersion.indexOf(";"))!=-1)
    fullVersion=fullVersion.substring(0,ix);
 if ((ix=fullVersion.indexOf(" "))!=-1)
    fullVersion=fullVersion.substring(0,ix);
+
 majorVersion = parseInt(''+fullVersion,10);
 if (isNaN(majorVersion)) {
  fullVersion  = ''+parseFloat(navigator.appVersion); 
  majorVersion = parseInt(navigator.appVersion,10);
 }
+
 document.write(''
  +'Browser name:   '+browserName+'<br>'
  +'Full version:  '+fullVersion+'<br>'
@@ -104,7 +109,7 @@ document.write(''
 + 'Browser Online: ' + navigator.onLine + '<br>'
 )
  </script>
-
+    </div>
 </div>
 <p><button  data-tooltip="Retake the SpeedTest"class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-refresh fa-spin"></i></button></p>
 
