@@ -78,6 +78,7 @@ a.button:hover, a.button:active {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .h3{
  text-align:center;
@@ -193,4 +194,14 @@ However, delay the fade out process for 2.5 seconds */
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
 }
+.back{
+   float:left;
+   background-color:#2962FF
+   color:white;
+}
+.back:hover{
+    color:white;
+   background-color: #039BE5;
 
+}
+ 
