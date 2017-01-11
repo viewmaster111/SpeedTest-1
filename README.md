@@ -1,4 +1,19 @@
-#Upcoming maintenance!
+#Upcoming Update(s)
+
+The update includes:
+
+ - [x] Bug Fixes and tweaks. 
+ 
+ - [] UI Improvments (More to be applied.)
+ 
+ The new UI will  include:
+ 
+  - Material Buttons which will appear Raised  with a shadow effect. 
+  - The Other Info section will now be a pop up. 
+  - The "SpeedTest" pages on both Mobile and desktop will feature a back button. 
+  - Other UI Tweaks to the mobile version will also be applied. 
+
+#maintenance!
 
 *Update* The maintenance isn't quite done, but it's been taken out of maintenance mode for now 
 
@@ -8,16 +23,9 @@ After this week, maintenance will be done bi-weekly. A Schedule of down times - 
 Update: [here](https://github.com/jdc20181/SpeedTest/blob/gh-pages/maintenance.pdf) is the PDF of the schedule. Few notes: Not written in stone, The release dates are not guaranteed, not all were included. More or less maintenance could occur. 
 
 
-The update includes:
 
- - [x] An official "The Internet For Everyone" page. A SpeedTest Project.
- 
- - [x] Bug Fixes and tweaks. 
- 
- - [x] UI Improvments
  
  
-
 #Open Beta Tester version to be launched. *Now Launched!*
 
 You can now access the Beta Tester Version from the Home Screen. Or see it right [here](https://jdc20181.github.io/SpeedTest/Beta/beta.html)
