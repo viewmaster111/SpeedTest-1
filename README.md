@@ -4,7 +4,7 @@ The update includes:
 
  - [x] Bug Fixes and tweaks. 
  
- - [] UI Improvments (More to be applied.)
+ - [ ] UI Improvments (More to be applied.)
  
  The new UI will  include:
  
