@@ -46,8 +46,11 @@ document.location = "redirect.html";
   
 <br>
 
-<a class="collapse" href="javascript:showhide('uniquename')">Other Information</a>
-    <div id="uniquename" style="display:none;">
+<!--<a class="collapse" href="javascript:showhide('uniquename')">Other Information</a>-->
+   <!-- <div id="uniquename" style="display:none;">-->
+  <a href="#openModal" class="button">Other Information </a>
+  <div id="openModal" class="modalDialog">
+    <div>	<a href="#close" title="Close" class="close">X</a>
  <script>
    var OSName="Unknown OS";
 if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
@@ -126,7 +129,7 @@ document.write(''
 + 'Browser Online: ' + navigator.onLine + '<br>'
 )
  </script>
-
+    </div>
 </div>
 <p><button  data-tooltip="Retake the SpeedTest"class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-refresh fa-spin"></i></button></p>
 
