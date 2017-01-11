@@ -1,4 +1,4 @@
-#Upcoming Update Version 1.2.5 
+#Upcoming Update Version 1.3.3 
 
 The update includes:
 
@@ -38,7 +38,7 @@ The [Open Beta Tester](https://github.com/jdc20181/SpeedTest/wiki/Open-Beta-Vers
 Thanks!
 
 
-#Version 1.2.4
+#Version 1.3.2
 
 A few patches will be applied, and then a release will be out shortly after. Some downtime will occur over the next couple days. 
 
