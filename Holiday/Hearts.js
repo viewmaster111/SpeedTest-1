@@ -1,5 +1,5 @@
 var no = 12; // number of hearts
-var speed = 10; // smaller number moves the hearts faster
+var speed = 99; // smaller number moves the hearts faster
 var heart = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png";
 var flag;
 //var ns4up = (document.layers) ? 1 : 0;   browser sniffer
