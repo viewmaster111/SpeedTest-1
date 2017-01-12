@@ -198,7 +198,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 .back{
    float:left;
-   background-color:#2962FF
+   background-color:#2962FF;
    color:white;
      border: none;
     padding: 15px 32px;
