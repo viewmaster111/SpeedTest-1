@@ -1,7 +1,7 @@
 #hearts{
 	background: none;
 	font-family: Androgyne;
-	background-image: url('http://jdc20181.github.io/SpeedTest/Holiday/like.svg'), url('http://jdc20181.github.io/SpeedTest/Holiday/like.svg'), url('http://jdc20181.github.io/SpeedTest/Holiday/like.svg');
+background-image: url('http://jdc20181.github.io/SpeedTest/Holiday/optimised.svg'), /*url('http://jdc20181.github.io/SpeedTest/Holiday/like.svg'), url('http://jdc20181.github.io/SpeedTest/Holiday/like.svg')*/;
 	height: 100%;
 	left: 0;
 	position: absolute;
