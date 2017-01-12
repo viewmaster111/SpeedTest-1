@@ -259,7 +259,6 @@ However, delay the fade out process for 2.5 seconds */
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .back:hover{
     color:white;
@@ -270,7 +269,6 @@ However, delay the fade out process for 2.5 seconds */
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
  .modalDialog {
