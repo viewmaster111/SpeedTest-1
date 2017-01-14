@@ -1,0 +1,45 @@
+<html>
+<head>
+    <script type="text/javascript" src="cordova.js"></script>
+    <title>SpeedTest </title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="main.css">
+       <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+      <script>
+document.addEventListener('deviceready', function () {
+  // Enable to debug issues.
+  // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
+  var notificationOpenedCallback = function(jsonData) {
+    console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+  };
+  window.plugins.OneSignal
+    .startInit("188e628d-67fb-4391-83ae-d8029c08bbc1", "326894203447")
+    .handleNotificationOpened(notificationOpenedCallback)
+    .endInit();
+  
+  // Sync hashed email if you have a login system or collect it.
+  //   Will be used to reach the user at the most optimal time of day.
+  // window.plugins.OneSignal.syncHashedEmail(userEmail);
+}, false);
+        </script>
+        <head>
+        <div id="bar">
+        <h1> Welcome to SpeedTest! </h1>
+        <body class="bodystyle">
+     <p>   <a class="button" href="Home.html"> Continue </a></p>
+        <h2> News & Announcments </h2>
+        <p>
+        <ul class="news">
+        <li> New UI </li>
+        <li> The Internet for everyone project has started. </li>
+        <li> Fixed some pesky bugs. </li>
+        <li> Made some general enhancments </li>
+        </ul></p>
+        </body>
+        </html>
+        
+       
+   
