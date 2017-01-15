@@ -1,50 +1,35 @@
-<!Doctype html>
 <html>
 <head>
-  <title>SpeedTest</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.13/clipboard.min.js"></script>
-<script type="text/javascript">
-if (screen.width <= 699) {
-document.location = "https://jdc20181.github.io/SpeedTest/Mobile/m.html";
+   <!--<script type="text/javascript">
+if (screen.width >= 699) {
+document.location = "https://jdc20181.github.io/SpeedTest/speedtest.html";
 }
-
-</script>
-  
-     <link rel="stylesheet" type="text/css" href="holiday.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-  <!--<script> window.location = "http://jdc20181.github.io/SpeedTest/maintenance.html";</script>-->
+</script>-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.13/clipboard.min.js"></script>
+    <!--<script> window.location = "http://jdc20181.github.io/SpeedTest/maintenance.html";</script>-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script  async src="main.js"></script>
-<link rel="stylesheet" type="text/css" href="main.css">
+<script  async src="mobile.js"></script>
+<link rel="stylesheet" type="text/css" href="mobile.css">
+        <link rel="stylesheet" type="text/css" href="https://jdc20181.github.io/SpeedTest/holiday.css">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
 <META HTTP-EQUIV="Expires" CONTENT="-1">
-  <script type="text/javascript">
+     <script type="text/javascript">
  function showhide(id) {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
  }
 </script>
-
 </head>
-  <div id="snow">
-<body class="bodystyle">
-      <!--<div class="isa_info">
-         <button type='button' class='close' onclick='$(this).parent().remove();'>&#10007;</button>
-    <h3>Update!</h3>
-        <p>Accuracy Update!</p>
-        <p> Accuracy is the #1 priority and we have almost have it in the bag. Its less than ~0.21 MBPS off</p>
-        <p>Refer to the BPS and kbps to see the extended measurements. </p>
-        <p> New Version of the SpeedTest Guide has been released. </p>
-     
-  </div>-->
-
-<h1 id="progress">JavaScript is turned off, or your browser is realllllly slow</h1>
-  
-<br>
-
-<a class="collapse" href="javascript:showhide('uniquename')">Other Information</a>
+   <div id="snow"></div>
+  <div class="bar">
+     <a class="button" href="home.html"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    <h1>SpeedTest Mobile</h1>
+  </div>
+<div class="mobile">
+  <h1 id="progress">Your Internet is slow or JS is turned off </h1>
+ <!-- <a class="collapse" href="javascript:showhide('uniquename')">Other Information</a>
     <div id="uniquename" style="display:none;">
  <script>
    var OSName="Unknown OS";
@@ -52,7 +37,6 @@ if (navigator.appVersion.indexOf("Win")!=-1) OSName="Windows";
 if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS/IOS";
 if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
 if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux/Android";
-
 document.write('Your OS: '+OSName);
  </script>
  <br>
@@ -63,7 +47,6 @@ var browserName  = navigator.appName;
 var fullVersion  = ''+parseFloat(navigator.appVersion); 
 var majorVersion = parseInt(navigator.appVersion,10);
 var nameOffset,verOffset,ix;
-
 // In Opera, the true version is after "Opera" or after "Version"
 if ((verOffset=nAgt.indexOf("Opera"))!=-1) {
  browserName = "Opera";
@@ -108,13 +91,11 @@ if ((ix=fullVersion.indexOf(";"))!=-1)
    fullVersion=fullVersion.substring(0,ix);
 if ((ix=fullVersion.indexOf(" "))!=-1)
    fullVersion=fullVersion.substring(0,ix);
-
 majorVersion = parseInt(''+fullVersion,10);
 if (isNaN(majorVersion)) {
  fullVersion  = ''+parseFloat(navigator.appVersion); 
  majorVersion = parseInt(navigator.appVersion,10);
 }
-
 document.write(''
  +'Browser name:   '+browserName+'<br>'
  +'Full version:  '+fullVersion+'<br>'
@@ -124,30 +105,26 @@ document.write(''
 + 'Browser Online: ' + navigator.onLine + '<br>'
 )
  </script>
-
-</div>
+</div>-->
 <p><button  data-tooltip="Retake the SpeedTest"class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-refresh fa-spin"></i></button></p>
 
-<p><a class="button" href="http://jdc20181.github.io/SpeedTest/Speedtestguidepdf.pdf" Target=" _blank">Internet slow? See the guide to internet speed!</a></p>
+<p><a class="button" href="http://jdc20181.github.io/SpeedTest/Speedtestguidepdf.pdf" Target=" _blank"><i class="fa fa-file-pdf-o"></i>See the SpeedGuide</a></p>
 
-
-
-</body>
-  <body class="bodystyle3">
+<!--<p>
 <script type="text/javascript">
   var userip;
 </script>
-
+  </p>
 <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-
 <script type="text/javascript">
   document.write("Your IP is :", userip);
 </script>
-    <p>
+    <p>-->
+   <br>
     Share your results! 
- <a class="button btn" href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
+ <a class="button btn"  onclick="myFunction()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
 Copy Results
-</a>
+    </a>
 <script>
      var clipboard = new Clipboard('.btn');
     clipboard.on('success', function(e) {
@@ -157,8 +134,18 @@ Copy Results
         console.log(e);
     });
       </script>
-  </body>
-  </div>
+       <div id="snackbar">Copied!</div>
+   <script>
+      function myFunction() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+    // Add the "show" class to DIV
+    x.className = "show";
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+   </script>
+</div>
 </html>
 
 
