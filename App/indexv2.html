@@ -1,6 +1,7 @@
-<html>
+<html onload="move()" >
 <head>
     <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="progress.js"></script>
     <title>SpeedTest </title>
      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="main.css">
@@ -28,16 +29,22 @@ document.addEventListener('deviceready', function () {
         <head>
         <div id="bar">
         <h1> Welcome to SpeedTest! </h1>
+            </div>
         <body class="bodystyle">
      <p>   <a class="button" href="Home.html"> Continue </a></p>
-        <h2> News & Announcments </h2>
-        <p>
+        <h2> News and  Announcments </h2>
+        <br>
         <ul class="news">
         <li> New UI </li>
         <li> The Internet for everyone project has started. </li>
         <li> Fixed some pesky bugs. </li>
         <li> Made some general enhancments </li>
-        </ul></p>
+        </ul>
+            
+            <img src="speed-test-icon_converted.png">
+           <div id="myProgress">
+  <div id="myBar"></div>
+</div>
         </body>
         </html>
         
