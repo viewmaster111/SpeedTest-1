@@ -5,7 +5,7 @@ function move() {
   function frame() {
     if (width >= 100) {
       clearInterval(id);
-      window.location = "http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_label_js";
+      window.location = "Home.html";
     } else {
       width++; 
       elem.style.width = width + '%'; 
