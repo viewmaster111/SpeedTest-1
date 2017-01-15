@@ -1,4 +1,4 @@
-<html onload="move()" >
+<html>
 <head>
     <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="progress.js"></script>
@@ -30,8 +30,8 @@ document.addEventListener('deviceready', function () {
         <div id="bar">
         <h1> Welcome to SpeedTest! </h1>
             </div>
-        <body class="bodystyle">
-     <p>   <a class="button" href="Home.html"> Continue </a></p>
+        <body class="bodystyle" onload="move()">
+   <!--  <p>   <a class="button" href="Home.html"> Continue </a></p>-->
         <h2> News and  Announcments </h2>
         <br>
         <ul class="news">
@@ -40,11 +40,13 @@ document.addEventListener('deviceready', function () {
         <li> Fixed some pesky bugs. </li>
         <li> Made some general enhancments </li>
         </ul>
-            
+            <p> not loading? click <a href="Home.html">here</a> </p>
+                
             <img  class="img" src="speed-test-icon_converted.png">
            <div id="myProgress">
   <div id="myBar"></div>
 </div>
+            
         </body>
         </html>
         
