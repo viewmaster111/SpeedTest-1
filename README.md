@@ -1,3 +1,10 @@
+#Maintenance Version 1.3.4 Release Date Set!
+
+See the [Release Notes For Version 1.3.4](https://github.com/jdc20181/SpeedTest/wiki/Version-1.3.4--Release-Notes)
+
+The release will include changes for the upcoming holiday, those will come over the next week or so, depending on what obstacles I face. 
+
+
 #Upcoming Update Version 1.3.3 
 
 The update includes:
