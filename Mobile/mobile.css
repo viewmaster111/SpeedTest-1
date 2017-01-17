@@ -269,3 +269,8 @@ However, delay the fade out process for 2.5 seconds */
 .close2:hover {
     background: #00d9ff;
 }
+@media (max-width: 400px) {
+ .modalDialog > div {
+    width: 260px;
+  }
+}
