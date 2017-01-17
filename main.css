@@ -246,8 +246,8 @@ However, delay the fade out process for 2.5 seconds */
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid #1E90FF;
-    background-color:#1E90FF;
+    border: 1px solid #ff4081 /*#1E90FF*/;
+    background-color:#ff4081/*#1E90FF*/;
  
     }
 .back{
