@@ -22,7 +22,7 @@ ul{
   background-color:white;
  }
  .bodystyle{
-     background-color:#aad4e5;/*#A0522D #FF6347;*/
+     background-color:  #f50057/*#aad4e5*/;/*#A0522D #FF6347;*/
      text-align:center;
      float:center;
      /*color:#008000;*/
@@ -252,7 +252,7 @@ However, delay the fade out process for 2.5 seconds */
     }
 .back{
    float:left;
-   background-color:#1E90FF;
+   background-color: #ff4081 /*#1E90FF*/;
    color:white;
      border: none;
     padding: 15px 32px;
@@ -263,7 +263,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 .back:hover{
     color:white;
-   background-color: #039BE5;
+   background-color:#ff4081 /*#039BE5*/;
      border: none;
     padding: 15px 32px;
     text-align: center;
