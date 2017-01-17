@@ -36,8 +36,9 @@ html{
  
     }
     .mobile{
-    background-color:	#87CEFA;
+    background-color: #f50057	/*#87CEFA*/;
     text-align:center;
+        
     }
      a.collapse:link, a.collapse:visited{
     background-color:#f3f3f3;
