@@ -4,6 +4,18 @@ See the [Release Notes For Version 1.3.4](https://github.com/jdc20181/SpeedTest/
 
 The release will include changes for the upcoming holiday, those will come over the next week or so, depending on what obstacles I face. 
 
+*What changed so far*
+
+ - [x] Colors on both platforms have been changed. 
+ 
+ - [x] Removing the force to download the android app until its more stable. 
+
+ - [x] Fixed some issues with css
+ 
+ 
+ Maintenance is over, but my work isn't. More items will be added. 
+ 
+ 
 
 #Upcoming Update Version 1.3.3 
 
