@@ -323,3 +323,7 @@ However, delay the fade out process for 2.5 seconds */
 .close2:hover {
     background: #00d9ff;
 }
+.disabled{
+     cursor: not-allowed;
+     opacity: 0.6;
+}
