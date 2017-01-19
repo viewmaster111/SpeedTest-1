@@ -26,7 +26,9 @@ document.location = "https://jdc20181.github.io/SpeedTest/speedtest.html";
   <div class="bar">
   <a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i> </a> <h1>SpeedTest Mobile</h1>
   </div>
-<div class="mobile">
+<body class="mobile" onload="myFunction()">
+     <div id="loader"></div>
+   <div id="myDiv">
   <h1 id="progress">Your Internet is slow or JS is turned off </h1>
   <a href="#openModal" class="button">Other Information </a>
   <div id="openModal" class="modalDialog">
@@ -152,5 +154,17 @@ Copy Results
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
    </script>
-</div>
+   </div>
+   <!-- beta-->
+     <script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
 </html>
