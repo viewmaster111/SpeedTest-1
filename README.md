@@ -1,4 +1,4 @@
-#Maintenance Version 1.3.4 Release Date Set!
+#Version 1.3.4 Released.
 
 See the [Release Notes For Version 1.3.4](https://github.com/jdc20181/SpeedTest/wiki/Version-1.3.4--Release-Notes)
 
@@ -13,36 +13,6 @@ The release will include changes for the upcoming holiday, those will come over 
  - [x] Fixed some issues with css
  
  
- Maintenance is over, but my work isn't. More items will be added. 
- 
- 
-
-#Upcoming Update Version 1.3.3 
-
-The update includes:
-
- - [x] Bug Fixes and tweaks. 
- 
- - [X] UI Improvments (More to be applied.)
- 
- The new UI will  include:
- 
-  - Material Buttons which will appear Raised  with a shadow effect. 
-  - The Other Info section will now be a pop up. 
-  - The "SpeedTest" pages on both Mobile and desktop will feature a back button. 
-  - Other UI Tweaks to the mobile version will also be applied. 
-
-#maintenance!
-
-*Update* The maintenance isn't quite done, but it's been taken out of maintenance mode for now 
-
-
-After this week, maintenance will be done bi-weekly. A Schedule of down times - no more than a few hours will be posted soon. 
-
-Update: [here](https://github.com/jdc20181/SpeedTest/blob/gh-pages/maintenance.pdf) is the PDF of the schedule. Few notes: Not written in stone, The release dates are not guaranteed, not all were included. More or less maintenance could occur. 
-
-
-
  
  
 #Open Beta Tester version to be launched. *Now Launched!*
@@ -57,32 +27,7 @@ The [Open Beta Tester](https://github.com/jdc20181/SpeedTest/wiki/Open-Beta-Vers
 Thanks!
 
 
-#Version 1.3.2
 
-A few patches will be applied, and then a release will be out shortly after. Some downtime will occur over the next couple days. 
-
-This release will include:
-
- - [X] Small UI Tweaks.
- 
- - [X] Bug Fixes
- 
- - [X] Minor Tweaks on the backend. 
- 
- - [X] Release New Installation (replacing the Embed version)
- 
-The New Embed Version is now ready to use, see how to use it by reading the [installation guide](http://jdc20181.github.io/SpeedTest/portable.html)
-
- Update: I fixed some issues with the portable version, the new color scheme will change at the end of Feb. '17 and the minor tweaks will go unnoticed!
-
-*Main Issue*
-
- See [Issue #16](https://github.com/jdc20181/SpeedTest/issues/16)
- 
- 
- A issue with IOS devices and using the copy results feature has been found. Do not worry I am working on a fix. 
- Only occurs on IOS.
- 
 
 #A Project outlook of 2017
 
@@ -94,44 +39,6 @@ You can find those details <a href="https://github.com/jdc20181/SpeedTest/wiki/S
 <a href="https://github.com/jdc20181/SpeedTest/wiki/Embed-Version-Replacement-plan">See the plan here</a>
 
 
-
-#Version 1.3.0
-
-
-*Version 1.3.0.1 has been released!*
-
-This applies the new mobile site "Rules" Android users will be encouraged to install the app. 
-
-
-
-
-<a href="https://github.com/jdc20181/SpeedTest/wiki/New-Mobile-Site-Launch">New Mobile Site Launch Details </a>
-
-<a href="https://github.com/jdc20181/SpeedTest/wiki/Version-1.3.0-Features-Plans-and-more">Plans and features of Version 1.3.0</a>
-
-#Happy Holidays!
-
-<a href="http://jdc20181.github.io/SpeedTest/happyholidays.html">Happy Holidays from SpeedTest!</a>
-
-<!--#Version 1.2.5/1.2.6
-
-This is two individual releases to patch certain things. The first one was a emergency one to make sure it was functioning appropriately.
-
-*Version 1.2.6*
-
- - Made Mobile Site more accurate
- 
- - Changed the SpeedTest guide button text to prevent oversized width of buttons on some IOS devices (5,5S,6)
- 
-
-*Version 1.2.5*
- - Changed image format to JPG as PNG was creating SSL Protocol errors.
-
- - Fixed a few bugs making Speedtest more accurate.
-
- - Fixed a bug with the Happy Holidays page on IOS Safari
-
--->
 
 #Thanks!
 
