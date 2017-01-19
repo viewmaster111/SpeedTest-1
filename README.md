@@ -1,5 +1,10 @@
 #Version 1.3.4 Released.
 
+*Patch 1.3.4.1*
+
+Fixed a coding bug, resolving a issue with snackbar.
+
+*Main Release*
 See the [Release Notes For Version 1.3.4](https://github.com/jdc20181/SpeedTest/wiki/Version-1.3.4--Release-Notes)
 
 The release will include changes for the upcoming holiday, those will come over the next week or so, depending on what obstacles I face. 
