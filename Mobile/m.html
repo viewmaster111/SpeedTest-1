@@ -26,7 +26,7 @@ document.location = "https://jdc20181.github.io/SpeedTest/speedtest.html";
   <div class="bar">
   <a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i> </a> <h1>SpeedTest Mobile</h1>
   </div>
-<body class="mobile" onload="myFunction()">
+<body class="mobile" onload="Loader()">
      <div id="loader"></div>
    <div id="myDiv">
   <h1 id="progress">Your Internet is slow or JS is turned off </h1>
@@ -129,7 +129,7 @@ document.write(''
 </script>
     <p>
     Share your results! 
- <a class="button btn"  onclick="myFunction()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
+ <a class="button btn"  onclick="Results()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
 Copy Results
     </a>
 <script>
@@ -143,7 +143,7 @@ Copy Results
       </script>
        <div id="snackbar">Copied!</div>
    <script>
-      function myFunction() {
+      function Results() {
     // Get the snackbar DIV
     var x = document.getElementById("snackbar")
 
@@ -158,7 +158,7 @@ Copy Results
    <!-- beta-->
      <script>
 var myVar;
-function myFunction() {
+function Loader() {
     myVar = setTimeout(showPage, 3000);
 }
 function showPage() {
