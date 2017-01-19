@@ -33,7 +33,9 @@ document.location = "redirect.html";
   <div class="bar">
   <a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i> </a> <h1>SpeedTest Mobile</h1>
   </div>
-<body class="bodystyle">
+<body class="bodystyle" onload="myFunction()">
+    <div id="loader"></div>
+  <div id="myDiv">
       <!--<div class="isa_info">
          <button type='button' class='close' onclick='$(this).parent().remove();'>&#10007;</button>
     <h3>Update!</h3>
@@ -139,8 +141,8 @@ document.write(''
 
 
 
-</body>
-  <body class="bodystyle3">
+
+  <!--<body class="bodystyle3">-->
 <script type="text/javascript">
   var userip;
 </script>
@@ -189,7 +191,20 @@ Copy Results
         console.log(e);
     });
       </script>-->
+  </div>
+  
+  <script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
   </body>
+  
   </div>
 </html>
 
