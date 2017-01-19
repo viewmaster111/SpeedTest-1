@@ -4,13 +4,25 @@ See the [Release Notes For Version 1.3.4](https://github.com/jdc20181/SpeedTest/
 
 The release will include changes for the upcoming holiday, those will come over the next week or so, depending on what obstacles I face. 
 
-*What changed so far*
+This release includes:
 
- - [x] Colors on both platforms have been changed. 
- 
- - [x] Removing the force to download the android app until its more stable. 
+ - Removal of the "Loading" text, replaced with a loader. 
 
- - [x] Fixed some issues with css
+- Removal of Force Android App, you now have the option to download or use the browser version. 
+
+- Updated colors for the upcoming holiday 
+
+- Improved accuracy by nearly 90% (*based on a 10 RE-test survey*)
+
+- Better UI 
+
+- Fixed Back button on Mobile Version 
+
+-  IOS Copy Results issue is now resolved. 
+
+- Removed some unneccessary code 
+
+- General Enhancments
  
  
  
