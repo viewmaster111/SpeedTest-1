@@ -379,3 +379,6 @@ However, delay the fade out process for 2.5 seconds */
   display: none;
   text-align: center;
 }
+body{
+     margin: 0 0 0 0;
+}
