@@ -1,5 +1,14 @@
 #Version 1.3.4 Released.
 
+*Patch 1.3.4.2*
+
+Mobile Version Fixes:
+
+ - Bug fix [Issue 24](https://github.com/jdc20181/SpeedTest/issues/24)
+ 
+ - Minor Design Changes (Button color, and text color)
+ 
+ 
 *Patch 1.3.4.1*
 
 Fixed a coding bug, resolving a issue with snackbar.
