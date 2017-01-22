@@ -6,7 +6,7 @@
           <a class="back" href="Home.html"><span class="chevron left"></span></a>
     <h1>SpeedTest Mobile</h1>
   </div>
-<body class="bodystyle" id="myDiv" >
+<body class="bodystyle"  >
 
         <!-- Start of Async Drift Code -->
 <script>
@@ -34,16 +34,4 @@ drift.on('ready', function(){ drift.api.openChat() })
 </script>
 <!-- End of Async Drift Code -->
 </body>
-<div class="loader"></div>
-<script>
-var myVar;
 
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
