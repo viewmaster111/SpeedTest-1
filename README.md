@@ -1,5 +1,14 @@
 #Version 1.3.4 Released.
 
+*Patch 1.3.4.3*
+
+Fixed the Portable Installation instructions page. 
+
+Added a fix to Mobile Android Continue/Download page, less pages, just 1 page to download - instead of taking you to Android Page, Download Page , then Official Download page , it will take you directly to the download page when you select download. 
+
+Added other fixes. 
+
+
 *Patch 1.3.4.2*
 
 Mobile Version Fixes:
