@@ -1,0 +1,17 @@
+<html>
+<head>
+<script src="http://jdc20181.github.io/SpeedTest/Beta/html2canvas.js"></script>
+</head>
+<body>
+<h1> SOME PAGE TO TEST! </h1>
+<p>
+This is just a testing page! </p>
+<script>
+html2canvas(document.body, {
+  onrendered: function(canvas) {
+    document.body.appendChild(canvas);
+  }
+});
+</script>
+</body>
+</html>
