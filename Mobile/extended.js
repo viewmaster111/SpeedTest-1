@@ -11,7 +11,7 @@ function ShowProgressMessage(msg) {
         }
     }
     
-    var oProgress = document.getElementById("extended");
+    var oProgress = document.getElementById("T");
     if (oProgress) {
         var actualHTML = (typeof msg == "string") ? msg : msg.join("<br />");
         oProgress.innerHTML = actualHTML;
@@ -52,7 +52,7 @@ function MeasureConnectionSpeed() {
             "Your connection speed is:", 
             speedBps.toFixed(2) + " bps", 
             speedKbps.toFixed(2) + " kbps", 
-            speedMbps.toFixed(2) + " Mbps",
+           /* speedMbps.toFixed(2) + " Mbps",*/
         ]);
 }
 }
