@@ -27,7 +27,8 @@ document.location = "https://jdc20181.github.io/SpeedTest/speedtest.html";
           <a class="back" href="Home.html"><span class="chevron left"></span></a>
     <h1>SpeedTest Mobile</h1>
   </div>
-<div class="bodystyle">
+<div class="bodystyle" onload="loader();">
+       <div id="loader"></div>
   <h1 id="progress">Your Internet is slow or JS is turned off </h1>
  <!-- <a class="collapse" href="javascript:showhide('uniquename')">Other Information</a>
     <div id="uniquename" style="display:none;">
@@ -147,7 +148,16 @@ Copy Results
    </script>
 </div>
  
-
+ <script>
+var myVar;
+function loader() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 </html>
 
 
