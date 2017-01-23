@@ -10,10 +10,15 @@
 <div  id="hidden">
 <h1 id="extended">TEST</h1>
 </div>
-<script>
-function showDiv() {
-   document.getElementById('hidden').style.display = "block";
+   <script>
+      function showDiv(){
+            var x = document.getElementById('hidden');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
 }
-</script>
+   </script>
 </body>
 </html>
