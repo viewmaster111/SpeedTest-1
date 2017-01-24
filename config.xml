@@ -35,6 +35,6 @@ Jeffrey Crowder (A BeffsBrowser Project)
     <access origin="https://l2.io"/>
     <access origin="https://cdnjs.cloudflare.com" />
     <content src="index.html"></content>-->
-    <icon src="speed-test-icon_converted.png" />
+    <icon src="icon.png" />
 
 </widget>
