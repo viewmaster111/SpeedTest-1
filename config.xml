@@ -2,7 +2,7 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "kt.resworbsffeb"
-    version     = "1.4.1" >
+    version     = "1.4.1.1" >
     
 <platform name="android" />
 <!--<platform name="winphone" />-->
@@ -35,4 +35,6 @@ Jeffrey Crowder (A BeffsBrowser Project)
     <access origin="https://l2.io"/>
     <access origin="https://cdnjs.cloudflare.com" />
     <content src="index.html"></content>-->
+    <icon src="speed-test-icon_converted.png" />
+
 </widget>
