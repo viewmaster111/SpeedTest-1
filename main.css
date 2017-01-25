@@ -50,7 +50,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 .back{
    float:left;
-   background-color:/*#2962FF*/ #f3f3f3;
+   background-color:#ff4081; /*#2962FF*/ /*#f3f3f3*/
    color:white;
      border: none;
     padding: 15px 32px;
@@ -61,7 +61,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 .back:hover{
     color:white;
-   background-color: /*#039BE5*/ #f3f3f3;
+   background-color: #ff4081; /*#039BE5*/ /*#f3f3f3*/
      border: none;
     padding: 15px 32px;
     text-align: center;
