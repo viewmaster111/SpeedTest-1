@@ -1,3 +1,14 @@
+#Version 1.4.0 has been released. 
+
+The Release Notes are also available for [viewing](https://github.com/jdc20181/SpeedTest/wiki/Version-1.4.0-Release-Notes)
+
+ - Bug fixes
+ 
+ - Mobile Version improvments 
+ 
+ - Much much more!
+ 
+
 #The app is now stable!
 
 See [here](https://github.com/jdc20181/SpeedTest/wiki/Android-App-is-now-stable!) for details!
