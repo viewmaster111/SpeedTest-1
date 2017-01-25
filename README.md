@@ -1,3 +1,8 @@
+#The app is now stable!
+
+See [here](https://github.com/jdc20181/SpeedTest/wiki/Android-App-is-now-stable!) for details!
+
+
 #Version 1.3.4 Released.
 
 *Patch 1.3.4.3*
