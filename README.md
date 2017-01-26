@@ -1,5 +1,16 @@
 #Version 1.4.0 has been released. 
 
+*Patch 1.4.0.2*
+
+*Will be released later today*
+
+  - Minor Bug fixes 
+  
+  - Fix the text on button (*Mobile*)
+  
+  - Address a few other issues. 
+  
+  
 *Patch 1.4.0.1*
 
 Removed drift - Seems it was causing more trouble than it was worth, therefore it is now no longer part of SpeedTest, a new chat was added in replacement
