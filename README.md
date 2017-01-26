@@ -2,7 +2,6 @@
 
 *Patch 1.4.0.2*
 
-*Will be released later today*
 
   - Minor Bug fixes 
   
@@ -10,6 +9,7 @@
   
   - Address a few other issues. 
   
+  - Added a rule for mobile devices, concerning the notificatios button. 
   
 *Patch 1.4.0.1*
 
