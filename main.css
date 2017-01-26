@@ -382,3 +382,7 @@ However, delay the fade out process for 2.5 seconds */
 body{
      margin: 0 0 0 0;
 }
+ @media  (max-width: 524px) {
+.notify{
+    visibility:hidden;
+}
