@@ -9,7 +9,7 @@
   
   - Address a few other issues. 
   
-  - Added a rule for mobile devices, concerning the notificatios button. 
+  - Added a rule for mobile devices, concerning the notifications button. 
   
 *Patch 1.4.0.1*
 
