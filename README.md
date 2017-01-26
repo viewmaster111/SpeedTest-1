@@ -1,5 +1,12 @@
 #Version 1.4.0 has been released. 
 
+*Patch 1.4.0.1*
+
+Removed drift - Seems it was causing more trouble than it was worth, therefore it is now no longer part of SpeedTest, a new chat was added in replacement
+
+ - Minor text bug
+ 
+ 
 The Release Notes are also available for [viewing](https://github.com/jdc20181/SpeedTest/wiki/Version-1.4.0-Release-Notes)
 
  - Bug fixes
