@@ -333,15 +333,25 @@ However, delay the fade out process for 2.5 seconds */
   display: none;
   text-align: center;
 }
-@media screen and (max-device-width : 320px)
+@media only screen and (max-device-width : 320px)
 {
   body{
-    font-size:20px;
+    font-size:14px;
   }
 }
-@media screen and (max-device-width : 1204px)
+}
+@media only screen and (max-device-width : 500px)
+    {
+        body{
+            font-size:24px;
+        }
+}
+}
+      
+@media only screen and (max-device-width : 1204px)
 {
  body{
      font-size:40px;
   }
+}
 }
