@@ -1,6 +1,9 @@
-#maintenance Tomorrow!
+#maintenance Tomorrow *completed*
 
 Tomorrow I will be doing some changes that will make it unstable until they are complete. 
+
+Released Version 1.4.1!
+
 
 #Version 1.4.1 Slim UI
 
