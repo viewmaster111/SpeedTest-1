@@ -248,10 +248,10 @@ However, delay the fade out process for 2.5 seconds */
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
+    background: #f50057;
+   /* background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
-    background: -o-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);*/
 }
 .close2 {
     background: #606061;
@@ -272,7 +272,7 @@ However, delay the fade out process for 2.5 seconds */
     box-shadow: 1px 1px 3px #000;
 }
 .close2:hover {
-    background: #00d9ff;
+    background: #f50057;
 }
 @media (max-width: 400px) {
  .modalDialog > div {
