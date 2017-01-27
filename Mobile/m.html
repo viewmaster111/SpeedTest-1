@@ -31,8 +31,9 @@ document.location = "https://jdc20181.github.io/SpeedTest/speedtest.html";
 <body class="mobile" onload="Loader()">
      <div id="loader"></div>
    <div id="myDiv">
-  <h1 id="progress">Your Internet is slow or JS is turned off </h1>
-         <br>
+<p>   <a class="button btn" id="progress" onclick="Results()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress"></a></p>
+
+    <br>
   <a href="#openModal" class="button">Other Information </a>
   <div id="openModal" class="modalDialog">
     <div>	<a href="#close" title="Close" class="close2">X</a>
@@ -130,11 +131,7 @@ document.write(''
 <script type="text/javascript">
   document.write("Your IP is :", userip);
 </script>
-    <p>
-    Share your results! 
- <a class="button btn"  onclick="Results()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
-Copy Results
-    </a>
+   
 <script>
      var clipboard = new Clipboard('.btn');
     clipboard.on('success', function(e) {
