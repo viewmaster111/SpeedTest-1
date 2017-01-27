@@ -2,6 +2,21 @@
 
 Tomorrow I will be doing some changes that will make it unstable until they are complete. 
 
+#Version 1.4.1 Slim UI
+
+ - Fixed [issue #31](https://github.com/jdc20181/SpeedTest/issues/31)
+
+ - Adding new Slim UI
+
+ - Adding Text Size fixes for different screen sizes. 
+ 
+Read the details on the [Slim UI]( https://github.com/jdc20181/SpeedTest/wiki/Slim-UI-Coming-to-SpeedTest)
+
+*Slim UI is only going to be applied to the mobile version*
+
+
+ 
+ 
 #Version 1.4.0 has been released. 
 
 *Patch 1.4.0.2*
