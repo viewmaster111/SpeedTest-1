@@ -363,7 +363,13 @@ a.Results:hover, a.Results:active {
 @media only screen and (max-device-width : 1204px)
 {
  body{
-     font-size:60px;
+     font-size:35px;
   }
 }
+}
+@media only screen and (max-device-width: 1366px)
+    {
+        body{
+            font-size:50px;
+        }
 }
