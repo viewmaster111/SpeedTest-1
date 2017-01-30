@@ -1,4 +1,15 @@
+  a.Info:link, a.Info:visited {
+    background-color:#1E90FF;/*#f3f3f3*/
+    color:white;
+    /*padding: 14px 25px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 
+}
+a.Info:hover, a.Info:active {
+    background-color: #1E90FF;	/*#f3f3f3*/
+}
 body{
     margin:0;
 }
