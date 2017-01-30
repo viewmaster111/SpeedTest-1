@@ -1,6 +1,15 @@
 
 #Version 1.4.1 Slim UI
 
+*Patch 1.4.1.1*
+
+  - Removed Raised shadow on Results interface. 
+  - Experimental: Increased font size of results interface. 
+  - Experimental: Added ToolTip to Results interface. 
+  
+   
+*Main Release:*
+  
  - Fixed [issue #31](https://github.com/jdc20181/SpeedTest/issues/31)
 
  - Adding new Slim UI
