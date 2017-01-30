@@ -333,6 +333,18 @@ However, delay the fade out process for 2.5 seconds */
   display: none;
   text-align: center;
 }
+  a.Results:link, a.Results:visited {
+    background-color:#1E90FF;/*#f3f3f3*/
+    color:white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+a.Results:hover, a.Results:active {
+    background-color: #1E90FF;	/*#f3f3f3*/
+}
 @media only screen and (max-device-width : 320px)
 {
   body{
