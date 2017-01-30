@@ -1,6 +1,10 @@
 
 #Version 1.4.1 Slim UI
+*Patch 1.4.1.2*
 
+ - Tweaked the new "?" info button - removed styling for better look. 
+ 
+ 
 
 *Patch 1.4.1.1*
 
