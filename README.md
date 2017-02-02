@@ -1,5 +1,13 @@
 
 #Version 1.4.1 Slim UI
+
+*Patch 1.4.1.3*
+  - Changed over to HTTPS for a more secure connection. 
+  - Minor Code Tweaks
+  - Fixed glitch when screen size changes in certain intervals the text size should change also 
+  - Minor bug fixes
+  
+  
 *Patch 1.4.1.2*
 
  - Tweaked the new "?" info button - removed styling for better look. 
