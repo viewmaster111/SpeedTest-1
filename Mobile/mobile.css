@@ -358,14 +358,14 @@ a.Results:hover, a.Results:active {
 }
 @media only screen and (max-device-width : 320px)
 {
-  body{
+  .mobile{
     font-size:16px;
   }
 }
 }
 @media only screen and (max-device-width : 500px)
     {
-        body{
+        .mobile{
             font-size:29px;
         }
 }
@@ -373,14 +373,14 @@ a.Results:hover, a.Results:active {
       
 @media only screen and (max-device-width : 1204px)
 {
- body{
+ .mobile{
      font-size:35px;
   }
 }
 }
 @media only screen and (max-device-width: 1366px)
     {
-        body{
+        .mobile{
             font-size:50px;
         }
 }
