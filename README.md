@@ -72,56 +72,7 @@ The Release Notes are also available for [viewing](https://github.com/jdc20181/S
 See [here](https://github.com/jdc20181/SpeedTest/wiki/Android-App-is-now-stable!) for details!
 
 
-#Version 1.3.4 Released.
 
-*Patch 1.3.4.3*
-
-Fixed the Portable Installation instructions page. 
-
-Added a fix to Mobile Android Continue/Download page, less pages, just 1 page to download - instead of taking you to Android Page, Download Page , then Official Download page , it will take you directly to the download page when you select download. 
-
-Added other fixes. 
-
-
-*Patch 1.3.4.2*
-
-Mobile Version Fixes:
-
- - Bug fix [Issue 24](https://github.com/jdc20181/SpeedTest/issues/24)
- 
- - Minor Design Changes (Button color, and text color)
- 
- 
-*Patch 1.3.4.1*
-
-Fixed a coding bug, resolving a issue with snackbar.
-
-*Main Release*
-See the [Release Notes For Version 1.3.4](https://github.com/jdc20181/SpeedTest/wiki/Version-1.3.4--Release-Notes)
-
-The release will include changes for the upcoming holiday, those will come over the next week or so, depending on what obstacles I face. 
-
-This release includes:
-
- - Removal of the "Loading" text, replaced with a loader. 
-
-- Removal of Force Android App, you now have the option to download or use the browser version. 
-
-- Updated colors for the upcoming holiday 
-
-- Improved accuracy by nearly 90% (*based on a 10 RE-test survey*)
-
-- Better UI 
-
-- Fixed Back button on Mobile Version 
-
--  IOS Copy Results issue is now resolved. 
-
-- Removed some unneccessary code 
-
-- General Enhancments
- 
- 
  
  
 #Open Beta Tester version to be launched. *Now Launched!*
