@@ -275,7 +275,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 .fontbutton{
      border: 1px solid white;
-
+     float:right;
 }
  .modalDialog {
     position: fixed;
