@@ -272,6 +272,27 @@ However, delay the fade out process for 2.5 seconds */
     font-size: 16px;
 
 }
+.fontbutton{
+    float:right;
+   background-color:#3f3f3f;
+   color:white;
+     border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.fontbutton:hover{
+    color:white;
+   background-color: #3f3f3f;
+     border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
  .modalDialog {
     position: fixed;
     font-family: Arial, Helvetica, sans-serif;
