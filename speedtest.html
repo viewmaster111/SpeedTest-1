@@ -30,7 +30,9 @@ document.location = "redirect.html";
 </head>
   <div id="hearts"></div>
   <div class="bar">
-  <a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i> </a> <h1>SpeedTest</h1>
+  <a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i> </a> <h1>SpeedTest</h1> <a class="button" href="#" onclick="largefont()"><i class="fa fa-font fa-1x" aria-hidden="true"></i>
+</a><a class="button" href="#" onclick="normalfont()"><i class="fa fa-font" aria-hidden="true"></i>
+</a>
   </div>
 <body class="bodystyle" onload="myFunction()">
     <div id="loader"></div>
@@ -138,9 +140,16 @@ document.write(''
 
 <p><a class="button" href="http://jdc20181.github.io/SpeedTest/Speedtestguidepdf.pdf" Target=" _blank">Internet slow? See the guide to internet speed!</a></p>
 
-
-
-
+<script>
+function largefont() {
+    document.getElementById("myDiv").style.fontSize = "30px";
+}
+</script>
+    <script>
+function normalfont() {
+    document.getElementById("myDiv").style.fontSize = "15px";
+}
+</script>
   <!--<body class="bodystyle3">-->
 <script type="text/javascript">
   var userip;
