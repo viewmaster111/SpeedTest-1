@@ -26,7 +26,7 @@ ul{
      text-align:center;
      float:center;
      /*color:#008000;*/
-     color:white;
+     /*color:white;*/
    }
    a.collapse:link, a.collapse:visited{
     background-color:#1E90FF;
