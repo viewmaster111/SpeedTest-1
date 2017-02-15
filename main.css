@@ -27,6 +27,7 @@ ul{
      float:center;
      /*color:#008000;*/
      color:white;
+     font-size:15px;
    }
    a.collapse:link, a.collapse:visited{
     background-color:#1E90FF;
