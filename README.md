@@ -25,7 +25,7 @@ There are some changes to be made over the next couple days.
    It seems the color scheme change isn't just right, and so I am going to take tomorrow to sort it out, and make some fixes in the code - overall it will take 2-3 weeks to get this done completly, but the changes will reduce the code greatly. And increase performance. 
  The reason it is going to take so much time is because there is a lot of code to mess around with - And it will take some extra time to make some changes to better your experience. 
  
- See the [wiki](https://github.com/jdc20181/SpeedTest/wiki/1.4.2.1-Release-Notes-New--aFeaturesnd-more) for more details as well as some new features. 
+ See the [wiki](https://github.com/jdc20181/SpeedTest/wiki/1.4.2.1-Release-Notes-New-Features-and-more) for more details as well as some new features. 
  
  **App Update**
  
