@@ -302,14 +302,14 @@ However, delay the fade out process for 2.5 seconds */
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
     border-radius: 10px;
-    background: #00FA9A;
+    background: #333;
    /* background: -moz-linear-gradient(#fff, #999);
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);*/
 }
 .close2 {
-    background: #606061;
-    color: white;
+    background: white;
+    color: black;
     line-height: 25px;
     position: absolute;
     right: -12px;
@@ -326,7 +326,8 @@ However, delay the fade out process for 2.5 seconds */
     box-shadow: 1px 1px 3px #000;
 }
 .close2:hover {
-    background:	#90EE90;
+    background:	#333;
+    color:white;
 }
 .disabled{
      cursor: not-allowed;
