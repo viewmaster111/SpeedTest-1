@@ -1,5 +1,17 @@
 #Version 1.4.2 Maintenance
 
+
+*Patch 1.4.2.1*
+
+ - Restructured the Files, All pages excluding the index are in the 'Pages' Folder, Styles are located at '/Pages/Styles' and Scripts '/Pages/Scripts'
+ 
+ - Bug Fix, when I fixed the issues with not readable text I forgot to fix add the fix for the "Other Info" dialog. 
+ 
+ 
+
+
+
+*Main release*
 There are some changes to be made over the next couple days. 
 
    - Color Fixes
