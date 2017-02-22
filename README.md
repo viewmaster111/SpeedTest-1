@@ -1,6 +1,21 @@
+
+
 #Version 1.4.2 Maintenance
 
 
+
+**UPCOMING** *Patch 1.4.2.2*
+
+ - Adding Private Policy & TOS in regards with User Accounts once available you will be under both of those. 
+ 
+ - Adding fixes that will improve performance. 
+ 
+ - Adding Footer, License page. 
+
+ - More info to be added.
+ 
+ 
+ 
 *Patch 1.4.2.1*
 
  - Restructured the Files, All pages excluding the index are in the 'Pages' Folder, Styles are located at '/Pages/Styles' and Scripts '/Pages/Scripts'
