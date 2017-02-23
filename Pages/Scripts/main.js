@@ -44,7 +44,7 @@ function MeasureConnectionSpeed() {
     
  function showResults() {
         var duration = (endTime - startTime) / 1000;
-        var bitsLoaded = downloadSize * 9 ; /* Experment: Change Var from 8 to 9 */
+        var bitsLoaded = downloadSize * 10 ; /* Experment: Change Var from 8 to 10 */
         var speedBps = (bitsLoaded / duration);
         var speedKbps = (speedBps / 1024);
         var speedMbps = (speedKbps / 1024);
