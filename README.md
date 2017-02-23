@@ -1,3 +1,13 @@
+#Performance Enhancments Experiment. 
+
+A Experiment was conducted to try and capture the speed to a certain extent that will greatly improve results but be accurate on any bandwidth (Speed). 
+
+While SpeedTest can *not* be 100% accurate we sure can try and be as accurate as possible. 
+
+So, I ran a little experiment by playing with some varibles I was able to increase the results. Improving accuracy. This was just increasing a varible in the equation that solves the problem, which is what your speed is. So I fixed a bug, or a enhancment that was needed. 
+
+Either way I wrote up a final analysis of my review - See this [here](https://github.com/jdc20181/SpeedTest/wiki/Minor-Code-Adjustments-Greatly-Improved-Accuracy---The-Patch-1.4.2.2-Experiment)
+
 
 
 #Version 1.4.2 Maintenance
