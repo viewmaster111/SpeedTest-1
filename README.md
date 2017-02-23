@@ -15,7 +15,14 @@ So, I ran a little experiment by playing with some varibles I was able to increa
 
 Either way I wrote up a final analysis of my review - See this [here](https://github.com/jdc20181/SpeedTest/wiki/Minor-Code-Adjustments-Greatly-Improved-Accuracy---The-Patch-1.4.2.2-Experiment)
 
+  *Issues with accuracy on  mobile devices while using wifi - Explained*
+  
+As it seems, there is a issue displaying accurate results while on wifi and on a smartphone or tablet. However, on Cell Data it seems to be accurate - but it is very close on wifi. Due to it being wifi you can see up to a 10 mbps (depending on what your top speed is) difference. 
 
+I usually see about a 5 mbps speed difference which is fine. Other tests seem to be a little more accurate but still in close range. 
+
+
+  
 
 #Version 1.4.2 Maintenance
 
@@ -26,6 +33,12 @@ Either way I wrote up a final analysis of my review - See this [here](https://gi
   - Improvments in accuracy. 
   
   - Cache Fixes. 
+  
+  - Added Performance enhancments for Mobile Version 
+  
+  
+
+  
 
  *Patch 1.4.2.2  Completed*
 
