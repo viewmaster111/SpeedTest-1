@@ -1,26 +1,7 @@
-#Down-Time 2/23/17
 
-Downtime will come in intervals of brief periods. I  am working on enhancments that will make the application improve overall. 
+#Update on fixes
 
-Thanks for using SpeedTest
-
-
-#Performance Enhancments Experiment. 
-
-A Experiment was conducted to try and capture the speed to a certain extent that will greatly improve results but be accurate on any bandwidth (Speed). 
-
-While SpeedTest can *not* be 100% accurate we sure can try and be as accurate as possible. 
-
-So, I ran a little experiment by playing with some varibles I was able to increase the results. Improving accuracy. This was just increasing a varible in the equation that solves the problem, which is what your speed is. So I fixed a bug, or a enhancment that was needed. 
-
-Either way I wrote up a final analysis of my review - See this [here](https://github.com/jdc20181/SpeedTest/wiki/Minor-Code-Adjustments-Greatly-Improved-Accuracy---The-Patch-1.4.2.2-Experiment)
-
-  *Issues with accuracy on  mobile devices while using wifi - Explained*
-  
-As it seems, there is a issue displaying accurate results while on wifi and on a smartphone or tablet. However, on Cell Data it seems to be accurate - but it is very close on wifi. Due to it being wifi you can see up to a 10 mbps (depending on what your top speed is) difference. 
-
-I usually see about a 5 mbps speed difference which is fine. Other tests seem to be a little more accurate but still in close range. 
-
+It seems a longterm fix will take some time, but I am making adjustments accordingly to fix any issues 
 
   
 
