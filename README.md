@@ -1,3 +1,10 @@
+#Down-Time 2/23/17
+
+Downtime will come in intervals of brief periods. I  am working on enhancments that will make the application improve overall. 
+
+Thanks for using SpeedTest
+
+
 #Performance Enhancments Experiment. 
 
 A Experiment was conducted to try and capture the speed to a certain extent that will greatly improve results but be accurate on any bandwidth (Speed). 
