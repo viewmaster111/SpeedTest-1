@@ -1,5 +1,5 @@
-var imageAddr = "https://jdc20181.github.io/testpics/Random2.txt"; 
-var downloadSize = 618496; //bytes
+var imageAddr = "https://jdc20181.github.io/testpics/NewTestImage2017.jpg"; 
+var downloadSize = 737280; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
         if (typeof msg == "string") {
