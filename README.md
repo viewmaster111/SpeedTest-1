@@ -19,9 +19,15 @@ Either way I wrote up a final analysis of my review - See this [here](https://gi
 
 #Version 1.4.2 Maintenance
 
+**Upcoming** *Final Patch 1.4.2.3*
 
+  - Last few enhancments
+  
+  - Improvments in accuracy. 
+  
+  - Cache Fixes. 
 
-**UPCOMING** *Patch 1.4.2.2*
+ *Patch 1.4.2.2  Completed*
 
  - Adding Private Policy & TOS in regards with User Accounts once available you will be under both of those. 
  
