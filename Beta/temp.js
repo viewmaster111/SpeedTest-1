@@ -1,4 +1,4 @@
-var imageAddr = "https://jdc20181.github.io/testpics/NewTestImage2017.jpg"; 
+var imageAddr = "https://jdc20181.github.io/testpics/NewTestImage2017.JPG"; 
 var downloadSize = 737280; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
