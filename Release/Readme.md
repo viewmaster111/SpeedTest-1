@@ -1,3 +1,9 @@
+**Important Upgrade Notice**
+
+I have switched over to HTTPS it is secure, and user's are more comfortable with secure websites now days. You can still use the HTTPS script but you will just have a messge from chrome that its being loaded over HTTP if you are annoyed by this just replace https with http.
+
+**End Notice**
+
 #Installation 
 
 You will need to use your *Own* CSS!
@@ -10,7 +16,7 @@ The first option is for developers ONLY. And shouldn't be used by anyone if you 
 
 Step 1 Add Reference to JS :
 
-`<script type="text/javascript" src="http://jdc20181.github.io/SpeedTest/Release/mainv1.min.js"></script>`
+`<script type="text/javascript" src="https://jdc20181.github.io/SpeedTest/Release/SpeedTestV120.js"></script>`
 
 **Important**
 
