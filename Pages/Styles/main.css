@@ -1,20 +1,29 @@
-/* unvisited link */
+footer{
+        background-color:#333;
+        color:white;
+}
+
 a:link {
 text-decoration:none;
+    color:white
         }
+
 /* visited link */
 a:visited {
 text-decoration:none;
-    
+    color:white
 }
+
 /* mouse over link */
 a:hover {
 text-decoration:none;
-    
+   color:white;
 }
+
 /* selected link */
 a:active {
 text-decoration:none;
+   color:white
 }
 table, th, td {
     border: 1px solid black;
