@@ -15,8 +15,9 @@ font-size:16px; /*Default Size*/
 }
 </style>
 </head>
-<body class="bodystyle">
-
+<body class="bodystyle" onload="myFunction()">
+ <div id="loader"></div>
+  <div id="myDiv">
 <h2>Installation instructions:</h2>
 	<br>
 You will need to use your Own CSS!
@@ -72,6 +73,17 @@ $(document).ready(function(){
         console.log(e);
     });
 	</script>
+	</div>
+	  <script>
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
  </body>
 	      <footer>
           Copyright &#169; 2016-2017 SpeedTest A BeffsBrowser Project &#183;
