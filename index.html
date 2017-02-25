@@ -26,7 +26,9 @@
 
 </head>
       
-<body class="bodystyle">
+<body class="bodystyle" onload="myFunction()">
+     <div id="loader"></div>
+  <div id="myDiv">
   <div class="isa_info">
   
          <button type='button' class='close' onclick='$(this).parent().remove();'>&#10007;</button>
@@ -58,8 +60,18 @@ To Begin your Speed Test just hit the button below!
 
           <!--Add the following script at the bottom of the web page (immediately before the </body> tag)-->
 <script type="text/javascript" async="async" defer="defer" data-cfasync="false" src="https://mylivechat.com/chatinline.aspx?hccid=35333936"></script>
-     
-      
+    </div>
+        <script>
+            
+var myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
        </body>
         
        <footer>
