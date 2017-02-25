@@ -4,7 +4,7 @@ Version 1.2.0
    
    - Added a fix to the accuracy issues. 
    
-   - Added Cell Data Version (Beta)
+   - Added Mobile Version (Beta)
 
 Please see [here](https://github.com/jdc20181/SpeedTest/wiki/Upgrading-to-new-Portable-Version---Version-1.2.0)
 
