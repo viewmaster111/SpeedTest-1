@@ -6,7 +6,6 @@ Version 1.2.0
    
    - Added Mobile Version (Beta)
 
-Please see [here](https://github.com/jdc20181/SpeedTest/wiki/Upgrading-to-new-Portable-Version---Version-1.2.0)
 
 
 Version 1.1.0
