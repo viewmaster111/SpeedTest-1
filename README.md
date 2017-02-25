@@ -17,6 +17,13 @@ It seems a longterm fix will take some time, but I am making adjustments accordi
   
   - Added Performance enhancments for Mobile Version 
   
+  - Bug fix: Android Redirect Page was giving a error 404. 
+  
+  - Bug Fix CSS not on the Android Options page. Fixed. Capitalized the  "m" in main.css
+  
+  - Other misc fixes. 
+  
+  - Added a About Page this will be the new landing page, and will also hold info on announcments. These changes will come in a later release. 
   
 
   
