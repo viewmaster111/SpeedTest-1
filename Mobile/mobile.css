@@ -1,4 +1,37 @@
-  a.Info:link, a.Info:visited {
+  footer{
+        background-color:#333;
+        color:white;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        Text-align:center;
+}
+
+a:link {
+text-decoration:none;
+    color:white
+        }
+
+/* visited link */
+a:visited {
+text-decoration:none;
+    color:white
+}
+
+/* mouse over link */
+a:hover {
+text-decoration:none;
+   color:white;
+}
+
+/* selected link */
+a:active {
+text-decoration:none;
+   color:white
+}
+a.Info:link, a.Info:visited {
     color:white;
     padding: 14px 25px;
     text-align: center;
