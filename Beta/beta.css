@@ -1,9 +1,9 @@
 /*Warning: Some of the following css is part of the Beta Version. NOT FOR PRODUCTION USE. */
 .bodystyle{
-     background-color:#aad4e5;/*#A0522D #FF6347;*/
+     background-color: #333;
      text-align:center;
      float:center;
-     color:#008000;
+     color: white ;
    }
 .refreshbutton {
     background-color:	#32CD32; 
