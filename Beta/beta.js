@@ -43,9 +43,9 @@ function MeasureConnectionSpeed() {
     download.src = imageAddr + cacheBuster;
     
  function showResults() {
-        var duration = (endTime - startTime) / 1000 *1.1;
-        var bitsLoaded = downloadSize * 8;
-        var speedBps = (bitsLoaded / duration *1.1);
+        var duration = (endTime - startTime) / 1000;
+        var bitsLoaded = downloadSize * 8 * 1.1;
+        var speedBps = (bitsLoaded / duration);
         var speedKbps = (speedBps / 1024);
         var speedMbps = (speedKbps / 1024);
         ShowProgressMessage([
