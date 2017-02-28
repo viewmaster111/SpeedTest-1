@@ -64,7 +64,13 @@ Some Third-Party Components:
    
    - Li.IO (Provides your IP address more accurate)
    
-   
+#Installation 
+
+Installing is pretty easy. All you have to do is go [here](https://jdc20181.github.io/SpeedTest/Pages/portable.html) and follow the directions - There is even a extender guide, to get the most out of this project for your own use. 
+
+This is a live project meaning it isn't really a library - but you can def. use this in your project but following that guide. 
+
+CSS as well as set up is on you. All other design is copyrighted. And shouldn't be used. Please incorporate your own project. The portable version is for those who want or need such utility. 
    
 #Version info. 
 
