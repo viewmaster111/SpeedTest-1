@@ -25,7 +25,21 @@
 <!--End StyleSheets-->
 </head>
 <div class="bar"> 
-<a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a> <h1> SpeedTest </h1></div>
+<a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a> 
+  <h1> SpeedTest </h1>      <a href="#openModal" class="button"><i class="fa fa-font" aria-hidden="true"></i></a>
+  <div id="openModal" class="modalDialog">
+    <div>	<a href="#close" title="Close" class="close2">X</a></div>
+    <p> Make the font larger 
+      <br>
+      <a class="button" href="#" onclick="LargeFont()"><i class="fa fa-font fa-2x" aria-hidden="true"></i></a>
+    <br>
+    Too big? Go back to normal!
+    <a class="button" href="#" onclick="NormalFont()"><i class="fa fa-font" aria-hidden="true"></i> </a>
+      </p>
+  </div>
+    
+    
+   
 <body class="bodystyle" onload="LoaderFunction()">
     <div id="loader"></div>
   <div id="myDiv">
@@ -40,6 +54,7 @@ Copy Results
     </p>
     
     <!--Scripts-->
+    
 <script>
      var clipboard = new Clipboard('.btn');
     clipboard.on('success', function(e) {
@@ -80,7 +95,17 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 </script>
-
+<!--- Other Scripts-->
+  <script>
+function LargeFont() {
+    document.getElementById("myDiv").style.fontSize = "30px";
+}
+</script>
+    <script>
+function NormalFont() {
+    document.getElementById("myDiv").style.fontSize = "15px";
+}
+</script>
 </body>
 
 </html>
