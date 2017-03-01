@@ -1,13 +1,14 @@
+#Version 1.4.3 Announcment
 
-#Update on fixes
+This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
 
-It seems a longterm fix will take some time, but I am making adjustments accordingly to fix any issues 
+The IP And other information features are not in this Temp page. They will be added back soon!
 
-  
+
 
 #Version 1.4.2 Maintenance
 
-**Upcoming** *Final Patch 1.4.2.3*
+ *Final Patch 1.4.2.3*
 
   - Last few enhancments
   
