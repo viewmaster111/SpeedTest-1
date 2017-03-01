@@ -1,15 +1,11 @@
 <html>
-<head>
-    <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="progress.js"></script>
-    <title>SpeedTest </title>
+    <head>
      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" href="Framework.css">
+      <script type="text/javascript" src="progress.js"></script>
       <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="Framework.css">
-       <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
-    <META HTTP-EQUIV="Expires" CONTENT="-1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-      <script>
+      <script type="text/javascript" src="cordova.js"></script>
+        <script>
 document.addEventListener('deviceready', function () {
   // Enable to debug issues.
   // window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
@@ -27,32 +23,23 @@ document.addEventListener('deviceready', function () {
   // window.plugins.OneSignal.syncHashedEmail(userEmail);
 }, false);
         </script>
-        <head>
-        <div id="bar">
-        <h1> Welcome to SpeedTest! </h1>
-            </div>
-        <body class="bodystyle" onload="move()">
-   <!--  <p>   <a class="button" href="Home.html"> Continue </a></p>-->
-        <h2> News and  Announcments </h2>
+    </head>
+    
+    <div class="bar"> <h1> SpeedTest </h1> </div> 
+    <body class="bodystyle" onload="move()">
+            <p> 
+                Welcome to SpeedTest for Android. 
+        </p>
+        <p>
+            The app is currently loading. You will be redirected to the home page in a few moments. </p>
         <br>
-        <ul class="news">
-            <li> Added Color changes </li>
-            <li> Added some bug fixes </li>
-            <li> progress bar is now a bit faster, and also shows the percentage </li>
-            <li> better loading </li>
-            <li> Added loader on Speed page. </li>
-        </ul>
-            <p> not loading? click <a href="Home.html">here</a> </p>
-                
+              
             <img  class="img" src="speed-test-icon_converted.png">
             <br>
-            <div id="label"></div>
-           <div id="myProgress">
+          <div id="label"></div>
+          <div id="myProgress">
   <div id="myBar"></div>
-</div>
-            
-        </body>
-        </html>
-        
+     </div>
+    </body>
        
    
