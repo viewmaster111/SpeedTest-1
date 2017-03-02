@@ -4,7 +4,21 @@ This release will begin with a temp SpeedTest page. This page will be similar to
 
 The IP And other information features are not in this Temp page. They will be added back soon!
 
+*Main Release*
 
+  - Bug Fixes
+  
+  - Coding Organizing. 
+  
+  - Fix: Adjusted Title Size for mobile devices, it was simply too large. 
+  
+  - Fix: Added a Dialog for adjusting Fonts. 
+  
+  - Fix: Removed Footer for fixes. 
+  
+  - Fix: Resolved several issues. 
+  
+  - Other changes to features of SpeedTest are in progress. 
 
 #Version 1.4.2 Maintenance
 
