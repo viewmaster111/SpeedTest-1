@@ -66,10 +66,6 @@ ul{
  font-size:40px;
  font-weight:bold;
 }
-html{
-    background-color:  #f50057; /*#87CEFA*/
-    margin:0;
-}
 .bar{
     list-style-type: none;
     text-align:center;
