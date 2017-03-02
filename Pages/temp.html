@@ -45,9 +45,21 @@
   <div id="myDiv">
   <h1 id="progress">JavaScript is turned off, or your browser is realllllly slow</h1>
  <p><button  data-tooltip="Retake the SpeedTest"class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-refresh fa-spin"></i></button></p>
- <p>
+ 
+    <p> 
+      <script type="text/javascript">
+  var userip;
+</script>
+
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+<script type="text/javascript">
+  document.write("Your IP is :", userip);
+</script>
+    </p>
+    <p>
     Share your results! 
-      
+      <br>
        <a class="button btn"  onclick="Results()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
 Copy Results
     </a>
