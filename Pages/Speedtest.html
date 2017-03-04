@@ -30,8 +30,8 @@ document.location = "redirect.html";
 <!--End StyleSheets-->
 </head>
 <div class="bar"> 
-<a href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a> 
-  <h1> SpeedTest </h1>      <a href="#openModal" class="back"><i class="fa fa-font" aria-hidden="true"></i></a>
+<a data-tooltip="Go to the SpeedTest StartPage" href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a> 
+  <h1> SpeedTest </h1>      <a data-tooltip="Increase Font-Size, or set it back to normal." href="#openModal" class="back"><i class="fa fa-font" aria-hidden="true"></i></a>
   <div id="openModal" class="modalDialog">
     <div>	<a href="#close" title="Close" class="close2">X</a>
          <p> Make the font larger 
@@ -49,7 +49,7 @@ document.location = "redirect.html";
     <div id="loader"></div>
   <div id="myDiv">
   <h1 id="progress">JavaScript is turned off, or your browser is realllllly slow</h1>
- <p><button  data-tooltip="Retake the SpeedTest"class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-refresh fa-spin"></i></button></p>
+ <p><button  data-tooltip="Retake the SpeedTest" class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-refresh fa-spin"></i></button></p>
  
     <p> 
       <script type="text/javascript">
