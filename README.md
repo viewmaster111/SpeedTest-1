@@ -1,9 +1,24 @@
-#Version 1.4.3 Announcment
+#Version 1.4.3 
 
-This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
+*This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
+The IP And other information features are not in this Temp page. They will be added back soon!*
 
-The IP And other information features are not in this Temp page. They will be added back soon!
+*Patch Release 1.4.3.1*
 
+  - Addressed [Issue #38](https://github.com/jdc20181/SpeedTest/issues/38)
+  
+  - Adjusted tool-tip using a different styling method to prevent the overlap that still occured. 
+  
+  - Added a Copy Icon - Remvoving the Copy results text
+  
+  - Added a tooltip to the copy results button 
+  
+  - Adjusted Icon Sizes.
+  
+  - Adjusted the Header on mobile devices, now instead of using a heading element using custom css based on size. 
+  
+  - Other visual enhancments
+  
 *Main Release*
 
   - Bug Fixes
