@@ -402,6 +402,7 @@ a.Results:hover, a.Results:active {
     {
        .h1{
  text-align:center;
+         text-align:center;
     color:white;
     font-size: 20.8px;
   }
@@ -415,6 +416,7 @@ a.Results:hover, a.Results:active {
 {
    .h1{
  text-align:center;
+    text-align:center;
     color:white;
     font-size:  32px;
   }
@@ -426,9 +428,10 @@ a.Results:hover, a.Results:active {
 @media only screen and (max-device-width: 1366px)
     {
         .h1{
- text-align:center;
+    text-align:center;
     color:white;
     font-size:  32px;
+    text-align:center;
   }
         .mobile{
             font-size:50px;
