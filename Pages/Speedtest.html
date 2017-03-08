@@ -28,10 +28,38 @@ document.location = "redirect.html";
 <link rel="stylesheet" type="text/css" href="./Styles/main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 <!--End StyleSheets-->
+  <!--Special Styling-->
+  <style type="text/css">
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+  </style>
 </head>
 <div class="bar"> 
 <a data-tooltip="Go to the SpeedTest StartPage" href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a> 
-  <h1> SpeedTest </h1>      <a data-tooltip="Adjust Font Size." href="#openModal" class="back"><i class="fa fa-font" aria-hidden="true"></i></a>
+  <h1> SpeedTest </h1>   <a  href="#openModal" class="back tooltip"><i class="fa fa-font" aria-hidden="true"></i><span class="tooltiptext">Adjust Font Size.</span></a>
   <div id="openModal" class="modalDialog">
     <div>	<a href="#close" title="Close" class="close2">X</a>
          <p> Make the font larger 
