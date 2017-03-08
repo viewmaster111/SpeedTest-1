@@ -111,6 +111,7 @@ a.button:hover, a.button:active {
 .h1{
  text-align:center;
     color:white;
+  
 }
 .h2{
  text-align:center;
@@ -387,6 +388,11 @@ a.Results:hover, a.Results:active {
 }
 @media only screen and (max-device-width : 320px)
 {
+  .h1{
+ text-align:center;
+    color:white;
+    font-size: 20.8px;
+  }
   .mobile{
     font-size:16px;
   }
@@ -394,6 +400,11 @@ a.Results:hover, a.Results:active {
 }
 @media only screen and (max-device-width : 500px)
     {
+       .h1{
+ text-align:center;
+    color:white;
+    font-size: 20.8px;
+  }
         .mobile{
             font-size:29px;
         }
@@ -402,6 +413,11 @@ a.Results:hover, a.Results:active {
       
 @media only screen and (max-device-width : 1204px)
 {
+   .h1{
+ text-align:center;
+    color:white;
+    font-size:  32px;
+  }
  .mobile{
      font-size:35px;
   }
@@ -409,6 +425,11 @@ a.Results:hover, a.Results:active {
 }
 @media only screen and (max-device-width: 1366px)
     {
+        .h1{
+ text-align:center;
+    color:white;
+    font-size:  32px;
+  }
         .mobile{
             font-size:50px;
         }
