@@ -5,7 +5,7 @@ function move() {
   function frame() {
     if (width >= 100) {
       clearInterval(id);
-      window.location = "Home.html";
+      window.location = "SpeedTest.html";
     } else {
       width++; 
       elem.style.width = width + '%'; 
