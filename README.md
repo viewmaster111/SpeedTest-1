@@ -1,3 +1,7 @@
+#HTTPS Security
+
+See [Issue 41](https://github.com/jdc20181/SpeedTest/issues/41)
+
 #Version 1.4.3 
 
 *This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
