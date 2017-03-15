@@ -1,15 +1,15 @@
-#St Patricks' Day!
+# St Patricks' Day!
 
 
 Have a wonderful St Patricks' Day!
 
 I applied a small special something for the occassion. It will be back to normal Next Monday. 
 
-#HTTPS Security
+# HTTPS Security
 
 See [Issue 41](https://github.com/jdc20181/SpeedTest/issues/41)
 
-#Version 1.4.3 
+# Version 1.4.3 
 
 *This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
 The IP And other information features are not in this Temp page. They will be added back soon!*
@@ -46,7 +46,7 @@ The IP And other information features are not in this Temp page. They will be ad
   
   - Other changes to features of SpeedTest are in progress. 
 
-#Version 1.4.2 Maintenance
+# Version 1.4.2 Maintenance
 
  *Final Patch 1.4.2.3*
 
@@ -69,13 +69,13 @@ The IP And other information features are not in this Temp page. They will be ad
 
   
 
-#The app is now stable!
+# The app is now stable!
 
 See [here](https://github.com/jdc20181/SpeedTest/wiki/Android-App-is-now-stable!) for details!
 
 
 
-#SpeedTest Vs others
+# speedTest Vs others
 
 SpeedTest is entirely JS & HTML5 powered, this means it is compatible on ALL platforms!
 
@@ -105,7 +105,7 @@ Some Third-Party Components:
    
    - Li.IO (Provides your IP address more accurate)
    
-#Installation 
+# Installation 
 
 Installing is pretty easy. All you have to do is go [here](https://jdc20181.github.io/SpeedTest/Pages/portable.html) and follow the directions - There is even a extender guide, to get the most out of this project for your own use. 
 
@@ -113,6 +113,6 @@ This is a live project meaning it isn't really a library - but you can def. use 
 
 CSS as well as set up is on you. All other design is copyrighted. And shouldn't be used. Please incorporate your own project. The portable version is for those who want or need such utility. 
    
-#Version info. 
+# Version info. 
 
 - See the full change log <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
