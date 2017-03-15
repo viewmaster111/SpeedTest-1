@@ -1,6 +1,5 @@
 #St Patricks' Day!
 
-![](https://upload.wikimedia.org/wikipedia/commons/8/8d/Clover_symbol.svg)
 
 Have a wonderful St Patricks' Day!
 
