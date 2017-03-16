@@ -14,6 +14,18 @@ See [Issue 41](https://github.com/jdc20181/SpeedTest/issues/41)
 *This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
 The IP And other information features are not in this Temp page. They will be added back soon!*
 
+
+*Patch Release 1.4.3.2*
+
+  - Addressed other minor issues. 
+  
+  - Decreased icon size 
+  
+  - Added St Patricks' Day Theme - Buttons are green, loader is green, and added a clover icon. 
+  
+  - Minor Tweaks to css
+  
+  
 *Patch Release 1.4.3.1*
 
   - Addressed [Issue #38](https://github.com/jdc20181/SpeedTest/issues/38)
