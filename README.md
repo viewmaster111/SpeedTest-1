@@ -1,19 +1,14 @@
-# St Patricks' Day!
 
-
-Have a wonderful St Patricks' Day!
-
-I applied a small special something for the occassion. It will be back to normal Next Monday. 
-
-# HTTPS Security
-
-See [Issue 41](https://github.com/jdc20181/SpeedTest/issues/41)
 
 # Version 1.4.3 
 
 *This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
 The IP And other information features are not in this Temp page. They will be added back soon!*
 
+*Patch Release 1.4.3.3*
+
+  - Normal Color scheme is back 
+  - Minor adjustments in css
 
 *Patch Release 1.4.3.2*
 
