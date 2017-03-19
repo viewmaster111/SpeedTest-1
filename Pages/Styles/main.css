@@ -92,7 +92,7 @@ a.button:hover, a.button:active {
  text-align:center;
 }
  .refreshbutton {
-    background-color: #009a49; /*#1E90FF; */
+    background-color: #1E90FF;
     border: none;
     color: white;
     padding: 15px 32px;
