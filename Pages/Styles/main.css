@@ -68,7 +68,7 @@ ul{
     background-color:  #009a49; /*#1E90FF;*/
 }
    a.button:link, a.button:visited {
-    background-color: #009a49; /*#1E90FF;*/
+    background-color: #1E90FF; /*#009a49;*/ 
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -79,7 +79,7 @@ ul{
 
 
 a.button:hover, a.button:active {
-    background-color: 	#009a49; /*#1E90FF;*/
+    background-color:  #1E90FF; /*	#009a49;*/
     
 }
 .heading{
@@ -370,9 +370,9 @@ However, delay the fade out process for 2.5 seconds */
   width: 150px;
   height: 150px;
   margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
+  border: 16px solid #f3f3f3; 	
   border-radius: 50%;
-  border-top: 16px solid #009a49;
+  border-top: 16px solid #1E90FF ;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
