@@ -2,8 +2,6 @@
 
 # Version 1.4.3 
 
-*This release will begin with a temp SpeedTest page. This page will be similar to the final product (and it isn't different from the old)
-The IP And other information features are not in this Temp page. They will be added back soon!*
 
 *Patch Release 1.4.3.3*
 
