@@ -1,76 +1,11 @@
 
+# Version 1.4.4 
 
-# Version 1.4.3 
-
-
-*Patch Release 1.4.3.3*
-
-  - Normal Color scheme is back 
-  - Minor adjustments in css
-
-*Patch Release 1.4.3.2*
-
-  - Addressed other minor issues. 
-  
-  - Decreased icon size 
-  
-  - Added St Patricks' Day Theme - Buttons are green, loader is green, and added a clover icon. 
-  
-  - Minor Tweaks to css
-  
-  
-*Patch Release 1.4.3.1*
-
-  - Addressed [Issue #38](https://github.com/jdc20181/SpeedTest/issues/38)
-  
-  - Adjusted tool-tip using a different styling method to prevent the overlap that still occured. 
-  
-  - Added a Copy Icon - Remvoving the Copy results text
-  
-  - Added a tooltip to the copy results button 
-  
-  - Adjusted Icon Sizes.
-  
-  - Adjusted the Header on mobile devices, now instead of using a heading element using custom css based on size. 
-  
-  - Other visual enhancments
-  
-*Main Release*
-
-  - Bug Fixes
-  
-  - Coding Organizing. 
-  
-  - Fix: Adjusted Title Size for mobile devices, it was simply too large. 
-  
-  - Fix: Added a Dialog for adjusting Fonts. 
-  
-  - Fix: Removed Footer for fixes. 
-  
-  - Fix: Resolved several issues. 
-  
-  - Other changes to features of SpeedTest are in progress. 
-
-# Version 1.4.2 Maintenance
-
- *Final Patch 1.4.2.3*
-
-  - Last few enhancments
-  
-  - Improvments in accuracy. 
-  
-  - Cache Fixes. 
-  
-  - Added Performance enhancments for Mobile Version 
-  
-  - Bug fix: Android Redirect Page was giving a error 404. 
-  
-  - Bug Fix CSS not on the Android Options page. Fixed. Capitalized the  "m" in main.css
-  
-  - Other misc fixes. 
-  
-  - Added a About Page this will be the new landing page, and will also hold info on announcments. These changes will come in a later release. 
-  
+ - Minor text adjustments
+ - Font Size adjustments
+ - Added Easter Flower icon
+ 
+ 
 
   
 
