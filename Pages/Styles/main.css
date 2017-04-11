@@ -49,7 +49,7 @@ ul{
   background-color:white;
  }
  .bodystyle{
-     background-color: #333;	/*#00FA9A;*/ /* #f50057*/
+     background-color: #e25822;   /*#333;	/*#00FA9A;*/ /* #f50057*/
      text-align:center;
      float:center;
      /*color:#008000;*/
@@ -274,13 +274,13 @@ However, delay the fade out process for 2.5 seconds */
     margin: 0;
     padding: 0;
     overflow: hidden;
-    border: 1px solid 	#3f3f3f;
-    background-color:	#3f3f3f;
+    border: 1px solid #2A867B;	/*#3f3f3f;*/
+    background-color:	#2A867B; /*#3f3f3f;*/
  
     }
 .back{
    float:left;
-   background-color:#3f3f3f;
+   background-color: #2A867B; /*#3f3f3f;*/
    color:white;
      border: none;
     padding: 15px 32px;
@@ -291,7 +291,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 .back:hover{
     color:white;
-   background-color: #3f3f3f;
+   background-color: #2A867B; /*#3f3f3f;*/
      border: none;
     padding: 15px 32px;
     text-align: center;
