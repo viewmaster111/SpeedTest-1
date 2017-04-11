@@ -68,7 +68,7 @@ ul{
     background-color:  #009a49; /*#1E90FF;*/
 }
    a.button:link, a.button:visited {
-    background-color: #1E90FF; /*#009a49;*/ 
+    background-color: #35A89A;  
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -79,7 +79,7 @@ ul{
 
 
 a.button:hover, a.button:active {
-    background-color:  #1E90FF; /*	#009a49;*/
+    background-color: #35A89A;
     
 }
 .heading{
@@ -92,7 +92,7 @@ a.button:hover, a.button:active {
  text-align:center;
 }
  .refreshbutton {
-    background-color: #1E90FF;
+    background-color:#35A89A;
     border: none;
     color: white;
     padding: 15px 32px;
