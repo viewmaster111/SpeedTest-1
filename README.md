@@ -3,7 +3,6 @@
 
 *Patch 1.4.4.1*
 
- - Removing the Title Bar on SpeedTesting page. 
  - Changing Color Scheme
  - Misc fixes/enhancements
  
