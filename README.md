@@ -1,6 +1,14 @@
 
 # Version 1.4.4 
 
+*Patch 1.4.4.1*
+
+ - Removing the Title Bar on SpeedTesting page. 
+ - Changing Color Scheme
+ - Misc fixes/enhancements
+ 
+*Main Release*
+
  - Minor text adjustments
  - Font Size adjustments
  - Added Easter Flower icon
