@@ -49,7 +49,7 @@ ul{
   background-color:white;
  }
  .bodystyle{
-     background-color: #e25822;   /*#333;	/*#00FA9A;*/ /* #f50057*/
+     background-color: #35A89A; /*#e25822;  */ /*#333;	/*#00FA9A;*/ /* #f50057*/
      text-align:center;
      float:center;
      /*color:#008000;*/
@@ -68,7 +68,7 @@ ul{
     background-color:  #009a49; /*#1E90FF;*/
 }
    a.button:link, a.button:visited {
-    background-color: #35A89A;  
+    background-color: #e25822; /*#35A89A; */ 
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -79,7 +79,7 @@ ul{
 
 
 a.button:hover, a.button:active {
-    background-color: #35A89A;
+    background-color: #e25822;
     
 }
 .heading{
@@ -372,7 +372,7 @@ However, delay the fade out process for 2.5 seconds */
   margin: -75px 0 0 -75px;
   border: 16px solid #f3f3f3;	
   border-radius: 50%;
-  border-top: 16px solid #35A89A; /*#1E90FF;*/
+  border-top: 16px solid #e25822; /*#35A89A; */ /*#1E90FF;*/
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
