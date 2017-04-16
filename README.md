@@ -1,5 +1,20 @@
 
 # Version 1.4.4 
+
+*Patch 1.4.4.3*
+
+*Experimental Release!!*
+
+This Patch release, I temporarily removed the Mobile Site Redirect. 
+
+The Main site should be mobile responsive, and I will make adjustments accordingly to do so. 
+
+The "slim UI" Concept will be discontinued regardless, if I decide to keep the mobile site or not, as it has created more issues than what it is worth. 
+
+
+
+
+
 *Patch 1.4.4.2*
 
  - Enhancments to the UI.
