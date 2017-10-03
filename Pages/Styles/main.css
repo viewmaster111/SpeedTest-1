@@ -65,10 +65,10 @@ ul{
     display: inline-block;
    }
    a.collapse:hover, a.collapse:active {
-    background-color:  #2A867B; /*#1E90FF;*/
+    background-color: #1E90FF; /*#2A867B;*/ /*#1E90FF;*/
 }
    a.button:link, a.button:visited {
-    background-color: #2A867B;
+    background-color: #1E90FF;
     color: white;
     padding: 14px 25px;
     text-align: center;
@@ -79,7 +79,7 @@ ul{
 
 
 a.button:hover, a.button:active {
-    background-color: #2A867B;
+    background-color: #1E90FF;
     
 }
 .heading{
