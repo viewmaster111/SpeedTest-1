@@ -1,3 +1,6 @@
+
+
+
 **Portable Version API Release Version 1.3.0**
 
 - Bug Fixes
@@ -106,3 +109,8 @@ CSS as well as set up is on you. All other design is copyrighted. And shouldn't 
 # Version info. 
 
 - See the full change log <a href="https://github.com/jdc20181/SpeedTest/wiki/Change-Log">Here</a>
+
+**SpeedTest is tested on up to 24 mbps peak speeds, this means, your results could become innaccurate if your speeds are larger peaks than 24** 
+
+**Project is not complete, means it can perform poorly sometimes**
+
