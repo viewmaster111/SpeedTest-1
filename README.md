@@ -1,12 +1,15 @@
 
- # Upcoming - Version 1.5 
- 
-Material App Design 
-
-More info will come at release.
-
 
 # Version 1.4.4 
+
+*Patch 1.4.5* 
+
+- Reverted to old styles 
+
+- Ended Internet for everyone campaign
+
+- Ended Donations. 
+
 
 *patch 1.4.4.4*
 
