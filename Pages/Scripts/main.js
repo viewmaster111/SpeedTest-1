@@ -1,5 +1,5 @@
-var imageAddr = "https://jdc20181.github.io/testpics/winter-fog-1323462087o5i.jpg"; 
-var downloadSize = 584000; //bytes
+var imageAddr = "https://jdc20181.github.io/testpics/SpeedTestImage.jpg"; 
+var downloadSize = 8793622; //bytes
 function ShowProgressMessage(msg) {
     if (console) {
         if (typeof msg == "string") {
