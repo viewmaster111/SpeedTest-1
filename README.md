@@ -1,3 +1,9 @@
+**Portable Version API Release Version 1.3.0**
+
+- Bug Fixes
+
+- Under the hood upgrades. 
+
 
 
 # Version 1.4.4 
