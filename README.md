@@ -11,6 +11,10 @@
 
 # Version 1.4.4 
 
+*Patch V. 1.4.6*
+
+- Removed BPS, KBPS readings from results. 
+
 *Patch 1.4.5* 
 
 - Reverted to old styles 
