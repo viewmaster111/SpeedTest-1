@@ -1,8 +1,4 @@
-**Website is experiencing issues**
 
-Currently investigating
-
-----------------------------------------------------
 
 
 **Portable Version API Release Version 1.3.0**
@@ -14,6 +10,12 @@ Currently investigating
 
 
 # Version 1.4.4 
+
+*Patch v. 1.4.6.1*
+
+- Attempted to Fixed an issue 
+
+
 
 *Patch V. 1.4.6*
 
