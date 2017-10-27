@@ -1,11 +1,8 @@
 
 
+**API Version 1.3.1**
+Read the [wiki](https://github.com/jdc20181/SpeedTest/wiki/API-Version-1.3.1-Release)
 
-**Portable Version API Release Version 1.3.0**
-
-- Bug Fixes
-
-- Under the hood upgrades. 
 
 
 
