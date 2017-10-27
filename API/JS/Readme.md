@@ -1,1 +1,1 @@
-Easy Install API Release.
+Javascript & Easy Install API Release.
