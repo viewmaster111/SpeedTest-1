@@ -71,7 +71,7 @@ So do any neccessary initializing, and add this stuff to the Load Event:
 
 I strongly reccomend Gecko, as that is what I used to write this all up and make it work, I will add some insights on how to use the IE control at the end. 
 
-` GeckoWebBrowser1.Navigate("http://jdc20181.github.io/SpeedTest/API/api132.html")
+` GeckoWebBrowser1.Navigate("http://jdc20181.github.io/SpeedTest/API/api131.html")
         AddHandler GeckoWebBrowser1.ProgressChanged, AddressOf Loading
         AddHandler GeckoWebBrowser1.DocumentCompleted, AddressOf Done`
         
