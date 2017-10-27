@@ -17,6 +17,7 @@ font-size:16px; /*Default Size*/
 <body class="bodystyle" onload="myFunction()">
  <div id="loader"></div>
 	<div id="myDiv"><div class="bar"> <h2> SpeedTest Installation </h2> </div>
+		<p><em>3 Easy ways to install: JS API, .NET API, EasyEmbed API. </em</p>
 		<p><em>Install on your own website! </em></p>
 <h2>Installation instructions:</h2>
 	<br>
@@ -50,7 +51,73 @@ To make it work you simply need a qualifying element with the <code class="Code-
 	<p>
 		Extending is very easy, a article is available <a href="https://github.com/jdc20181/SpeedTest/wiki/Extending-the-portable-version">here</a>
 	</p>
-	
+			<h1><em>.NET API </em></h1>
+			<p><strong>Prerequisites</strong></p>
+<p>This guide assumes some knowledge, to convert from VB to C# you can use a converter. </p>
+<p>Windows 7 or newer</p>
+<p>Visual Studio 2013 or newer</p>
+<p>.NET 4.0 or newer</p>
+<p>Webbrowser Control (NOTE: Upgrade is neccessary due to JS conflict with the older control version A class is provided below in setup)</p>
+<p>Gecko Webbrowser Engine/Control (GeckoFX) (Available Via Nuget package)</p>
+<p><strong>Getting Started</strong></p>
+<p>Please be aware there is some extra steps depending on how you do certain things. </p>
+<p> <strong>You will need to use a </strong>Windows Form Application<strong> to use this API.</strong></p>
+<ul>
+<li>Adding Webbrowser/Gecko Control</li>
+</ul>
+<p><strong>IE Control</strong></p>
+<p>We will start with IE Webbrowser Control, please keep in mind you will need to upgrade the IE control using a class (linked below)</p>
+<p>You can add the Control or load it dynamically at load time. </p>
+<p>Here is how you add it programically:</p>
+<p><code>Dim X as new webbrowser 
+Me.Controls.Add(x)</code> </p>
+<ul>
+<li>For IE Control you will need to turn <strong>ScriptErrorsSupressed</strong> to True. </li>
+</ul>
+<p>Using the Control, you would Go to the properties menu and scroll to ScriptErrors property and set it to true.</p>
+<p>Programically, you would just do:</p>
+<p><code>Webbrowser1.ScriptErrorsSuppressed = True</code></p>
+<p>I wrote an entire article with a class on how to upgrade the IE Control - Remember IE9+ is <strong>REQUIRED</strong> See that post <a href="http://www.vbforums.com/showthread.php?838689-VB-NET-Upgrading-to-the-newest-IE-when-using-the-Webbrowser-Control&amp;p=5105963#post5105963">here</a></p>
+<p><strong>Using Gecko</strong></p>
+<p>Install using Nuget, add the references, then you can do the same way as the IE Control. Programically or using the control. </p>
+<p>Setup is easier with Gecko, JS is already enabled no hastles from here on. </p>
+<p><strong>Code</strong></p>
+<p>You need a Label, and a ProgressBar on your form for the rest of the API. </p>
+<p>The API uses the webbrowser control to load the URL then load the HTML element into a label. It works the same way, as the SpeedTest website, with a progress bar and all. </p>
+<p>So do any neccessary initializing, and add this stuff to the Load Event:</p>
+<p>I strongly reccomend Gecko, as that is what I used to write this all up and make it work, I will add some insights on how to use the IE control at the end. </p>
+<p><code>&lt;code class=&quot;Code-Basic&quot;&gt;GeckoWebBrowser1.Navigate(&quot;http://jdc20181.github.io/SpeedTest/API/api131.html&quot;)
+        AddHandler GeckoWebBrowser1.ProgressChanged, AddressOf Loading
+        AddHandler GeckoWebBrowser1.DocumentCompleted, AddressOf Done</code></code></p>
+<pre><code>    NOTE: <span class="hljs-string">"api132"</span> is <span class="hljs-keyword">the</span> latest <span class="hljs-built_in">version</span>, <span class="hljs-keyword">it</span> will change when <span class="hljs-keyword">the</span> <span class="hljs-built_in">version</span> changes. 
+</code></pre><p>The Rest of the API:</p>
+<p> <code class="Code-Basic">Private Sub Loading(ByVal sender As Object, ByVal e As Gecko.GeckoProgressEventArgs)</p>
+<pre><code>    ProgressBar1.Maximum = e.MaximumProgress
+    ProgressBar1.Value = e.MaximumProgress
+    <span class="hljs-keyword">Me</span>.Cursor = Cursors.AppStarting
+
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span>
+
+<span class="hljs-keyword">Private</span> <span class="hljs-keyword">Sub</span> Done(<span class="hljs-keyword">ByVal</span> sender <span class="hljs-keyword">As</span> <span class="hljs-built_in">Object</span>, <span class="hljs-keyword">ByVal</span> e <span class="hljs-keyword">As</span> Gecko.Events.GeckoDocumentCompletedEventArgs)
+
+    <span class="hljs-keyword">Me</span>.Cursor = Cursors.<span class="hljs-keyword">Default</span>
+    Label1.<span class="hljs-keyword">Text</span> = GeckoWebBrowser1.Document.GetElementById(<span class="hljs-string">"progress"</span>).TextContent
+
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span>&lt;/code&gt;
+</code></pre><p> <strong>IE Control changes</strong></p>
+<p> Obviously, the first thing is remove the &quot;Gecko&quot; out of each of the references, and then change this line:</p>
+<p> <code class="Code-Basic"><code>GeckoWebBrowser1.Document.GetElementById(&quot;progress&quot;).TextContent</code></code> to </p>
+<p> <code class="Code-Basic"><code>WebBrowser1.Document.GetElementById(&quot;progress&quot;).innertext</code></code></p>
+<p>The Rest is simple changes from <code>GeckoWebbrowser1</code> to <code>Webbrowser1</code></p>
+<p><strong>Full Source Code of the API including Add-on features will be in the SourceFile!</strong></p>
+			
+			
+			
+			
+			
+			
+			
+			
 	<script>
 	
   function findNoParse(){
