@@ -52,6 +52,7 @@ To make it work you simply need a qualifying element with the <code class="Code-
 		Extending is very easy, a article is available <a href="https://github.com/jdc20181/SpeedTest/wiki/Extending-the-portable-version">here</a>
 	</p>
 			<h1><em>.NET API </em></h1>
+
 			<p><strong>Prerequisites</strong></p>
 <p>This guide assumes some knowledge, to convert from VB to C# you can use a converter. </p>
 <p>Windows 7 or newer</p>
@@ -86,12 +87,12 @@ Me.Controls.Add(x)</code> </p>
 <p>The API uses the webbrowser control to load the URL then load the HTML element into a label. It works the same way, as the SpeedTest website, with a progress bar and all. </p>
 <p>So do any neccessary initializing, and add this stuff to the Load Event:</p>
 <p>I strongly reccomend Gecko, as that is what I used to write this all up and make it work, I will add some insights on how to use the IE control at the end. </p>
-<p><code>&lt;code class=&quot;Code-Basic&quot;&gt;GeckoWebBrowser1.Navigate(&quot;http://jdc20181.github.io/SpeedTest/API/api131.html&quot;)
+<p><code>GeckoWebBrowser1.Navigate(&quot;http://jdc20181.github.io/SpeedTest/API/api131.html&quot;)
         AddHandler GeckoWebBrowser1.ProgressChanged, AddressOf Loading
-        AddHandler GeckoWebBrowser1.DocumentCompleted, AddressOf Done</code></code></p>
+        AddHandler GeckoWebBrowser1.DocumentCompleted, AddressOf Done</code></p>
 <pre><code>    NOTE: <span class="hljs-string">"api132"</span> is <span class="hljs-keyword">the</span> latest <span class="hljs-built_in">version</span>, <span class="hljs-keyword">it</span> will change when <span class="hljs-keyword">the</span> <span class="hljs-built_in">version</span> changes. 
 </code></pre><p>The Rest of the API:</p>
-<p> <code class="Code-Basic">Private Sub Loading(ByVal sender As Object, ByVal e As Gecko.GeckoProgressEventArgs)</p>
+<p>`Private Sub Loading(ByVal sender As Object, ByVal e As Gecko.GeckoProgressEventArgs)</p>
 <pre><code>    ProgressBar1.Maximum = e.MaximumProgress
     ProgressBar1.Value = e.MaximumProgress
     <span class="hljs-keyword">Me</span>.Cursor = Cursors.AppStarting
@@ -103,14 +104,14 @@ Me.Controls.Add(x)</code> </p>
     <span class="hljs-keyword">Me</span>.Cursor = Cursors.<span class="hljs-keyword">Default</span>
     Label1.<span class="hljs-keyword">Text</span> = GeckoWebBrowser1.Document.GetElementById(<span class="hljs-string">"progress"</span>).TextContent
 
-<span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span>&lt;/code&gt;
+<span class="hljs-keyword">End</span> <span class="hljs-keyword">Sub</span>`
 </code></pre><p> <strong>IE Control changes</strong></p>
 <p> Obviously, the first thing is remove the &quot;Gecko&quot; out of each of the references, and then change this line:</p>
-<p> <code class="Code-Basic"><code>GeckoWebBrowser1.Document.GetElementById(&quot;progress&quot;).TextContent</code></code> to </p>
-<p> <code class="Code-Basic"><code>WebBrowser1.Document.GetElementById(&quot;progress&quot;).innertext</code></code></p>
+<p> <code>GeckoWebBrowser1.Document.GetElementById(&quot;progress&quot;).TextContent</code> to </p>
+<p> <code>WebBrowser1.Document.GetElementById(&quot;progress&quot;).innertext</code></p>
 <p>The Rest is simple changes from <code>GeckoWebbrowser1</code> to <code>Webbrowser1</code></p>
 <p><strong>Full Source Code of the API including Add-on features will be in the SourceFile!</strong></p>
-			
+
 			
 			
 			
