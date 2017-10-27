@@ -1,6 +1,9 @@
 
 
 **API Version 1.3.1**
+
+Added a .NET API, you can easily convert to c#, it is written in vb.net
+
 Read the [wiki](https://github.com/jdc20181/SpeedTest/wiki/API-Version-1.3.1-Release)
 
 
