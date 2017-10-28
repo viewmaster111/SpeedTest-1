@@ -4,11 +4,9 @@ function ShowProgressMessage(msg) {
     if (console) {
         if (typeof msg == "string") {
             console.log(msg);
-            return msg;
         } else {
             for (var i = 0; i < msg.length; i++) {
                 console.log(msg[i]);
-                return msg[i];
             }
         }
     }
@@ -54,8 +52,4 @@ function MeasureConnectionSpeed() {
             speedMbps.toFixed(2) + " Mbps",
         ]);
 }
-}
-function ReturnSpeed() {
-    ShowProgressMessage("Loading the image, please wait...");
-    return window.setTimeout(MeasureConnectionSpeed, 1);
 }
