@@ -18,8 +18,7 @@ Public Class BandwidthTest
 
     Private Sub Done(ByVal sender As Object, ByVal e As Gecko.Events.GeckoDocumentCompletedEventArgs)
 
-        Me.Cursor = Cursors.Default
-        Label1.Text = GeckoWebBrowser1.Document.GetElementById("progress").TextContent
+        Timer1.start()
 
     End Sub
 
@@ -32,6 +31,17 @@ Public Class BandwidthTest
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Close()
+
+    End Sub
+    
+      Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") Then
+            Label1.Text = GeckoWebBrowser1.Document.GetElementById("progress").TextContent
+            Timer1.Stop()
+            Me.Cursor = Cursors.Default
+        ElseIf GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") = False Then
+            Timer1.Start()
+        End If
 
     End Sub
 End Class
