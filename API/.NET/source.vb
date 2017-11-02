@@ -1,4 +1,4 @@
-'API Version 1.3.1
+'API Version 1.3.2 (.NET VERSION)
 
 ' Built using GeckoFX Read the Guide, for IE Control integration
 
