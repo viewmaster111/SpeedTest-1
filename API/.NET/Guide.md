@@ -1,4 +1,4 @@
-# .NET SpeedTest API V. 1.3.1
+# .NET SpeedTest API V. 1.3.2
 
 
 **Prerequisites**
@@ -22,7 +22,21 @@ Please be aware there is some extra steps depending on how you do certain things
 
  **You will need to use a **Windows Form Application** to use this API.**
 
+- Add a Timer 
 
+
+You need to include a Timer control, and some simple changes to your code, it will help resolve errors by delaying the reading of the element, set your timer for `5000 ms`  **See below for changes in code for IE control**
+
+`Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+ If GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") Then
+  Label1.Text = GeckoWebBrowser1.Document.GetElementById("progress").TextContent
+   Timer1.Stop()
+     Me.Cursor = Cursors.Default
+        ElseIf GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") = False Then
+       Timer1.Start()
+        End If
+
+    End Sub`
 
 - Adding Webbrowser/Gecko Control
 
@@ -89,9 +103,8 @@ The Rest of the API:
     End Sub
 
     Private Sub Done(ByVal sender As Object, ByVal e As Gecko.Events.GeckoDocumentCompletedEventArgs)
-
-        Me.Cursor = Cursors.Default
-        Label1.Text = GeckoWebBrowser1.Document.GetElementById("progress").TextContent
+     
+     Timer1.start()
 
     End Sub`
     
@@ -107,20 +120,8 @@ The Rest of the API:
 The Rest is simple changes from `GeckoWebbrowser1` to `Webbrowser1`
 
 
-**Additional Steps - PLEASE READ**
 
-You need to include a Timer control, and some simple changes to your code, it will help resolve errors by delaying the reading of the element, set your timer for `5000 ms` 
 
-`Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        If GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") Then
-            Label1.Text = GeckoWebBrowser1.Document.GetElementById("progress").TextContent
-            Timer1.Stop()
-            Me.Cursor = Cursors.Default
-        ElseIf GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") = False Then
-            Timer1.Start()
-        End If
-
-    End Sub`
 
 **Full Source Code of the API including Add-on features will be in the SourceFile!**
 
