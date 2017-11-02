@@ -107,6 +107,21 @@ The Rest of the API:
 The Rest is simple changes from `GeckoWebbrowser1` to `Webbrowser1`
 
 
+**Additional Steps - PLEASE READ**
+
+You need to include a Timer control, and some simple changes to your code, it will help resolve errors by delaying the reading of the element, set your timer for `5000 ms` 
+
+`Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") Then
+            Label1.Text = GeckoWebBrowser1.Document.GetElementById("progress").TextContent
+            Timer1.Stop()
+            Me.Cursor = Cursors.Default
+        ElseIf GeckoWebBrowser1.Document.GetElementById("progress").TextContent.Contains("Mbps") = False Then
+            Timer1.Start()
+        End If
+
+    End Sub`
+
 **Full Source Code of the API including Add-on features will be in the SourceFile!**
 
 
