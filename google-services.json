@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "643826486388",
+    "firebase_url": "https://speedtest-36451.firebaseio.com",
+    "project_id": "speedtest-36451",
+    "storage_bucket": "speedtest-36451.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643826486388:android:6ed992588a2c708b",
+        "android_client_info": {
+          "package_name": "kt.resworbsffeb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643826486388-gjmvb79tgatf0fu1p7eu31006aijvf4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuw0xSVx-0VD6jNp5pjz084wMNF8jNFrg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
