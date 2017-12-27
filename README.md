@@ -11,7 +11,7 @@ Read the [wiki](https://github.com/jdc20181/SpeedTest/wiki/API-Version-1.3.1-Rel
 
 
 
-# Version 1.4.4 
+# Version 1.4.5
 
 *Version 1.4.5*
 
