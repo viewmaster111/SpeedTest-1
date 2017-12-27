@@ -44,14 +44,14 @@ function MeasureConnectionSpeed() {
     
  function showResults() {
         var duration = (endTime - startTime) / 1000;
-        var bitsLoaded = downloadSize * 8;
+        var bitsLoaded = downloadSize * 11; /* Minor Adjustment Inreased varible from 8 to 11 */
         var speedBps = (bitsLoaded / duration);
         var speedKbps = (speedBps / 1024);
         var speedMbps = (speedKbps / 1024);
         ShowProgressMessage([
             "Your connection speed is:", 
-            speedBps.toFixed(2) + " bps", 
-            speedKbps.toFixed(2) + " kbps", 
+           /* speedBps.toFixed(2) + " bps", 
+            speedKbps.toFixed(2) + " kbps", */
             speedMbps.toFixed(2) + " Mbps",
         ]);
 }
