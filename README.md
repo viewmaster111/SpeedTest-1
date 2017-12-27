@@ -1,5 +1,7 @@
 
 
+
+
 **API Version 1.3.1**
 
 Added a .NET API, you can easily convert to c#, it is written in vb.net
@@ -10,6 +12,16 @@ Read the [wiki](https://github.com/jdc20181/SpeedTest/wiki/API-Version-1.3.1-Rel
 
 
 # Version 1.4.4 
+
+*Version 1.4.5*
+
+- Releases 2.1 of the Android App after shortly being terminated its back
+  - Currently has a Temporary UI etc. It will be changed soon. 
+  
+- Adjusting .NET API to make it run smoother
+
+- Adjustments to JS API
+
 
 *Patch v. 1.4.6.1*
 
