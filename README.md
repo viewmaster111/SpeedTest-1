@@ -1,4 +1,6 @@
+**App Issues**
 
+I am aware of long-loading periods with the app, it will be addressed soon!
 
 
 
