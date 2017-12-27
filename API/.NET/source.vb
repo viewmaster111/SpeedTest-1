@@ -12,7 +12,6 @@ Public Class BandwidthTest
 
         ProgressBar1.Maximum = e.MaximumProgress
         ProgressBar1.Value = e.MaximumProgress
-        Me.Cursor = Cursors.AppStarting
 
     End Sub
 
