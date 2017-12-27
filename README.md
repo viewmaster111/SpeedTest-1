@@ -11,9 +11,9 @@ Read the [wiki](https://github.com/jdc20181/SpeedTest/wiki/API-Version-1.3.1-Rel
 
 
 
-# Version 1.4.5
+# Version 1.5.0
 
-*Version 1.4.5*
+*Version 1.5.0
 
 - Releases 2.1 of the Android App after shortly being terminated its back
   - Currently has a Temporary UI etc. It will be changed soon. 
