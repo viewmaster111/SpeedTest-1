@@ -1,6 +1,3 @@
-**Temp. Site Shutdown**
-
-See status monitor below for details of the experienced issues, during this period I am also updating the Domain configuration for Status page support, and more!
 
 
 
