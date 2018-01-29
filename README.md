@@ -1,3 +1,22 @@
+**Temp. Site Shutdown**
+
+See status monitor below for details of the experienced issues, during this period I am also updating the Domain configuration for Status page support, and more!
+
+
+
+
+**Status Monitor**
+
+
+*Latency Issues 1/28/18 8:52 PM EST*
+
+I am experiencing issues with github, when loading websites hosted with the gh-pages service, I will continue to monitor and begin doing more tests on my end before contacting github with the issues. 
+
+
+
+
+
+
 **App Issues**
 
 I am aware of long-loading periods with the app, it will be addressed soon!
