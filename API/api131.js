@@ -18,7 +18,7 @@ function ShowProgressMessage(msg) {
     }
 }
 function InitiateSpeedDetection() {
-    ShowProgressMessage("Loading the image, please wait...");
+    ShowProgressMessage("Calculating Results...");
     window.setTimeout(MeasureConnectionSpeed, 1);
 };    
 if (window.addEventListener) {
