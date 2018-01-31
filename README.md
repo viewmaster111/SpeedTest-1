@@ -1,4 +1,8 @@
+**Version 1.5.1**
 
+See [here](https://github.com/jdc20181/SpeedTest/wiki/V.-1.5.1-Update)
+
+A New update is on its way!
 
 
 
