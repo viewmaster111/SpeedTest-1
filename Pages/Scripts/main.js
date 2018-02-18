@@ -18,8 +18,10 @@ function ShowProgressMessage(msg) {
     }
 }
 function InitiateSpeedDetection() {
-    ShowProgressMessage("Loading the image, please wait...");
-    window.setTimeout(MeasureConnectionSpeed, 1);
+    ShowProgressMessage("Connecting to the server...");
+        ShowProgressMessage("Getting Results...");
+
+    window.setTimeout(MeasureConnectionSpeed, 3000);
 };    
 if (window.addEventListener) {
     window.addEventListener('load', InitiateSpeedDetection, false);
@@ -35,7 +37,7 @@ function MeasureConnectionSpeed() {
     }
     
     download.onerror = function (err, msg) {
-        ShowProgressMessage("Invalid image, or error downloading");
+        ShowProgressMessage("Something went wrong, refresh the page and check the status page");
     }
     
     startTime = (new Date()).getTime();
