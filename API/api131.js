@@ -19,7 +19,7 @@ function ShowProgressMessage(msg) {
 }
 function InitiateSpeedDetection() {
     ShowProgressMessage("Calculating Results...");
-    window.setTimeout(MeasureConnectionSpeed, 1);
+    window.setTimeout(MeasureConnectionSpeed, 3000);
 };    
 if (window.addEventListener) {
     window.addEventListener('load', InitiateSpeedDetection, false);
