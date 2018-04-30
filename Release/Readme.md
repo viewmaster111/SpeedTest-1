@@ -1,3 +1,12 @@
+**OLD**
+
+Please use the API
+
+
+
+
+
+
 **Important Upgrade Notice**
 
 I have switched over to HTTPS it is secure, and user's are more comfortable with secure websites now days. You can still use the HTTPS script but you will just have a messge from chrome that its being loaded over HTTP if you are annoyed by this just replace https with http.
