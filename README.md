@@ -1,3 +1,9 @@
+**Site is completely down**
+
+During the down time even the status URL will show an error, and not navigate properly, for now use this URL to see the [status](https://exana.io/s/u2ixddpvtdex1n76/public)
+
+
+
 **Version 1.5.0.3**
 
 Release [Notes](https://github.com/jdc20181/SpeedTest/wiki/Product-Update-V.-1.5.0.3)
