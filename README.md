@@ -1,3 +1,10 @@
+**Version 1.5.0.3**
+
+Release [Notes](https://github.com/jdc20181/SpeedTest/wiki/Product-Update-V.-1.5.0.3)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Version 1.5.2**
 
 API Updates are on the way!
