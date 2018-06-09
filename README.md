@@ -1,6 +1,6 @@
-**Site is completely down**
+**Site is back up**
 
-During the down time even the status URL will show an error, and not navigate properly, for now use this URL to see the [status](https://exana.io/s/u2ixddpvtdex1n76/public)
+Site is back up, everything will be enforced with HTTPS, as of right now the SSL is provided through a third party service, and github seems to not offer a way to enforce it completely. I am currently changing URLs and links to the HTTPS - for example, if you type in http://example.com - I expect since I have SSL to be redirected to the HTTPS://example.com, however it is not doing this. You will get insecure errors etc. until this is resolved. 
 
 
 
