@@ -1,7 +1,8 @@
-**Site is back up**
+**Version 1.5.0.4 & API V. 1.3.2**
 
-Site is back up, everything will be enforced with HTTPS, as of right now the SSL is provided through a third party service, and github seems to not offer a way to enforce it completely. I am currently changing URLs and links to the HTTPS - for example, if you type in http://example.com - I expect since I have SSL to be redirected to the HTTPS://example.com, however it is not doing this. You will get insecure errors etc. until this is resolved. 
+V. 1.5.0.3 included the newest changes, and 1.5.0.4 improves those changes! [changelog](https://github.com/jdc20181/SpeedTest/wiki/Product-Update-v.-1.5.0.4)
 
+API 1.3.2 will have a few upgrades and security changes! [Read here](https://github.com/jdc20181/SpeedTest/wiki/API-V.-1.3.2)
 
 
 **Version 1.5.0.3**
