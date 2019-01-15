@@ -1,0 +1,152 @@
+<!Doctype html>
+<html>
+<head>
+
+<!--Misc -->
+  <title>SpeedTest</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--End Misc-->
+  <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.13/clipboard.min.js"></script>
+    <script  async src="./Scripts/beta.js"></script>
+    <!--<script> window.location = "http://jdc20181.github.io/SpeedTest/Maintain/maintenance.html";</script>-->
+<!--Live Scripts -->
+  <script type="text/javascript">
+ function showhide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+ }
+</script>
+  <script type="text/javascript">
+if (screen.width <= 1020) {
+document.location = "redirect.html";
+}
+</script>
+<!--End Scripts-->
+<!--StyleSheets-->
+<link rel="stylesheet" type="text/css" href="./Styles/main.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+<!--End StyleSheets-->
+  <!--Special Styling-->
+  <style type="text/css">
+  .tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+  </style>
+</head>
+<div class="bar"> 
+     
+
+<a data-tooltip="Go to the SpeedTest StartPage" href="http://jdc20181.github.io/SpeedTest/" class="back"> <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></a> 
+  <h1> SpeedTest </h1>   <a  href="#openModal" class="back tooltip"><i class="fa fa-font" aria-hidden="true"></i><span class="tooltiptext">Adjust Font Size.</span></a>
+  <div id="openModal" class="modalDialog">
+    <div>	<a href="#close" title="Close" class="close2">X</a>
+         <p> Make the font larger 
+      <br>
+      <a class="button" href="#" onclick="LargeFont()"><i class="fa fa-font fa-2x" aria-hidden="true"></i></a>
+    <br>
+    Too big? Go back to normal!
+    <a class="button" href="#" onclick="NormalFont()"><i class="fa fa-font fa-2x" aria-hidden="true"></i> </a>
+      </p>
+  </div>
+  </div>
+  </div>
+   
+<body class="bodystyle" onload="LoaderFunction()">
+  
+
+    <div id="loader"></div>
+  <div id="myDiv">
+  <h1 id="progress">JavaScript is turned off, or your browser is realllllly slow</h1>
+ <p><button  data-tooltip="Retake the SpeedTest" class="refreshbutton" onclick="document.location.reload(true);"><i class="fa fa-sync fa-spin"></i></button></p>
+ 
+    <p> 
+
+    </p>
+    <p>
+    Share your results! 
+      <br>
+       <a data-tooltip="Copy Your Results to the clipboard!" class="button btn"  onclick="Results()"href="#" data-clipboard-action="copy" data-clipboard-target="#progress">
+<i class="fa fa-clipboard" aria-hidden="true"></i>
+    </a>
+    </p>
+    
+    <!--Scripts-->
+    
+<script>
+     var clipboard = new Clipboard('.btn');
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+      </script>
+       <div id="snackbar">Copied!</div>
+   <script>
+      function Results() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+    // Add the "show" class to DIV
+    x.className = "show";
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+   </script>
+     <!-- End  Scripts-->
+  </div>
+     <!--Footer-->
+     <!--<footer>
+          Copyright &#169; 2016-2017 SpeedTest A BeffsBrowser Project &#183;
+          <a href="https://jdc20181.github.io/SpeedTest/Pages/License.html">Licensed under MIT </a>  &#183;
+           <a href="https://jdc20181.github.io/SpeedTest/Pages/Policy.html#TermsOfService">Terms Of Service </a> &#183; <a href="https://jdc20181.github.io/SpeedTest/Pages/Policy.html#PrivatePolicy">Private Policy</a>
+       </footer>-->
+       <!--End Footer-->
+    
+     <!--Special Script-->
+     <script>
+var myVar;
+function LoaderFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+<!--- Other Scripts-->
+  <script>
+function LargeFont() {
+    document.getElementById("myDiv").style.fontSize = "30px";
+}
+</script>
+    <script>
+function NormalFont() {
+    document.getElementById("myDiv").style.fontSize = "15px";
+}
+</script>
+</body>
+
+</html>
