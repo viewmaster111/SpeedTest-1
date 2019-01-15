@@ -1,3 +1,10 @@
+**Rebuild + New Website**
+
+A rebuild, and a new domain is coming soon. More details to be posted.
+
+
+
+
 **Version 1.5.0.4 & API V. 1.3.2**
 
 V. 1.5.0.3 included the newest changes, and 1.5.0.4 improves those changes! [changelog](https://github.com/jdc20181/SpeedTest/wiki/Product-Update-v.-1.5.0.4)
