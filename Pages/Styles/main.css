@@ -9,28 +9,7 @@ footer{
         Text-align:center;
 }
 
-a:link {
-text-decoration:none;
-    color:white
-        }
 
-/* visited link */
-a:visited {
-text-decoration:none;
-    color:white
-}
-
-/* mouse over link */
-a:hover {
-text-decoration:none;
-   color:white;
-}
-
-/* selected link */
-a:active {
-text-decoration:none;
-   color:white
-}
 table, th, td {
     border: 1px solid black;
     float: center;
@@ -56,17 +35,7 @@ ul{
      color:white;
      font-size:15px;
    }
-   a.collapse:link, a.collapse:visited{
-    background-color:#1E90FF;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-   }
-   a.collapse:hover, a.collapse:active {
-    background-color: #1E90FF; /*#2A867B;*/ /*#1E90FF;*/
-}
+
    a.button:link, a.button:visited {
     background-color: #1E90FF;
     color: white;
@@ -207,14 +176,7 @@ a.button:hover, a.button:active {
     background: none;
     font-size: 14px;
 }
-.bodystyle3{
-    background-color: #A0522D; /*was black #333*/
-     text-align:center;
-     float:center;
-    color:white;
-    font-weight:bold;
-    font-size:24px;
-}
+
 .close:hover {
     
 float:right;
@@ -372,7 +334,7 @@ However, delay the fade out process for 2.5 seconds */
   margin: -75px 0 0 -75px;
   border: 16px solid #f3f3f3;	
   border-radius: 50%;
-  border-top: 16px solid #e25822; /*#35A89A; */ /*#1E90FF;*/
+  border-top: 16px solid #1E90FF;/*#e25822; /*#35A89A; */ /*#1E90FF;*/
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
