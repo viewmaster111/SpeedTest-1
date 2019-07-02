@@ -20,10 +20,6 @@ Release [Notes](https://github.com/jdc20181/SpeedTest/wiki/Product-Update-V.-1.5
 
   
 
-# The app is now stable!
-
-See [here](https://github.com/jdc20181/SpeedTest/wiki/Android-App-is-now-stable!) for details!
-
 
 
 # speedTest Vs others
