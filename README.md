@@ -40,17 +40,12 @@ Some Third-Party Components:
   
   - Li.IO (Provides your IP address more accurate)
   
-  - One-Signal (Notifications)
+  ~~- One-Signal (Notifications)
   
- *Android App*
-  
-   - Cordova PhoneGap (Powers the App)
-   
-   - One-Signal (Notifications)
-   
-   - ClipBoard.js (Allows you to copy your results)
-   
-   - Li.IO (Provides your IP address more accurate)
+
+**Known Issues** 
+
+It is known that this particular test, will show inaccurate results for higher speeds. 
    
 # Installation 
 
