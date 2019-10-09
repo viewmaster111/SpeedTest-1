@@ -40,7 +40,7 @@ Some Third-Party Components:
   
   - Li.IO (Provides your IP address more accurate)
   
-  ~~- One-Signal (Notifications)
+  ~~- One-Signal (Notifications)~~
   
 
 **Known Issues** 
